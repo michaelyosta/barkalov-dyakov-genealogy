@@ -141,5 +141,288 @@
     ],
     "negative_scope": "Охват описан в отчёте",
     "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-001",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Государственный архив Карагандинской области каталог фондов 469 описи",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Общедоступная опись не установлена; найдены публикации и официальные страницы учреждений.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-002",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Государственный архив Каркаралинского района фонд 132 детский дом опись",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Найдена публикация2023; д.6 относится к отчёту1951г.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-003",
+    "task_id": "T-CHILD-002",
+    "exact_query": "Компанейский детский дом Крупской архив книги воспитанников 1936 хранение",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Современный хранитель книги1936г. не установлен.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-004",
+    "task_id": "T-CHILD-004",
+    "exact_query": "\"Магнитогорская, 3\" \"детский\" Караганда",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Официальный список и краеведческий адресныйслед; не актправопреемства.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-005",
+    "task_id": "T-CARD-1999",
+    "exact_query": "\"Компанейского\" \"архив\" списки -site:collegy.ucoz.ru -site:vainahkrg.kz",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Найдена газетная полоса1999г. о картотеке.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-006",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "https://ya.ru/archive/catalog/c6212baf-b01b-4009-b9df-c5c82bf57608",
+    "resource": "in_app_browser",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Переадресовано наya.ru/archive; явное требованиеавторизации, сканы непрочитаны.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-007",
+    "task_id": "T-MIL-002",
+    "exact_query": "https://archive.orb.ru/activity/10585/",
+    "resource": "direct_web_open",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "403Forbidden; официальныйкаталог не прочитан.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-008",
+    "task_id": "T-ANT-002",
+    "exact_query": "https://e-memory.kz/search/zhertvy-borby/?ID=15872/barkalova-antonida-grigorevna",
+    "resource": "direct_web_open",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Страница недоступна черезweb; первичная карточка не получена.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-009",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Печатные страницы96–97/PDF11–12 orphanages_2023.pdf",
+    "resource": "pdf_text_and_render",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Визуально уточнён контекст1948/1951; не просмотр архивныхдел.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-010",
+    "task_id": "T-CARD-1999",
+    "exact_query": "Газетнаяполоса goreckiy_children_karlag.pdf",
+    "resource": "pdf_text_and_render",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Проверены подпись/дата1999/описанныйохват; актуальнаясохранность не доказана.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-T-MIL-003",
+    "task_id": "T-MIL-003",
+    "exact_query": "Действия и запросы подробно перечислены в отчёте",
+    "resource": "agent_reports/T-MIL-003-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-MIL-003-C002.md"
+    ],
+    "negative_scope": "В пределах отчёта; сканы не прочитаны, если явно не указано иное.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-T-CAU-002",
+    "task_id": "T-CAU-002",
+    "exact_query": "Действия и запросы подробно перечислены в отчёте",
+    "resource": "agent_reports/T-CAU-002-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-CAU-002-C002.md"
+    ],
+    "negative_scope": "В пределах отчёта; сканы не прочитаны, если явно не указано иное.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-T-AUD-C002",
+    "task_id": "T-AUD-C002",
+    "exact_query": "Действия и запросы подробно перечислены в отчёте",
+    "resource": "agent_reports/T-AUD-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "В пределах отчёта; сканы не прочитаны, если явно не указано иное.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-MET-935-NAME",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/c6212baf-b01b-4009-b9df-c5c82bf57608",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 3,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Найдены сканы 20, 6, 9. Целевая родительская пара — скан 20; остальные попадания не импортированы как родственники.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1463-NAME",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/14711b52-8e13-4ae9-98c1-414941290783",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 1,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Точный и затем похожий поиск показали скан 178: взрослый Михаил Васильев — восприемник.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1463-FATHER",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Петр Прохоров",
+    "resource": "https://ya.ru/archive/catalog/14711b52-8e13-4ae9-98c1-414941290783",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 2,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Два попадания отдельных слов на странице не дали целевой семьи.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1466-NAME",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/0b2dee57-8c04-477f-8c1d-6b389bfad041",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 7,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Поиск одной фамилии не вывел целевую строку с OCR Боркалов; отрицательный поиск не доказывает отсутствия.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1466-FATHER",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Петр Прохоров Баркалов",
+    "resource": "https://ya.ru/archive/catalog/0b2dee57-8c04-477f-8c1d-6b389bfad041",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 1,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Скан 8: Михаил, №17, визуальное чтение родительской пары и дат независимо проверено.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-SERGEY-MIL",
+    "task_id": "T-MET-ID-SERGEY",
+    "exact_query": "Точные запросы и открытые военные записи перечислены в отчёте агента",
+    "resource": "agent_reports/T-SERGEY-METRIC-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-SERGEY-METRIC-C002.md"
+    ],
+    "negative_scope": "Проверенные опубликованные УПК, донесение, госпитальный и наградной документы; не весь архивный комплекс.",
+    "outcome": "Год и село согласуются; день рождения/родители не найдены. Тождество остаётся hypothesis.",
+    "next_action": "Независимый документ с точной датой или семейными признаками."
   }
 ]

@@ -22,6 +22,8 @@ sources,sids=load('sources')
 tasks,tids=load('research_tasks','task_id')
 logs,lids=load('search_log')
 hypotheses,hids=load('hypotheses')
+institutions,aids=load('institutions') if (R/'institutions.json').exists() else ([],{})
+archive_leads,alids=load('archive_leads') if (R/'archive_leads.json').exists() else ([],{})
 statuses={'confirmed','supported','hypothesis','contradicted','rejected'}
 for person in people:
     require(person['status'] in statuses,person['id']+': invalid status')
@@ -58,7 +60,23 @@ for log in logs:
 for hypothesis in hypotheses:
     require(all(c in cids for c in hypothesis['claim_ids']),hypothesis['id']+': claim missing')
     require(hypothesis['next_task'] in tids,hypothesis['id']+': task missing')
+for institution in institutions:
+    require(all(s in sids for s in institution['source_ids']),institution['id']+': source missing')
+    require(institution['status'] in statuses,institution['id']+': invalid status')
+for lead in archive_leads:
+    require(lead['archive_id'] in aids,lead['id']+': archive missing')
+    require(all(s in sids for s in lead['source_ids']),lead['id']+': source missing')
+    require(all(t in tids for t in lead['task_ids']),lead['id']+': task missing')
+    require(lead['status'] in statuses,lead['id']+': invalid status')
+    if not lead['original_seen']:
+        require(not lead.get('person_named_or_found'),lead['id']+': catalogue-only person assertion')
 for source in sources:
+    transcription=source.get('transcription_path')
+    if transcription:
+        path=R/transcription
+        require(path.is_file(),source['id']+': transcription missing')
+        if path.exists() and source.get('transcription_hash'):
+            require(hashlib.sha256(path.read_bytes().replace(b'\r\n',b'\n')).hexdigest()==source['transcription_hash'],source['id']+': transcription hash changed')
     local=source.get('local_copy_if_allowed')
     if local:
         path=ROOT/local
@@ -80,7 +98,7 @@ require('2 VERS 5.5.1' in ged and '1 CHAR UTF-8' in ged,'GEDCOM encoding/version
 require(not re.search(r'^0 @[^@]+@ FAM',ged,re.M),'Cycle001 export unexpectedly contains family edges')
 original=next(s for s in sources if s['id']=='S-LEGACY-GED')
 require(hashlib.sha256((ROOT/'family_tree.ged').read_bytes().replace(b'\r\n',b'\n')).hexdigest()==original['content_hash'],'Legacy GEDCOM modified')
-report={'date':'2026-10-30','errors':errors,'counts':{k:len(v) for k,v in [('persons',people),('claims',claims),('relationships',relationships),('events',events),('sources',sources),('tasks',tasks)]},
+report={'date':'2026-10-30','errors':errors,'counts':{k:len(v) for k,v in [('persons',people),('claims',claims),('relationships',relationships),('events',events),('sources',sources),('tasks',tasks),('institutions',institutions),('archive_leads',archive_leads)]},
     'verified_family_edges':sum(e['export_to_verified'] for e in relationships),
     'scope':'JSON links, status/export constraints, source hashes, basic GEDCOM structure. Not a genealogical software import or proof of historical truth.'}
 (R/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

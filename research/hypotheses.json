@@ -53,5 +53,32 @@
     "status": "hypothesis",
     "question": "Есть ли поколенный мост от хозяйстваАбросима кНиколаю?",
     "next_task": "T-CAU-002"
+  },
+  {
+    "id": "H-C002-MIL-REP",
+    "claim_ids": [
+      "C-ID-C002-MIL-REP"
+    ],
+    "status": "hypothesis",
+    "question": "Отождествляется ли репрессионная запись с военнослужащим?",
+    "next_task": "T-MIL-003"
+  },
+  {
+    "id": "H-ID-MET-SERGEY",
+    "claim_ids": [
+      "C-ID-MET-SERGEY"
+    ],
+    "status": "hypothesis",
+    "question": "Тождественны ли метрический ребёнок и военный кандидат?",
+    "next_task": "T-MET-ID-SERGEY"
+  },
+  {
+    "id": "H-ID-MET-MIKHAIL",
+    "claim_ids": [
+      "C-ID-MET-MIKHAIL"
+    ],
+    "status": "hypothesis",
+    "question": "Тождественны ли метрический ребёнок и военный кандидат?",
+    "next_task": "T-MET-ID-MIKHAIL"
   }
 ]

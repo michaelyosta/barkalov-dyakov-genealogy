@@ -91,8 +91,10 @@
     "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Бесплатный поиск каталога/истории передачи; затем RQ-002",
-    "checkpoint": "checkpoint.md"
+    "follow_up": "Уточнить передачу книг; отдельно запросить справочныйаппарат картотеки1999г.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
   },
   {
     "task_id": "T-CHILD-003",
@@ -107,8 +109,10 @@
     "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Найти описи и крайние даты; не обещать поимённых карточек",
-    "checkpoint": "checkpoint.md"
+    "follow_up": "Уточнить крайние даты/описи, теперь с контекстомд.6=1951 и новыми ссылками1188/1/45.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
   },
   {
     "task_id": "T-ANT-002",
@@ -155,8 +159,10 @@
     "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Проверить каталоги и доступные именные листы1899/1904",
-    "checkpoint": "checkpoint.md"
+    "follow_up": "Сопоставить метрических детей со взрослыми кандидатами; сохранить расхождение города Бузулук и Димитриевки.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
   },
   {
     "task_id": "T-MIL-003",
@@ -170,8 +176,10 @@
     "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Сверить место рождения, состав семьи, адреса; не объединять по ФИО/году",
-    "checkpoint": "checkpoint.md"
+    "follow_up": "Сверить репрессионную запись с первичной анкетой/точными местом и семьёй; совпадениеФИО недостаточно.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
   },
   {
     "task_id": "T-MARR-001",
@@ -202,8 +210,10 @@
     "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Сверить печатнуюс.65 со сканом оригинала; каталогизировать1873",
-    "checkpoint": "checkpoint.md"
+    "follow_up": "Уточнить состав буквенных групп1873 и искать русские оригиналы.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
   },
   {
     "task_id": "T-CAU-003",
@@ -218,8 +228,10 @@
     "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Найти точное дело, состав списка и порядок доступа",
-    "checkpoint": "checkpoint.md"
+    "follow_up": "Уточнить состав буквенных групп1886; пометкакопии не означает цифровуюдоступность.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
   },
   {
     "task_id": "T-ROST-001",
@@ -281,6 +293,149 @@
     "status": "open",
     "blocker": null,
     "follow_up": "Сначала документально подтвердить исходный мост; импорт пока не проверен",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-004",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Были ли переданы книгиКомпанейского детдома центру наМагнитогорской3?",
+    "priority": 1,
+    "suggested_source": "S-C002-CENTER-OFFICIAL;S-C002-TSAFT-2012",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Найти актперевода/передачи архива или справочныйкаталог, не выводить хранение поадресу.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CARD-1999",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Где и в каком составе сохранилась картотекаДетиКарлага?",
+    "priority": 1,
+    "suggested_source": "S-C002-GORECKY-1999",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Открытый поиск сведений о картотеке; проектRQ-003 готов. Отправка отдельно согласуется.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-METRIC-SCANS-C002",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-005"
+    ],
+    "precise_question": "Можно ли прочитать рождение кандидатов в найденных метрических книгах?",
+    "priority": 1,
+    "suggested_source": "S-C002-CAT-935;S-C002-CAT-1463;S-C002-YA-ACCESS",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Этап доступа и чтения выполнен. Идентификации взрослых вынесены в T-MET-ID-SERGEY / MIKHAIL; общий поиск не исчерпан.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle_result": "Ключевые записи 1899 №49 и 1904 №17 прочитаны после входа пользователя и независимо проверены."
+  },
+  {
+    "task_id": "T-AUD-C002",
+    "linked_people": [],
+    "precise_question": "Проверены ли новые каталожныеориентиры и ограничения?",
+    "priority": 1,
+    "suggested_source": "agent_reports/T-AUD-C002.md",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Оригиналы метрик независимо прочитаны. Сверить интеграцию supported-связей и запрет отождествления со взрослыми без мостика.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-CATALOG-C002",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Найдены ли конкретные группы дел1873/1886?",
+    "priority": 2,
+    "suggested_source": "S-C002-GE-CAT1;S-C002-GE-CAT2",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Этап поискакаталога выполнен; содержание селенныхлистов не проверено, T-CAU-002/003 остаютсяopen.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-ID-SERGEY",
+    "linked_people": [
+      "P-MET-1899-SERGEY",
+      "P-BARK-005"
+    ],
+    "precise_question": "Совпадает ли метрический Сергий с военным Сергеем Петровичем 1899 г.?",
+    "priority": 1,
+    "suggested_source": "Военные анкеты, документы об образовании и семейные записи с точной датой/родителями",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Проверка опубликованной УПК и ещё трёх военных серий не дала дня/родителей. Найти независимый семейный идентификатор.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-ID-MIKHAIL",
+    "linked_people": [
+      "P-MET-1904-MIKHAIL",
+      "P-BARK-003",
+      "P-REC-1936-MIKHAIL"
+    ],
+    "precise_question": "Совпадает ли метрический Михаил с военным и репрессированным кандидатами?",
+    "priority": 1,
+    "suggested_source": "Военная или репрессионная анкета с точной датой, семьёй и местом рождения",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Проверить город Бузулук против села родителей Димитриевка; не выбирать удобное объяснение без документа.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-PARENTS-MARRIAGE",
+    "linked_people": [
+      "P-MET-PETR-PROKHOROV",
+      "P-MET-EVGENIA-FEODOROVA"
+    ],
+    "precise_question": "Когда венчались Пётр Прохоров Баркалов/Боркалов и Евгения Феодорова, каково её происхождение?",
+    "priority": 2,
+    "suggested_source": "Браки Дмитриевского прихода до сентября 1899 г.; приходские и посемейные списки",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Начать с соседних предшествующих книг. Установить девичью фамилию и возраст; не выводить их из отчеств.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-SIBLINGS",
+    "linked_people": [
+      "P-MET-1899-SERGEY",
+      "P-MET-1904-MIKHAIL"
+    ],
+    "precise_question": "Какие ещё дети прямо названы у этой родительской пары?",
+    "priority": 2,
+    "suggested_source": "Метрические рождения и смерти Димитриевки, варианты Баркалов/Боркалов и имена родителей",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Искать состав семьи, не отождествлять его с рассказом о братьях и сёстрах в Ленинграде без миграционного мостика.",
     "checkpoint": "checkpoint.md"
   }
 ]

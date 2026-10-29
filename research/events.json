@@ -477,5 +477,81 @@
     "place": null,
     "status": "supported",
     "note": "Дата зафиксированного события; не основание устанавливать родство."
+  },
+  {
+    "id": "E-C002-REP-ARREST",
+    "person_id": "P-REC-1936-MIKHAIL",
+    "type": "indexed_arrest_date",
+    "date": "1936-04-06",
+    "place": null,
+    "claim_id": "C-C002-REP-ARREST",
+    "status": "supported"
+  },
+  {
+    "id": "E-C002-REP-SENTENCE",
+    "person_id": "P-REC-1936-MIKHAIL",
+    "type": "indexed_sentence_date",
+    "date": "1936-09-10",
+    "place": null,
+    "claim_id": "C-C002-REP-SENTENCE",
+    "status": "supported"
+  },
+  {
+    "id": "E-C002-REP-ARRIVAL",
+    "person_id": "P-REC-1936-MIKHAIL",
+    "type": "indexed_arrival_date",
+    "date": "1936-10-22",
+    "place": null,
+    "claim_id": "C-C002-REP-ARRIVAL",
+    "status": "supported"
+  },
+  {
+    "id": "E-C002-REP-RELEASE",
+    "person_id": "P-REC-1936-MIKHAIL",
+    "type": "indexed_release_date",
+    "date": "1939-04-06",
+    "place": null,
+    "claim_id": "C-C002-REP-RELEASE",
+    "status": "supported"
+  },
+  {
+    "id": "E-MET-99-birth_date_as_written",
+    "person_id": "P-MET-1899-SERGEY",
+    "type": "birth_date_as_written",
+    "date": "1899-09-06",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-MET-99-birth_date_as_written",
+    "status": "supported"
+  },
+  {
+    "id": "E-MET-99-baptism_date_as_written",
+    "person_id": "P-MET-1899-SERGEY",
+    "type": "baptism_date_as_written",
+    "date": "1899-09-07",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-MET-99-baptism_date_as_written",
+    "status": "supported"
+  },
+  {
+    "id": "E-MET-04-birth_date_as_written",
+    "person_id": "P-MET-1904-MIKHAIL",
+    "type": "birth_date_as_written",
+    "date": "1904-03-14",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-MET-04-birth_date_as_written",
+    "status": "supported"
+  },
+  {
+    "id": "E-MET-04-baptism_date_as_written",
+    "person_id": "P-MET-1904-MIKHAIL",
+    "type": "baptism_date_as_written",
+    "date": "1904-03-15",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-MET-04-baptism_date_as_written",
+    "status": "supported"
   }
 ]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "A-KRG-REG",
+    "name": "Государственный архив Карагандинской области",
+    "kind": "archive",
+    "published_address": "Караганда,ул.Ержанова,6",
+    "source_ids": [
+      "S-C002-GAKO-OFFICIAL"
+    ],
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "notes": "Адрес на официальной странице; не свидетельство хранения определённого дела. Отличается от прежнего пакета запросов."
+  },
+  {
+    "id": "A-KRK-DIST",
+    "name": "Государственный архив Каркаралинского района",
+    "kind": "archive",
+    "published_address": "Каркаралинск,ул.Ауэзова,19А",
+    "source_ids": [
+      "S-C002-KARK-OFFICIAL",
+      "S-C002-BKO-DIRECTORY"
+    ],
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "alternative_published_addresses": [
+      {
+        "address": "Каркаралинск,ул.Ермекова,32",
+        "source_id": "S-C002-BKO-DIRECTORY",
+        "current": null
+      }
+    ],
+    "notes": "Приоритет официальной страницы профильного управления; перед отправкой проверить заново."
+  },
+  {
+    "id": "I-KOMP-HIST",
+    "name": "Компанейский детский дом",
+    "kind": "historical_childrens_home",
+    "published_address": null,
+    "source_ids": [
+      "S-C002-TSAFT-2012",
+      "S-KUZ-001"
+    ],
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "notes": "Учреждение известно по публикациям; книги конкретных детей не обнаружены."
+  },
+  {
+    "id": "I-MAG3-CENTER",
+    "name": "Центр поддержки детей с особыми образовательными потребностями",
+    "kind": "possible_institutional_successor",
+    "published_address": "Караганда,ул.Магнитогорская,3",
+    "source_ids": [
+      "S-C002-CENTER-OFFICIAL",
+      "S-C002-TSAFT-2012"
+    ],
+    "access_date": "2026-10-30",
+    "status": "hypothesis",
+    "notes": "Официальный список подтверждает учреждение по адресу; краеведческий текст сообщает о переводе тудаКомпанейского в1998. Юридическое преемство и передача архива не доказаны."
+  },
+  {
+    "id": "A-OGAO-O",
+    "name": "Объединённый государственный архив Оренбургской области",
+    "kind": "archive",
+    "published_address": null,
+    "source_ids": [
+      "S-C002-CAT-935",
+      "S-C002-CAT-1463"
+    ],
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "notes": "Назван держателем в справочном каталоге; официальный каталог в этом цикле не открыт."
+  },
+  {
+    "id": "A-GE-HIST",
+    "name": "Центральный исторический архив Грузии / Национальный архив Грузии",
+    "kind": "archive",
+    "published_address": null,
+    "source_ids": [
+      "S-C002-GE-CAT1",
+      "S-C002-GE-CAT2"
+    ],
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "notes": "Каталог с обозначениемЦИАГ-Грузия; оригиналы описанных дел не просмотрены."
+  }
+]

@@ -3174,5 +3174,498 @@
     "reviewer": "T-AUD-001",
     "proof_argument_path": "cycle_001.md",
     "note": "Кандидат прежней сводки и запись о жене не сливаются без идентифицирующего доказательства."
+  },
+  {
+    "id": "C-C002-REP-BIRTH-YEAR",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_birth_year",
+    "object": "1904",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-BIRTH-PLACE",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_birth_place",
+    "object": "Самарская губ.",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-ARREST",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_arrest_date",
+    "object": "1936-04-06",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-SENTENCE",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_sentence_date",
+    "object": "1936-09-10",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-AUTHORITY",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_sentencing_authority",
+    "object": "ОСО при НКВД СССР",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-CHARGE",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_charge",
+    "object": "КРТД",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-TERM",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_term",
+    "object": "3 г. л/св.",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-PLACE",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_place_of_detention",
+    "object": "Воркута",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-ARRIVAL",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_arrival_date",
+    "object": "1936-10-22",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-C002-REP-RELEASE",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "indexed_release_date",
+    "object": "1939-04-06",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "source_locator": "старая выгрузка,строки250–269",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_for_index_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "cycle_002.md",
+    "note": "Содержание производной записи; первичное дело не получено."
+  },
+  {
+    "id": "C-ID-C002-MIL-REP",
+    "subject_id": "P-REC-1936-MIKHAIL",
+    "predicate": "same_person_as",
+    "object": "P-BARK-003",
+    "raw_text": null,
+    "source_ids": [
+      "S-C002-REP-COPY",
+      "S-MIL-001"
+    ],
+    "original_vs_derived": "mixed",
+    "direct_vs_indirect": "indirect",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-C002",
+    "proof_argument_path": "cycle_002.md",
+    "note": "ФИО/год совпадают, губерния совместима. Нет точного города/семейного/адресного признака для доказанного тождества."
+  },
+  {
+    "id": "C-MET-99-NAME",
+    "subject_id": "P-MET-1899-SERGEY",
+    "predicate": "recorded_given_name",
+    "object": "Сергій",
+    "raw_text": "Сергій",
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": ""
+  },
+  {
+    "id": "C-MET-99-birth_date_as_written",
+    "subject_id": "P-MET-1899-SERGEY",
+    "predicate": "birth_date_as_written",
+    "object": "1899-09-06",
+    "raw_text": null,
+    "time": "1899-09-06",
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Дата как в документе. ISO-форма не означает перевод в григорианский календарь."
+  },
+  {
+    "id": "C-MET-99-baptism_date_as_written",
+    "subject_id": "P-MET-1899-SERGEY",
+    "predicate": "baptism_date_as_written",
+    "object": "1899-09-07",
+    "raw_text": null,
+    "time": "1899-09-07",
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Дата как в документе. ISO-форма не означает перевод в григорианский календарь."
+  },
+  {
+    "id": "C-MET-99-FATHER",
+    "subject_id": "P-MET-PETR-PROKHOROV",
+    "predicate": "parent",
+    "object": "P-MET-1899-SERGEY",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Родитель прямо назван в акте; общность пары между актами — отдельно оговорённый supported-вывод."
+  },
+  {
+    "id": "C-MET-99-MOTHER",
+    "subject_id": "P-MET-EVGENIA-FEODOROVA",
+    "predicate": "parent",
+    "object": "P-MET-1899-SERGEY",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Родитель прямо назван в акте; общность пары между актами — отдельно оговорённый supported-вывод."
+  },
+  {
+    "id": "C-MET-04-NAME",
+    "subject_id": "P-MET-1904-MIKHAIL",
+    "predicate": "recorded_given_name",
+    "object": "Михаилъ",
+    "raw_text": "Михаилъ",
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": ""
+  },
+  {
+    "id": "C-MET-04-birth_date_as_written",
+    "subject_id": "P-MET-1904-MIKHAIL",
+    "predicate": "birth_date_as_written",
+    "object": "1904-03-14",
+    "raw_text": null,
+    "time": "1904-03-14",
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Дата как в документе. ISO-форма не означает перевод в григорианский календарь."
+  },
+  {
+    "id": "C-MET-04-baptism_date_as_written",
+    "subject_id": "P-MET-1904-MIKHAIL",
+    "predicate": "baptism_date_as_written",
+    "object": "1904-03-15",
+    "raw_text": null,
+    "time": "1904-03-15",
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Дата как в документе. ISO-форма не означает перевод в григорианский календарь."
+  },
+  {
+    "id": "C-MET-04-FATHER",
+    "subject_id": "P-MET-PETR-PROKHOROV",
+    "predicate": "parent",
+    "object": "P-MET-1904-MIKHAIL",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Родитель прямо назван в акте; общность пары между актами — отдельно оговорённый supported-вывод."
+  },
+  {
+    "id": "C-MET-04-MOTHER",
+    "subject_id": "P-MET-EVGENIA-FEODOROVA",
+    "predicate": "parent",
+    "object": "P-MET-1904-MIKHAIL",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Родитель прямо назван в акте; общность пары между актами — отдельно оговорённый supported-вывод."
+  },
+  {
+    "id": "C-MET-PAIR-SPOUSE",
+    "subject_id": "P-MET-PETR-PROKHOROV",
+    "predicate": "recorded_spouse",
+    "object": "P-MET-EVGENIA-FEODOROVA",
+    "raw_text": "и законная жена его",
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Акты называют законную жену, но дату и место венчания не устанавливают."
+  },
+  {
+    "id": "C-MET-PAIR-GROUPING",
+    "subject_id": "P-MET-PETR-PROKHOROV",
+    "predicate": "same_recorded_parent_pair_across_acts",
+    "object": "Димитриевка: 1899 №49 и 1904 №17",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-C002-MET-1904-17"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Совпадают имя и отчество обоих родителей, село, конфессия; фамилия Баркалов/Боркалов. Общность пары сильно поддержана, но не confirmed."
+  },
+  {
+    "id": "C-ID-MET-SERGEY",
+    "subject_id": "P-MET-1899-SERGEY",
+    "predicate": "same_person_as",
+    "object": "P-BARK-005",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-MIL-003"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Совпадают имя, ожидаемое отчество, год и село; военные документы не дали дня рождения или родителей.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-MET-MIKHAIL",
+    "subject_id": "P-MET-1904-MIKHAIL",
+    "predicate": "same_person_as",
+    "object": "P-BARK-003",
+    "raw_text": null,
+    "time": null,
+    "place": "Димитриевка (село родителей/приход)",
+    "source_ids": [
+      "S-C002-MET-1904-17",
+      "S-MIL-001"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C002",
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_family_1899_1904.md",
+    "note": "Совместимы имя, ожидаемое отчество и год; военное место рождения город Бузулук расходится с селом родителей/приходом Димитриевка.",
+    "export_to_verified": false
   }
 ]

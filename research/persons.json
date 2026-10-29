@@ -602,5 +602,88 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Идентификатор записи о человеке, а не доказанное тождество с кандидатами прежней сводки."
+  },
+  {
+    "id": "P-REC-1936-MIKHAIL",
+    "name": "Михаил Петрович Баркалов [репрессионная индексная запись]",
+    "aliases": [
+      "CAND-T-MIL-003-REP-01"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "unknown",
+    "status": "supported",
+    "origin": "separate_index_record",
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Не объединён с военной записьюP-BARK-003 или отцом из семейной памяти."
+  },
+  {
+    "id": "P-MET-1899-SERGEY",
+    "name": "Сергий [метрическая запись 1899]",
+    "aliases": [
+      "Сергій"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отчество Петрович выводится из записи отца; не отождествлён с военным P-BARK-005."
+  },
+  {
+    "id": "P-MET-1904-MIKHAIL",
+    "name": "Михаил [метрическая запись 1904]",
+    "aliases": [
+      "Михаилъ"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Не отождествлён с военным P-BARK-003 или репрессионным P-REC-1936-MIKHAIL."
+  },
+  {
+    "id": "P-MET-PETR-PROKHOROV",
+    "name": "Пётр Прохоров Баркалов / Боркалов [метрическая пара]",
+    "aliases": [
+      "Петръ Прохоровъ Баркаловъ",
+      "Петр Прохоров Боркалов"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-C002-MET-1904-17"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Группировка двух записей как одной родительской пары — supported, косвенный вывод. Дед Прохор не создан по одному отчеству."
+  },
+  {
+    "id": "P-MET-EVGENIA-FEODOROVA",
+    "name": "Евгения Феодорова [метрическая пара]",
+    "aliases": [
+      "Евгенія Ѳеодорова"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-C002-MET-1904-17"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Девичья фамилия неизвестна. Группировка двух материнских записей — supported, косвенный вывод."
   }
 ]

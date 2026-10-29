@@ -361,5 +361,60 @@
     "status": "hypothesis",
     "export_to_verified": false,
     "reviewer": "T-AUD-001"
+  },
+  {
+    "id": "R-MET-99-FATHER",
+    "from_person": "P-MET-PETR-PROKHOROV",
+    "to_person": "P-MET-1899-SERGEY",
+    "type": "parent",
+    "temporal_scope": "1899",
+    "claim_id": "C-MET-99-FATHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C002"
+  },
+  {
+    "id": "R-MET-99-MOTHER",
+    "from_person": "P-MET-EVGENIA-FEODOROVA",
+    "to_person": "P-MET-1899-SERGEY",
+    "type": "parent",
+    "temporal_scope": "1899",
+    "claim_id": "C-MET-99-MOTHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C002"
+  },
+  {
+    "id": "R-MET-04-FATHER",
+    "from_person": "P-MET-PETR-PROKHOROV",
+    "to_person": "P-MET-1904-MIKHAIL",
+    "type": "parent",
+    "temporal_scope": "1904",
+    "claim_id": "C-MET-04-FATHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C002"
+  },
+  {
+    "id": "R-MET-04-MOTHER",
+    "from_person": "P-MET-EVGENIA-FEODOROVA",
+    "to_person": "P-MET-1904-MIKHAIL",
+    "type": "parent",
+    "temporal_scope": "1904",
+    "claim_id": "C-MET-04-MOTHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C002"
+  },
+  {
+    "id": "R-MET-PAIR-SPOUSE",
+    "from_person": "P-MET-PETR-PROKHOROV",
+    "to_person": "P-MET-EVGENIA-FEODOROVA",
+    "type": "recorded_spouse",
+    "temporal_scope": "1899; 1904",
+    "claim_id": "C-MET-PAIR-SPOUSE",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C002"
   }
 ]
