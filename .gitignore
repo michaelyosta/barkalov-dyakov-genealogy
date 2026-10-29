@@ -3,6 +3,15 @@
 private_kinship_docs/*
 !private_kinship_docs/README.md
 
+# Большие бинарные файлы (свыше лимита GitHub 100 МБ) и временные графические полосы
+documents/round2/Svod_1893_Tiflis.pdf
+documents/round2/extracted_pages/
+
+# Временные поисковые скрипты
+scratch*.ps1
+check_velikie.ps1
+parse_velikie.ps1
+
 # Системные и временные файлы
 .DS_Store
 Thumbs.db
