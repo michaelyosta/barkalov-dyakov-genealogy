@@ -1,0 +1,57 @@
+[
+  {
+    "id": "H-C001-001",
+    "claim_ids": [
+      "C-ID-001"
+    ],
+    "status": "hypothesis",
+    "question": "Военнослужащий и отец из памяти — одно лицо?",
+    "next_task": "T-KIN-001"
+  },
+  {
+    "id": "H-C001-002",
+    "claim_ids": [
+      "C-ID-002",
+      "C-ID-003"
+    ],
+    "status": "hypothesis",
+    "question": "Кто мать из памяти и как соотносятся два отчества?",
+    "next_task": "T-ANT-002"
+  },
+  {
+    "id": "H-C001-003",
+    "claim_ids": [
+      "C-REV-001"
+    ],
+    "status": "hypothesis",
+    "question": "Какова дата исполнения приговора?",
+    "next_task": "T-ANT-002"
+  },
+  {
+    "id": "H-C001-004",
+    "claim_ids": [
+      "C-KIN-001"
+    ],
+    "status": "hypothesis",
+    "question": "Братья ли Сергей и Михаил?",
+    "next_task": "T-MIL-002"
+  },
+  {
+    "id": "H-C001-005",
+    "claim_ids": [
+      "C-KIN-002"
+    ],
+    "status": "hypothesis",
+    "question": "Каковы документальные данные брака1959?",
+    "next_task": "T-MARR-001"
+  },
+  {
+    "id": "H-C001-006",
+    "claim_ids": [
+      "C-KIN-003"
+    ],
+    "status": "hypothesis",
+    "question": "Есть ли поколенный мост от хозяйстваАбросима кНиколаю?",
+    "next_task": "T-CAU-002"
+  }
+]

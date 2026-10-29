@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "errors": [],
+  "counts": {
+    "persons": 40,
+    "claims": 162,
+    "relationships": 33,
+    "events": 53,
+    "sources": 14,
+    "tasks": 18
+  },
+  "verified_family_edges": 0,
+  "scope": "JSON links, status/export constraints, source hashes, basic GEDCOM structure. Not a genealogical software import or proof of historical truth."
+}

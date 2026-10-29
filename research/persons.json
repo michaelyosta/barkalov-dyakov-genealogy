@@ -1,0 +1,606 @@
+[
+  {
+    "id": "P-BARK-001",
+    "aliases": [
+      "@I1@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 18,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-002",
+    "aliases": [
+      "@I2@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 45,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-003",
+    "aliases": [
+      "@I3@"
+    ],
+    "name": "Михаил Петрович /Баркалов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 60,
+    "kinship_to_client": "not_established",
+    "note": "Архивный кандидат; не отождествлять с одноимённым родителем из семейной памяти."
+  },
+  {
+    "id": "P-BARK-004A",
+    "aliases": [
+      "@I4@"
+    ],
+    "name": "Антонида (Антонина) Григорьевна /Баркалова/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 92,
+    "kinship_to_client": "not_established",
+    "note": "Архивный кандидат; не отождествлять с одноимённым родителем из семейной памяти."
+  },
+  {
+    "id": "P-BARK-005",
+    "aliases": [
+      "@I5@"
+    ],
+    "name": "Сергей Петрович /Баркалов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 117,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-006",
+    "aliases": [
+      "@I6@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 137,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-007",
+    "aliases": [
+      "@I7@"
+    ],
+    "name": "Пётр /Баркалов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 147,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-GRIGORY-LEGACY",
+    "aliases": [
+      "@I8@"
+    ],
+    "name": "Григорий /Неизвестный (отец Антониды Баркаловой)/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 157,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-001",
+    "aliases": [
+      "@I9@"
+    ],
+    "name": "Константин /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 166,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-001A",
+    "aliases": [
+      "@I10@"
+    ],
+    "name": "Мария Петровна /Дементьева/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 187,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-001B",
+    "aliases": [
+      "@I11@"
+    ],
+    "name": "Антонина /Дементьева/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 199,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-002",
+    "aliases": [
+      "@I12@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 211,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-003",
+    "aliases": [
+      "@I13@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 228,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-004",
+    "aliases": [
+      "@I14@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 244,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-001",
+    "aliases": [
+      "@I15@"
+    ],
+    "name": "Николай /Абросимов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 258,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-002",
+    "aliases": [
+      "@I16@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 272,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-005",
+    "aliases": [
+      "@I17@"
+    ],
+    "name": "Александр Константинович /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 296,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-004",
+    "aliases": [
+      "@I18@"
+    ],
+    "name": "Пётр /Дементьев/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 311,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-002",
+    "aliases": [
+      "@I19@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 322,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-009",
+    "aliases": [
+      "@I20@"
+    ],
+    "name": "Михаил /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 339,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-008",
+    "aliases": [
+      "@I21@"
+    ],
+    "name": "Иван Михайлович /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 350,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-004",
+    "aliases": [
+      "@I22@"
+    ],
+    "name": "Абросим Петрович /Абросимов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 369,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-004B",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 180,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-008",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 184,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-006",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 192,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-007",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 193,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-004",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 197,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-005",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 198,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-003",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 201,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-003",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 203,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-001",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 204,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-002",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 205,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-003",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 206,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-005",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 208,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-003-MEM",
+    "name": "[Родитель из семейной памяти]",
+    "aliases": [],
+    "privacy": "redacted",
+    "life_status": "unknown",
+    "origin": "family_memory",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "kinship_to_client": "reported_not_documented"
+  },
+  {
+    "id": "P-BARK-004-MEM",
+    "name": "[Родитель из семейной памяти]",
+    "aliases": [],
+    "privacy": "redacted",
+    "life_status": "unknown",
+    "origin": "family_memory",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "kinship_to_client": "reported_not_documented"
+  },
+  {
+    "id": "P-HIST-1853-ABROSIM",
+    "name": "Абросим Петрович Абросимов",
+    "aliases": [],
+    "life_status": "historical",
+    "privacy": "historical_candidate",
+    "origin": "published_translation_1853",
+    "status": "supported",
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное историческое хозяйство; не объединять автоматически с одноимёнными фигурами1873г."
+  },
+  {
+    "id": "P-HIST-1853-PETR",
+    "name": "Пётр [сын Абросима в записи1853]",
+    "aliases": [],
+    "life_status": "historical",
+    "privacy": "historical_candidate",
+    "origin": "published_translation_1853",
+    "status": "supported",
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное историческое хозяйство; не объединять автоматически с одноимёнными фигурами1873г."
+  },
+  {
+    "id": "P-HIST-1853-FYODOR",
+    "name": "Фёдор [сын Абросима в записи1853]",
+    "aliases": [],
+    "life_status": "historical",
+    "privacy": "historical_candidate",
+    "origin": "published_translation_1853",
+    "status": "supported",
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное историческое хозяйство; не объединять автоматически с одноимёнными фигурами1873г."
+  },
+  {
+    "id": "P-REC-1942-SPOUSE",
+    "name": "Антонина Прокофьевна [запись в донесении1942г.]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "unknown",
+    "status": "supported",
+    "origin": "literal_document_inscription",
+    "source_ids": [
+      "S-MIL-001"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Идентификатор записи о человеке, а не доказанное тождество с кандидатами прежней сводки."
+  }
+]

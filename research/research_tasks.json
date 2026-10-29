@@ -1,0 +1,286 @@
+[
+  {
+    "task_id": "T-MIL-001",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-005"
+    ],
+    "precise_question": "Что действительно читается в военных изображениях?",
+    "priority": 1,
+    "suggested_source": "S-MIL-001/002/003",
+    "owner": "military_scan",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Анкеты призыва и семейные документы",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-AUD-001",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-004A"
+    ],
+    "precise_question": "Какие ключевые связи и формулы подтверждения не обеспечены источниками?",
+    "priority": 1,
+    "suggested_source": "Локальный корпус",
+    "owner": "critical_audit",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Повторный аудит каждого нового ребра",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-001",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Дают ли указатели и свод1886 поколенные мосты?",
+    "priority": 2,
+    "suggested_source": "S-CAU-1853/1873/1886-CAT",
+    "owner": "caucasus_sources",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Смотреть полные именные документы, не статистику",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-ANT-001",
+    "linked_people": [
+      "P-BARK-004A"
+    ],
+    "precise_question": "Какая дата указана в карточке Антониды и какой хранитель дела?",
+    "priority": 1,
+    "suggested_source": "S-ANT-001; S-KNB-001",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Отдельно получить дело, RQ-001",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Какие дела по детдомам цитируются с проверяемыми шифрами?",
+    "priority": 1,
+    "suggested_source": "S-CHILD-2024; S-KUZ-001",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Поиск описей областного и районного архивов",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-002",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Где сейчас книга воспитанников1936г., описанная Кузнецовой?",
+    "priority": 1,
+    "suggested_source": "Описи архивов; правопреемник Компанейского детдома",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Бесплатный поиск каталога/истории передачи; затем RQ-002",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-003",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Что содержат ф.469 оп.2 д.88/320 и ф.132 оп.1 д.6?",
+    "priority": 1,
+    "suggested_source": "Каталоги ГАКО и ГА Каркаралинского района",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Найти описи и крайние даты; не обещать поимённых карточек",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-ANT-002",
+    "linked_people": [
+      "P-BARK-004A",
+      "P-BARK-004-MEM"
+    ],
+    "precise_question": "Устанавливает ли дело Антониды мужа/детей и дату исполнения?",
+    "priority": 1,
+    "suggested_source": "Архивно-следственное и реабилитационное дело",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "needs_human",
+    "blocker": "Отправка обращения/передача личных документов требуют отдельного разрешения; бесплатные каталоги искать можно",
+    "follow_up": "Проверить актуальный канал подачи и предложить отправку RQ-001",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-KIN-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Какие родители записаны в актовых записях целевых детей?",
+    "priority": 1,
+    "suggested_source": "ЗАГС/РАГС, школьные или детдомовские анкеты",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Установить каталог/доступ; персональные сведения хранить частно",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MIL-002",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-005"
+    ],
+    "precise_question": "Есть ли общие родители или явное братство Михаила и Сергея?",
+    "priority": 2,
+    "suggested_source": "Метрические книги Бузулук/Дмитриевка; личные офицерские дела",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Проверить каталоги и доступные именные листы1899/1904",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MIL-003",
+    "linked_people": [
+      "P-BARK-003"
+    ],
+    "precise_question": "Один ли человек в репрессионной карточке1936 и военных документах1942?",
+    "priority": 1,
+    "suggested_source": "КП Коми, лагерная анкета, призывная карточка",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Сверить место рождения, состав семьи, адреса; не объединять по ФИО/году",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MARR-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-ABRO-002"
+    ],
+    "precise_question": "Есть ли первичный акт брака1959?",
+    "priority": 2,
+    "suggested_source": "Актовая записьРАГС; именованное семейное свидетельство",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Составить отдельный частный поисковый запрос без утверждения о согласовании",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-002",
+    "linked_people": [
+      "P-HIST-004",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Какие дворыАбросимовых в полном переводе1853 и списках1873?",
+    "priority": 2,
+    "suggested_source": "Полные таблицы и оригиналы; Национальный архив Грузии",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Сверить печатнуюс.65 со сканом оригинала; каталогизировать1873",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-003",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Где первичные именные семейные листы1886 нужных селений?",
+    "priority": 2,
+    "suggested_source": "Национальные архивыГрузии/Азербайджана",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Найти точное дело, состав списка и порядок доступа",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-ROST-001",
+    "linked_people": [
+      "P-ABRO-002",
+      "P-DYAK-002",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Какая точная деревня и родители в записи рождения исходного поколения?",
+    "priority": 1,
+    "suggested_source": "Акт рождения, посемейные/переселенческие карточки",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Каталогизировать ростовские фонды без переноса общеисторической миграции на семью",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-DEME-001",
+    "linked_people": [
+      "P-DEME-001A",
+      "P-DEME-001B"
+    ],
+    "precise_question": "Мария и Антонина — варианты одного воспоминания или разные персоны?",
+    "priority": 2,
+    "suggested_source": "Оригинал семейного интервью; посемейный документ",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Не придумывать второй брак или девять документальных братьев",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-PRIV-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-ABRO-002"
+    ],
+    "precise_question": "Как безопасно обращаться с прежними данными потенциально живых людей?",
+    "priority": 1,
+    "suggested_source": "Старый публичный срез и правила новых экспортов",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Новые публикации обезличивать; отдельное решение по старой публичной истории без её переписывания",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-EXPORT-001",
+    "linked_people": [],
+    "precise_question": "Импортируется ли будущий непустой проверенныйGEDCOM?",
+    "priority": 3,
+    "suggested_source": "Gramps или другое доступное генеалогическое ПО",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Сначала документально подтвердить исходный мост; импорт пока не проверен",
+    "checkpoint": "checkpoint.md"
+  }
+]

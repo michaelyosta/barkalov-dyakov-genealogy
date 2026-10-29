@@ -1,0 +1,3178 @@
+[
+  {
+    "id": "C-LEGACY-I001-L0019",
+    "subject_id": "P-BARK-001",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:19",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I001-L0023",
+    "subject_id": "P-BARK-001",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:23",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I001-L0024",
+    "subject_id": "P-BARK-001",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:24",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I001-L0027",
+    "subject_id": "P-BARK-001",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:27",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I001-L0032",
+    "subject_id": "P-BARK-001",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:32",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I001-L0037",
+    "subject_id": "P-BARK-001",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:37",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I002-L0046",
+    "subject_id": "P-BARK-002",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:46",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I002-L0049",
+    "subject_id": "P-BARK-002",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:49",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I002-L0050",
+    "subject_id": "P-BARK-002",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:50",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I002-L0053",
+    "subject_id": "P-BARK-002",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:53",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0061",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:61",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0064",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:64",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0065",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:65",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0068",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_RESI",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:68",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0071",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:71",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0077",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:77",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0082",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_DEAT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:82",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I003-L0086",
+    "subject_id": "P-BARK-003",
+    "predicate": "legacy_BURI",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:86",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I004-L0093",
+    "subject_id": "P-BARK-004A",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:93",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I004-L0097",
+    "subject_id": "P-BARK-004A",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:97",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I004-L0098",
+    "subject_id": "P-BARK-004A",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:98",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I004-L0101",
+    "subject_id": "P-BARK-004A",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:101",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I004-L0106",
+    "subject_id": "P-BARK-004A",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:106",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I004-L0111",
+    "subject_id": "P-BARK-004A",
+    "predicate": "legacy_DEAT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:111",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I005-L0118",
+    "subject_id": "P-BARK-005",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:118",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I005-L0121",
+    "subject_id": "P-BARK-005",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:121",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I005-L0122",
+    "subject_id": "P-BARK-005",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:122",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I005-L0125",
+    "subject_id": "P-BARK-005",
+    "predicate": "legacy_RESI",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:125",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I005-L0128",
+    "subject_id": "P-BARK-005",
+    "predicate": "legacy_OCCU",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:128",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I005-L0129",
+    "subject_id": "P-BARK-005",
+    "predicate": "legacy_DEAT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:129",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I006-L0138",
+    "subject_id": "P-BARK-006",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:138",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I006-L0141",
+    "subject_id": "P-BARK-006",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:141",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I006-L0142",
+    "subject_id": "P-BARK-006",
+    "predicate": "legacy_RESI",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:142",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I007-L0148",
+    "subject_id": "P-BARK-007",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:148",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I007-L0151",
+    "subject_id": "P-BARK-007",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:151",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I007-L0152",
+    "subject_id": "P-BARK-007",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:152",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I008-L0158",
+    "subject_id": "P-BARK-GRIGORY-LEGACY",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:158",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I008-L0160",
+    "subject_id": "P-BARK-GRIGORY-LEGACY",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:160",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I008-L0161",
+    "subject_id": "P-BARK-GRIGORY-LEGACY",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:161",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I009-L0167",
+    "subject_id": "P-DYAK-001",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:167",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I009-L0170",
+    "subject_id": "P-DYAK-001",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:170",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I009-L0171",
+    "subject_id": "P-DYAK-001",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:171",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I009-L0175",
+    "subject_id": "P-DYAK-001",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:175",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I009-L0179",
+    "subject_id": "P-DYAK-001",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:179",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I010-L0188",
+    "subject_id": "P-DEME-001A",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:188",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I010-L0191",
+    "subject_id": "P-DEME-001A",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:191",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I010-L0192",
+    "subject_id": "P-DEME-001A",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:192",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I010-L0195",
+    "subject_id": "P-DEME-001A",
+    "predicate": "legacy_NOTE",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:195",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I011-L0200",
+    "subject_id": "P-DEME-001B",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:200",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I011-L0203",
+    "subject_id": "P-DEME-001B",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:203",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I011-L0204",
+    "subject_id": "P-DEME-001B",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:204",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I011-L0207",
+    "subject_id": "P-DEME-001B",
+    "predicate": "legacy_NOTE",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:207",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I012-L0212",
+    "subject_id": "P-DYAK-002",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:212",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I012-L0216",
+    "subject_id": "P-DYAK-002",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:216",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I012-L0217",
+    "subject_id": "P-DYAK-002",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:217",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I012-L0220",
+    "subject_id": "P-DYAK-002",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:220",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I012-L0224",
+    "subject_id": "P-DYAK-002",
+    "predicate": "legacy_OCCU",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:224",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I013-L0229",
+    "subject_id": "P-DYAK-003",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:229",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I013-L0232",
+    "subject_id": "P-DYAK-003",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:232",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I013-L0233",
+    "subject_id": "P-DYAK-003",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:233",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I013-L0236",
+    "subject_id": "P-DYAK-003",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:236",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I014-L0245",
+    "subject_id": "P-DYAK-004",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:245",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I014-L0248",
+    "subject_id": "P-DYAK-004",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:248",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I014-L0249",
+    "subject_id": "P-DYAK-004",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:249",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I014-L0252",
+    "subject_id": "P-DYAK-004",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:252",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I015-L0259",
+    "subject_id": "P-ABRO-001",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:259",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I015-L0262",
+    "subject_id": "P-ABRO-001",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:262",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I015-L0263",
+    "subject_id": "P-ABRO-001",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:263",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I015-L0267",
+    "subject_id": "P-ABRO-001",
+    "predicate": "legacy_DEAT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:267",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I016-L0273",
+    "subject_id": "P-ABRO-002",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:273",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I016-L0277",
+    "subject_id": "P-ABRO-002",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:277",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I016-L0278",
+    "subject_id": "P-ABRO-002",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:278",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I016-L0281",
+    "subject_id": "P-ABRO-002",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:281",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I016-L0285",
+    "subject_id": "P-ABRO-002",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:285",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I016-L0288",
+    "subject_id": "P-ABRO-002",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:288",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I017-L0297",
+    "subject_id": "P-DYAK-005",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:297",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I017-L0300",
+    "subject_id": "P-DYAK-005",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:300",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I017-L0301",
+    "subject_id": "P-DYAK-005",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:301",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I017-L0304",
+    "subject_id": "P-DYAK-005",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:304",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I018-L0312",
+    "subject_id": "P-DEME-004",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:312",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I018-L0315",
+    "subject_id": "P-DEME-004",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:315",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I018-L0316",
+    "subject_id": "P-DEME-004",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:316",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I018-L0319",
+    "subject_id": "P-DEME-004",
+    "predicate": "legacy_NOTE",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:319",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I019-L0323",
+    "subject_id": "P-DEME-002",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:323",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I019-L0326",
+    "subject_id": "P-DEME-002",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:326",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I019-L0327",
+    "subject_id": "P-DEME-002",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:327",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I019-L0330",
+    "subject_id": "P-DEME-002",
+    "predicate": "legacy_RESI",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:330",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I019-L0333",
+    "subject_id": "P-DEME-002",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:333",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I020-L0340",
+    "subject_id": "P-DYAK-009",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:340",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I020-L0343",
+    "subject_id": "P-DYAK-009",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:343",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I020-L0344",
+    "subject_id": "P-DYAK-009",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:344",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I020-L0347",
+    "subject_id": "P-DYAK-009",
+    "predicate": "legacy_NOTE",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:347",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I021-L0351",
+    "subject_id": "P-DYAK-008",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:351",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I021-L0354",
+    "subject_id": "P-DYAK-008",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:354",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I021-L0355",
+    "subject_id": "P-DYAK-008",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:355",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I021-L0358",
+    "subject_id": "P-DYAK-008",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:358",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I021-L0362",
+    "subject_id": "P-DYAK-008",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:362",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I022-L0370",
+    "subject_id": "P-HIST-004",
+    "predicate": "legacy_NAME",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:370",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I022-L0373",
+    "subject_id": "P-HIST-004",
+    "predicate": "legacy_SEX",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:373",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I022-L0374",
+    "subject_id": "P-HIST-004",
+    "predicate": "legacy_BIRT",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:374",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-I022-L0377",
+    "subject_id": "P-HIST-004",
+    "predicate": "legacy_EVEN",
+    "object": null,
+    "raw_text": null,
+    "privacy": "metadata_only",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:377",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+  },
+  {
+    "id": "C-LEGACY-F1-01",
+    "subject_id": "P-BARK-003",
+    "predicate": "spouse",
+    "object": "P-BARK-004A",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:385",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F1-02",
+    "subject_id": "P-BARK-003",
+    "predicate": "parent",
+    "object": "P-BARK-001",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:386",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F1-03",
+    "subject_id": "P-BARK-003",
+    "predicate": "parent",
+    "object": "P-BARK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:387",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F1-04",
+    "subject_id": "P-BARK-004A",
+    "predicate": "parent",
+    "object": "P-BARK-001",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:386",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F1-05",
+    "subject_id": "P-BARK-004A",
+    "predicate": "parent",
+    "object": "P-BARK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:387",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F2-01",
+    "subject_id": "P-BARK-007",
+    "predicate": "parent",
+    "object": "P-BARK-005",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:394",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F2-02",
+    "subject_id": "P-BARK-007",
+    "predicate": "parent",
+    "object": "P-BARK-003",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:395",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F3-01",
+    "subject_id": "P-BARK-005",
+    "predicate": "spouse",
+    "object": "P-BARK-006",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:400",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-01",
+    "subject_id": "P-DYAK-001",
+    "predicate": "spouse",
+    "object": "P-DEME-001A",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:404",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-02",
+    "subject_id": "P-DYAK-001",
+    "predicate": "parent",
+    "object": "P-DYAK-005",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:405",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-03",
+    "subject_id": "P-DYAK-001",
+    "predicate": "parent",
+    "object": "P-DYAK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:406",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-04",
+    "subject_id": "P-DYAK-001",
+    "predicate": "parent",
+    "object": "P-DYAK-003",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:407",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-05",
+    "subject_id": "P-DEME-001A",
+    "predicate": "parent",
+    "object": "P-DYAK-005",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:405",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-06",
+    "subject_id": "P-DEME-001A",
+    "predicate": "parent",
+    "object": "P-DYAK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:406",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F4-07",
+    "subject_id": "P-DEME-001A",
+    "predicate": "parent",
+    "object": "P-DYAK-003",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:407",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F8-01",
+    "subject_id": "P-DYAK-001",
+    "predicate": "spouse",
+    "object": "P-DEME-001B",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:411",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F5-ABR-01",
+    "subject_id": "P-ABRO-001",
+    "predicate": "spouse",
+    "object": "P-DYAK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:416",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F5-ABR-02",
+    "subject_id": "P-ABRO-001",
+    "predicate": "parent",
+    "object": "P-ABRO-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:417",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F5-ABR-03",
+    "subject_id": "P-DYAK-002",
+    "predicate": "parent",
+    "object": "P-ABRO-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:417",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F5-01",
+    "subject_id": "P-ABRO-002",
+    "predicate": "spouse",
+    "object": "P-BARK-001",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:424",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F6-01",
+    "subject_id": "P-DYAK-003",
+    "predicate": "spouse",
+    "object": "P-DYAK-004",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:432",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F7-01",
+    "subject_id": "P-DEME-004",
+    "predicate": "parent",
+    "object": "P-DEME-001A",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:438",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F7-02",
+    "subject_id": "P-DEME-004",
+    "predicate": "parent",
+    "object": "P-DEME-001B",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:439",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F9-01",
+    "subject_id": "P-DYAK-009",
+    "predicate": "parent",
+    "object": "P-DYAK-008",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:444",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F9-02",
+    "subject_id": "P-DYAK-009",
+    "predicate": "parent",
+    "object": "P-DYAK-001",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:445",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-F10-01",
+    "subject_id": "P-BARK-GRIGORY-LEGACY",
+    "predicate": "parent",
+    "object": "P-BARK-004A",
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": "family_tree.ged:450",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "corroboration": [],
+    "contradictions": [],
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "agent_reports/T-AUD-001.md",
+    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0180",
+    "subject_id": "P-BARK-004B",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:180",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0184",
+    "subject_id": "P-BARK-008",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:184",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0192",
+    "subject_id": "P-DYAK-006",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:192",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0193",
+    "subject_id": "P-DYAK-007",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:193",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0197",
+    "subject_id": "P-ABRO-004",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:197",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0198",
+    "subject_id": "P-ABRO-005",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:198",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0201",
+    "subject_id": "P-ABRO-003",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:201",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0203",
+    "subject_id": "P-DEME-003",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:203",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0204",
+    "subject_id": "P-HIST-001",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:204",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0205",
+    "subject_id": "P-HIST-002",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:205",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0206",
+    "subject_id": "P-HIST-003",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:206",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-LEGACY-MASTER-L0208",
+    "subject_id": "P-HIST-005",
+    "predicate": "legacy_person_profile",
+    "object": null,
+    "raw_text": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": "master_investigation_report.md:208",
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "unassessed",
+    "status": "hypothesis",
+    "reviewer": null,
+    "proof_argument_path": null
+  },
+  {
+    "id": "C-OBS-001",
+    "subject_id": "P-BARK-003",
+    "predicate": "recorded_death_date",
+    "object": "1942-11-15",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MIL-001",
+      "S-MIL-002"
+    ],
+    "source_locator": "строка57; строка времени гибели",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "confirmed",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Подтверждено содержание военных изображений, не родство с заказчиком. Документы одной части не независимы по происхождению."
+  },
+  {
+    "id": "C-OBS-002",
+    "subject_id": "P-BARK-003",
+    "predicate": "recorded_birth_year",
+    "object": "1904",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MIL-001"
+    ],
+    "source_locator": "строка57; графа года рождения",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "confirmed",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Не приписывать этот год извещению578."
+  },
+  {
+    "id": "C-OBS-003",
+    "subject_id": "P-BARK-003",
+    "predicate": "recorded_rank_and_unit",
+    "object": "сержант; командир отделения1034сп293сд",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MIL-002"
+    ],
+    "source_locator": "шапка и первая рукописная строка",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "confirmed",
+    "proof_argument_path": "cycle_001.md",
+    "note": "В списке потерь звание сокращено; изменение звания отдельно не исследовано."
+  },
+  {
+    "id": "C-OBS-004",
+    "subject_id": "P-BARK-003",
+    "predicate": "recorded_spouse",
+    "object": "P-REC-1942-SPOUSE",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MIL-001"
+    ],
+    "source_locator": "строка57; графа родственников",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "supported",
+    "proof_argument_path": "cycle_001.md",
+    "note": "В строке57 жена записана с этим именем. Отождествление с лицом старой сводки, очередность браков и материнство не установлены.",
+    "recorded_name": "Антонина Прокофьевна"
+  },
+  {
+    "id": "C-OBS-005",
+    "subject_id": "P-BARK-004A",
+    "predicate": "recorded_sentence_date",
+    "object": "1938-10-05",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-ANT-001"
+    ],
+    "source_locator": "поле осуждение1",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "supported",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Производный индекс; не дата исполнения приговора."
+  },
+  {
+    "id": "C-OBS-006",
+    "subject_id": "P-BARK-004A",
+    "predicate": "recorded_sentence",
+    "object": "ВМН",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-ANT-001"
+    ],
+    "source_locator": "поле приговор1",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "supported",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Не получен акт исполнения. Родственные поля отсутствуют."
+  },
+  {
+    "id": "C-REV-001",
+    "subject_id": "P-BARK-004A",
+    "predicate": "exact_death_date",
+    "object": "1938-10-05",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-LEGACY-GED",
+      "S-ANT-001"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Прежняя уверенность снята. Эта дата смерти не опровергнута, но имеющийся источник её не устанавливает."
+  },
+  {
+    "id": "C-ID-001",
+    "subject_id": "P-BARK-003-MEM",
+    "predicate": "same_person_as",
+    "object": "P-BARK-003",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MEM-20261030",
+      "S-LEGACY-GED"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Нет идентифицирующего документа; разное отчество супруги требует разрешения."
+  },
+  {
+    "id": "C-ID-002",
+    "subject_id": "P-BARK-004-MEM",
+    "predicate": "same_person_as",
+    "object": "P-BARK-004A",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MEM-20261030",
+      "S-LEGACY-GED"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Нет идентифицирующего документа; разное отчество супруги требует разрешения."
+  },
+  {
+    "id": "C-ID-003",
+    "subject_id": "P-BARK-004A",
+    "predicate": "same_person_as",
+    "object": "P-BARK-004B",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MEM-20261030",
+      "S-LEGACY-GED"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Нет идентифицирующего документа; разное отчество супруги требует разрешения."
+  },
+  {
+    "id": "C-KIN-001",
+    "subject_id": "P-BARK-003",
+    "predicate": "sibling_of",
+    "object": "P-BARK-005",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Алфавитное соседство и совпадение отчества не доказывают братство."
+  },
+  {
+    "id": "C-KIN-002",
+    "subject_id": "P-ABRO-002",
+    "predicate": "marriage_in_1959",
+    "object": "P-BARK-001",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Нет доступного актового документа или датированного прямого подтверждения заказчика."
+  },
+  {
+    "id": "C-KIN-003",
+    "subject_id": "P-HIST-004",
+    "predicate": "ancestor_of",
+    "object": "P-ABRO-001",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-LEGACY-GED",
+      "S-CAU-1853"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Исторический двор не соединён с Николаем поколенной цепью."
+  },
+  {
+    "id": "C-CAU-001",
+    "subject_id": "P-HIST-1853-ABROSIM",
+    "predicate": "published_household_1853",
+    "object": {
+      "head": "Abrosim Petrovich",
+      "age": 31,
+      "sons": [
+        {
+          "name": "Petr",
+          "age": 6,
+          "person_id": "P-HIST-1853-PETR"
+        },
+        {
+          "name": "Fyodor",
+          "age": 4,
+          "person_id": "P-HIST-1853-FYODOR"
+        }
+      ],
+      "head_person_id": "P-HIST-1853-ABROSIM"
+    },
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "source_locator": "печатнаяс.65; PDF-страница73/103, нижняя группа Abrosimov",
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "supported",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Самостоятельное историческое хозяйство. Родство с заказчиком и тождество с фигурой1873г. не установлены."
+  },
+  {
+    "id": "C-SEARCH-001",
+    "subject_id": "P-BARK-001",
+    "predicate": "orphanage_identity",
+    "object": "Компанейский детдом",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-MEM-20261030",
+      "S-KUZ-001",
+      "S-CHILD-2024"
+    ],
+    "source_locator": null,
+    "original_vs_derived": "see_source_type",
+    "direct_vs_indirect": "direct_for_record_content_only",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-001",
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Подходящее учреждение по семейному рассказу и географии; целевая поимённая запись не обнаружена."
+  },
+  {
+    "id": "C-ID-004",
+    "subject_id": "P-HIST-1853-ABROSIM",
+    "predicate": "same_person_as",
+    "object": "P-HIST-004",
+    "raw_text": null,
+    "source_ids": [
+      "S-CAU-1853",
+      "S-LEGACY-GED"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Отождествление фигур1853 и1873гг. не завершено; разница возрастных ориентиров требует проверки."
+  },
+  {
+    "id": "C-CAU-PARENT-PETR",
+    "subject_id": "P-HIST-1853-ABROSIM",
+    "predicate": "parent",
+    "object": "P-HIST-1853-PETR",
+    "raw_text": null,
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "supported",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Связь son в опубликованном переводе; оригинал не проверен. К семье заказчика не присоединяется."
+  },
+  {
+    "id": "C-CAU-PARENT-FYODOR",
+    "subject_id": "P-HIST-1853-ABROSIM",
+    "predicate": "parent",
+    "object": "P-HIST-1853-FYODOR",
+    "raw_text": null,
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "supported",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Связь son в опубликованном переводе; оригинал не проверен. К семье заказчика не присоединяется."
+  },
+  {
+    "id": "C-MEM-PARENT-003-001",
+    "subject_id": "P-BARK-003-MEM",
+    "predicate": "parent",
+    "object": "P-BARK-001",
+    "raw_text": null,
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Связь сообщена в семейной памяти через goal; исходный акт или запись интервью не получены."
+  },
+  {
+    "id": "C-MEM-PARENT-003-002",
+    "subject_id": "P-BARK-003-MEM",
+    "predicate": "parent",
+    "object": "P-BARK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Связь сообщена в семейной памяти через goal; исходный акт или запись интервью не получены."
+  },
+  {
+    "id": "C-MEM-PARENT-004-001",
+    "subject_id": "P-BARK-004-MEM",
+    "predicate": "parent",
+    "object": "P-BARK-001",
+    "raw_text": null,
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Связь сообщена в семейной памяти через goal; исходный акт или запись интервью не получены."
+  },
+  {
+    "id": "C-MEM-PARENT-004-002",
+    "subject_id": "P-BARK-004-MEM",
+    "predicate": "parent",
+    "object": "P-BARK-002",
+    "raw_text": null,
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct_as_reported_not_originally_verified",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Связь сообщена в семейной памяти через goal; исходный акт или запись интервью не получены."
+  },
+  {
+    "id": "C-ID-005",
+    "subject_id": "P-REC-1942-SPOUSE",
+    "predicate": "same_person_as",
+    "object": "P-BARK-004B",
+    "raw_text": null,
+    "source_ids": [
+      "S-MIL-001",
+      "S-LEGACY-MASTER"
+    ],
+    "original_vs_derived": "mixed",
+    "direct_vs_indirect": "indirect",
+    "status": "hypothesis",
+    "reviewer": "T-AUD-001",
+    "proof_argument_path": "cycle_001.md",
+    "note": "Кандидат прежней сводки и запись о жене не сливаются без идентифицирующего доказательства."
+  }
+]

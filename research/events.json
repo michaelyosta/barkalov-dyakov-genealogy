@@ -1,0 +1,481 @@
+[
+  {
+    "id": "E-C-LEGACY-I001-L0024",
+    "person_id": "P-BARK-001",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I001-L0024",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I001-L0027",
+    "person_id": "P-BARK-001",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I001-L0027",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I001-L0032",
+    "person_id": "P-BARK-001",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I001-L0032",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I001-L0037",
+    "person_id": "P-BARK-001",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I001-L0037",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I002-L0050",
+    "person_id": "P-BARK-002",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I002-L0050",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I002-L0053",
+    "person_id": "P-BARK-002",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I002-L0053",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I003-L0065",
+    "person_id": "P-BARK-003",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I003-L0065",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I003-L0068",
+    "person_id": "P-BARK-003",
+    "type": "RESI",
+    "claim_id": "C-LEGACY-I003-L0068",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I003-L0071",
+    "person_id": "P-BARK-003",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I003-L0071",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I003-L0077",
+    "person_id": "P-BARK-003",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I003-L0077",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I003-L0082",
+    "person_id": "P-BARK-003",
+    "type": "DEAT",
+    "claim_id": "C-LEGACY-I003-L0082",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I003-L0086",
+    "person_id": "P-BARK-003",
+    "type": "BURI",
+    "claim_id": "C-LEGACY-I003-L0086",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I004-L0098",
+    "person_id": "P-BARK-004A",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I004-L0098",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I004-L0101",
+    "person_id": "P-BARK-004A",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I004-L0101",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I004-L0106",
+    "person_id": "P-BARK-004A",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I004-L0106",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I004-L0111",
+    "person_id": "P-BARK-004A",
+    "type": "DEAT",
+    "claim_id": "C-LEGACY-I004-L0111",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I005-L0122",
+    "person_id": "P-BARK-005",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I005-L0122",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I005-L0125",
+    "person_id": "P-BARK-005",
+    "type": "RESI",
+    "claim_id": "C-LEGACY-I005-L0125",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I005-L0129",
+    "person_id": "P-BARK-005",
+    "type": "DEAT",
+    "claim_id": "C-LEGACY-I005-L0129",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I006-L0142",
+    "person_id": "P-BARK-006",
+    "type": "RESI",
+    "claim_id": "C-LEGACY-I006-L0142",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I007-L0152",
+    "person_id": "P-BARK-007",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I007-L0152",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I008-L0161",
+    "person_id": "P-BARK-GRIGORY-LEGACY",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I008-L0161",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I009-L0171",
+    "person_id": "P-DYAK-001",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I009-L0171",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I009-L0175",
+    "person_id": "P-DYAK-001",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I009-L0175",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I009-L0179",
+    "person_id": "P-DYAK-001",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I009-L0179",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I010-L0192",
+    "person_id": "P-DEME-001A",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I010-L0192",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I011-L0204",
+    "person_id": "P-DEME-001B",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I011-L0204",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I012-L0217",
+    "person_id": "P-DYAK-002",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I012-L0217",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I012-L0220",
+    "person_id": "P-DYAK-002",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I012-L0220",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I013-L0233",
+    "person_id": "P-DYAK-003",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I013-L0233",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I013-L0236",
+    "person_id": "P-DYAK-003",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I013-L0236",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I014-L0249",
+    "person_id": "P-DYAK-004",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I014-L0249",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I014-L0252",
+    "person_id": "P-DYAK-004",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I014-L0252",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I015-L0263",
+    "person_id": "P-ABRO-001",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I015-L0263",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I015-L0267",
+    "person_id": "P-ABRO-001",
+    "type": "DEAT",
+    "claim_id": "C-LEGACY-I015-L0267",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I016-L0278",
+    "person_id": "P-ABRO-002",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I016-L0278",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I016-L0281",
+    "person_id": "P-ABRO-002",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I016-L0281",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I016-L0285",
+    "person_id": "P-ABRO-002",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I016-L0285",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I016-L0288",
+    "person_id": "P-ABRO-002",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I016-L0288",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I017-L0301",
+    "person_id": "P-DYAK-005",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I017-L0301",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I017-L0304",
+    "person_id": "P-DYAK-005",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I017-L0304",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I018-L0316",
+    "person_id": "P-DEME-004",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I018-L0316",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I019-L0327",
+    "person_id": "P-DEME-002",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I019-L0327",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I019-L0330",
+    "person_id": "P-DEME-002",
+    "type": "RESI",
+    "claim_id": "C-LEGACY-I019-L0330",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I019-L0333",
+    "person_id": "P-DEME-002",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I019-L0333",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I020-L0344",
+    "person_id": "P-DYAK-009",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I020-L0344",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I021-L0355",
+    "person_id": "P-DYAK-008",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I021-L0355",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I021-L0358",
+    "person_id": "P-DYAK-008",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I021-L0358",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I021-L0362",
+    "person_id": "P-DYAK-008",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I021-L0362",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I022-L0374",
+    "person_id": "P-HIST-004",
+    "type": "BIRT",
+    "claim_id": "C-LEGACY-I022-L0374",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-C-LEGACY-I022-L0377",
+    "person_id": "P-HIST-004",
+    "type": "EVEN",
+    "claim_id": "C-LEGACY-I022-L0377",
+    "date": null,
+    "place": null,
+    "status": "hypothesis"
+  },
+  {
+    "id": "E-OBS-001",
+    "person_id": "P-BARK-003",
+    "type": "recorded_death",
+    "claim_id": "C-OBS-001",
+    "date": "1942-11-15",
+    "place": null,
+    "status": "confirmed",
+    "note": "Дата зафиксированного события; не основание устанавливать родство."
+  },
+  {
+    "id": "E-OBS-002",
+    "person_id": "P-BARK-004A",
+    "type": "sentence",
+    "claim_id": "C-OBS-005",
+    "date": "1938-10-05",
+    "place": null,
+    "status": "supported",
+    "note": "Дата зафиксированного события; не основание устанавливать родство."
+  }
+]

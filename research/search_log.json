@@ -1,0 +1,145 @@
+[
+  {
+    "id": "SR-C001-001",
+    "task_id": "T-ANT-001",
+    "exact_query": "\"Баркалова\" \"Антонида\" \"Григорьевна\"",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Получена индексная карточка; это не следственное дело",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-002",
+    "task_id": "T-ANT-001",
+    "exact_query": "site.gov.kz Карагандинской архив репрессированных запрос архивные дела полиция",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Найдена официальная страницаКНБ о компетенции; конкретное дело не локализовано",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-003",
+    "task_id": "T-ANT-001",
+    "exact_query": "\"Баркалова Антонида Григорьевна\" дети",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Родственный мост не получен; поисковая выдача ограничена",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-004",
+    "task_id": "T-ANT-001",
+    "exact_query": "\"Баркалова\" \"Антонина\" \"БАМ\"",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Первичного маршрутаБАМ для целевой семьи не получено; не сплошной архивный поиск",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-005",
+    "task_id": "T-CHILD-001",
+    "exact_query": "\"Государственный архив Карагандинской\" \"469\"",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Научная публикация с архивными ссылками",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-006",
+    "task_id": "T-CHILD-001",
+    "exact_query": "\"Компанейский\" \"детский дом\" архив",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "ПубликацияКузнецовой; шифр книги1936 не указан",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-007",
+    "task_id": "T-ANT-001",
+    "exact_query": "https://ru.openlist.wiki/Баркалова_Антонида_Григорьевна_(1909)",
+    "resource": "direct web open",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "403Forbidden; использована отдельно помеченная локальная выгрузка",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-008",
+    "task_id": "T-CHILD-001",
+    "exact_query": "S-CHILD-2024: печатные страницы9,22–23",
+    "resource": "PDF local read and rendered page9",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Уточнены областной/районный фонды; индивидуальных записей не получено",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-T-MIL-001",
+    "task_id": "T-MIL-001",
+    "exact_query": "Действия перечислены в отчёте исполнителя",
+    "resource": "agent_reports/T-MIL-001.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-MIL-001.md"
+    ],
+    "negative_scope": "Охват описан в отчёте",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-T-AUD-001",
+    "task_id": "T-AUD-001",
+    "exact_query": "Действия перечислены в отчёте исполнителя",
+    "resource": "agent_reports/T-AUD-001.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-AUD-001.md"
+    ],
+    "negative_scope": "Охват описан в отчёте",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-T-CAU-001",
+    "task_id": "T-CAU-001",
+    "exact_query": "Действия перечислены в отчёте исполнителя",
+    "resource": "agent_reports/T-CAU-001.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-CAU-001.md"
+    ],
+    "negative_scope": "Охват описан в отчёте",
+    "next_action": "См.research_tasks.json"
+  }
+]
