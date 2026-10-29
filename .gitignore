@@ -1,0 +1,12 @@
+# Защита персональных документов ныне живущих родственников
+# Все файлы в папке private_kinship_docs/ (кроме README.md) игнорируются Git
+private_kinship_docs/*
+!private_kinship_docs/README.md
+
+# Системные и временные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*
