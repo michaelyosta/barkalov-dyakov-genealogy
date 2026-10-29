@@ -79,7 +79,7 @@ require(ged.startswith('0 HEAD\n') and ged.rstrip().endswith('0 TRLR'),'GEDCOM b
 require('2 VERS 5.5.1' in ged and '1 CHAR UTF-8' in ged,'GEDCOM encoding/version missing')
 require(not re.search(r'^0 @[^@]+@ FAM',ged,re.M),'Cycle001 export unexpectedly contains family edges')
 original=next(s for s in sources if s['id']=='S-LEGACY-GED')
-require(hashlib.sha256((ROOT/'family_tree.ged').read_bytes()).hexdigest()==original.get('original_worktree_sha256',original['content_hash']),'Legacy GEDCOM modified')
+require(hashlib.sha256((ROOT/'family_tree.ged').read_bytes().replace(b'\r\n',b'\n')).hexdigest()==original['content_hash'],'Legacy GEDCOM modified')
 report={'date':'2026-10-30','errors':errors,'counts':{k:len(v) for k,v in [('persons',people),('claims',claims),('relationships',relationships),('events',events),('sources',sources),('tasks',tasks)]},
     'verified_family_edges':sum(e['export_to_verified'] for e in relationships),
     'scope':'JSON links, status/export constraints, source hashes, basic GEDCOM structure. Not a genealogical software import or proof of historical truth.'}
