@@ -789,13 +789,13 @@
     "content_hash": null,
     "local_copy_if_allowed": null,
     "access_rights": "Read-only research; underlying image/file not republished.",
-    "access_result": "image_visually_read_by_orchestrator",
+    "access_result": "image_rechecked_by_orchestrator_and_independent_auditor",
     "transcription_path": "transcriptions/OGAO_389_1_854_death17.md",
-    "transcription_hash": "f6ebaa4ac524aed9536ed06231e09857d3ea2ea1d1a71d3f00bacb423baac6d3",
+    "transcription_hash": "4f9c09a5255102a4862ea2033a2d26d8d5361f4491f64c9b3353860649a0420c",
     "hash_scope": "UTF-8 research transcription/note with LF; not source page or image hash",
-    "reviewer": null,
-    "independent_image_review": "pending",
-    "notes": "Изображение прочитано только оркестратором. Возраст 8 месяцев конфликтует с ноябрьским рождением кандидата. Мать не названа."
+    "reviewer": "T-AUD-C010-C011",
+    "independent_image_review": "completed_image_read_ocr_used_only_for_crosscheck",
+    "notes": "Изображение прочитано только оркестратором. Возраст 8 месяцев конфликтует с ноябрьским рождением кандидата. Мать не названа. Повторное визуальное чтение изображения оркестратором в цикле 011 совпало с прежней транскрипцией; OCR был виден, независимый аудитор ещё не завершил проверку. Независимый аудитор T-AUD-C010-C011 визуально подтвердил ключевые поля; OCR использован лишь для сверки."
   },
   {
     "id": "S-C004-CGA-STUDENT",
@@ -1197,10 +1197,10 @@
     "transcription_path": "transcriptions/OGAO_389_1_795_marriage7_1895.md",
     "transcription_hash": "c98ac85e5b5b02eb28482c191ea4dcf8034b4b7045983144b948ef48a4977af4",
     "hash_scope": "UTF-8 research transcription with LF line endings; not source page or image hash",
-    "reviewer": null,
-    "independent_image_review": "not_completed_ocr_visible_during_visual_reading",
+    "reviewer": "T-AUD-C010-C011",
+    "independent_image_review": "completed_image_read_ocr_used_only_for_crosscheck",
     "independence_group": "OGAO-389-1-795",
-    "notes": "Названы свидетели Владимир Васильев и Пётр Прохоров Баркаловы. Их роли не доказывают родства. Совпадение Петра со взрослым из акта рождения следующего дня — отдельная гипотеза, не тождество."
+    "notes": "Названы свидетели Владимир Васильев и Пётр Прохоров Баркаловы. Их роли не доказывают родства. Совпадение Петра со взрослым из акта рождения следующего дня — отдельная гипотеза, не тождество. Независимый аудитор T-AUD-C010-C011 отдельно прочитал изображение и подтвердил ключевые поля; OCR использован лишь для сверки."
   },
   {
     "id": "S-C010-B1900-VLADIMIR",
@@ -1221,9 +1221,9 @@
     "transcription_path": "transcriptions/OGAO_389_1_972_birth1_1900.md",
     "transcription_hash": "0c06cb97952f9dc91bd2a8abccac2d0757d991cc19b06fc4e3bda492890f4470",
     "hash_scope": "UTF-8 research transcription with LF line endings; not source page or image hash",
-    "reviewer": null,
-    "independent_image_review": "not_completed_ocr_visible_during_visual_reading",
+    "reviewer": "T-AUD-C010-C011",
+    "independent_image_review": "completed_image_read_ocr_used_only_for_crosscheck",
     "independence_group": "OGAO-389-1-972",
-    "notes": "Владимир Васильев Баркалов записан отцом Александры, законная жена — Ольга Иванова. Не отождествлён со свидетелем 1895 года."
+    "notes": "Владимир Васильев Баркалов записан отцом Александры, законная жена — Ольга Иванова. Не отождествлён со свидетелем 1895 года. Независимый аудитор T-AUD-C010-C011 отдельно прочитал изображение и подтвердил ключевые поля; OCR использован лишь для сверки."
   }
 ]
