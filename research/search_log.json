@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "SR-C001-001",
+    "task_id": "T-ANT-001",
+    "exact_query": "\"Баркалова\" \"Антонида\" \"Григорьевна\"",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Получена индексная карточка; это не следственное дело",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-002",
+    "task_id": "T-ANT-001",
+    "exact_query": "site.gov.kz Карагандинской архив репрессированных запрос архивные дела полиция",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Найдена официальная страницаКНБ о компетенции; конкретное дело не локализовано",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-003",
+    "task_id": "T-ANT-001",
+    "exact_query": "\"Баркалова Антонида Григорьевна\" дети",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Родственный мост не получен; поисковая выдача ограничена",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-004",
+    "task_id": "T-ANT-001",
+    "exact_query": "\"Баркалова\" \"Антонина\" \"БАМ\"",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Первичного маршрутаБАМ для целевой семьи не получено; не сплошной архивный поиск",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-005",
+    "task_id": "T-CHILD-001",
+    "exact_query": "\"Государственный архив Карагандинской\" \"469\"",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Научная публикация с архивными ссылками",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-006",
+    "task_id": "T-CHILD-001",
+    "exact_query": "\"Компанейский\" \"детский дом\" архив",
+    "resource": "web search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "ПубликацияКузнецовой; шифр книги1936 не указан",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-007",
+    "task_id": "T-ANT-001",
+    "exact_query": "https://ru.openlist.wiki/Баркалова_Антонида_Григорьевна_(1909)",
+    "resource": "direct web open",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "403Forbidden; использована отдельно помеченная локальная выгрузка",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C001-008",
+    "task_id": "T-CHILD-001",
+    "exact_query": "S-CHILD-2024: печатные страницы9,22–23",
+    "resource": "PDF local read and rendered page9",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [],
+    "negative_scope": "Only this query/page; not proof of absence",
+    "outcome": "Уточнены областной/районный фонды; индивидуальных записей не получено",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-T-MIL-001",
+    "task_id": "T-MIL-001",
+    "exact_query": "Действия перечислены в отчёте исполнителя",
+    "resource": "agent_reports/T-MIL-001.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-MIL-001.md"
+    ],
+    "negative_scope": "Охват описан в отчёте",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-T-AUD-001",
+    "task_id": "T-AUD-001",
+    "exact_query": "Действия перечислены в отчёте исполнителя",
+    "resource": "agent_reports/T-AUD-001.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-AUD-001.md"
+    ],
+    "negative_scope": "Охват описан в отчёте",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-T-CAU-001",
+    "task_id": "T-CAU-001",
+    "exact_query": "Действия перечислены в отчёте исполнителя",
+    "resource": "agent_reports/T-CAU-001.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-CAU-001.md"
+    ],
+    "negative_scope": "Охват описан в отчёте",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-001",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Государственный архив Карагандинской области каталог фондов 469 описи",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Общедоступная опись не установлена; найдены публикации и официальные страницы учреждений.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-002",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Государственный архив Каркаралинского района фонд 132 детский дом опись",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Найдена публикация2023; д.6 относится к отчёту1951г.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-003",
+    "task_id": "T-CHILD-002",
+    "exact_query": "Компанейский детский дом Крупской архив книги воспитанников 1936 хранение",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Современный хранитель книги1936г. не установлен.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-004",
+    "task_id": "T-CHILD-004",
+    "exact_query": "\"Магнитогорская, 3\" \"детский\" Караганда",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Официальный список и краеведческий адресныйслед; не актправопреемства.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-005",
+    "task_id": "T-CARD-1999",
+    "exact_query": "\"Компанейского\" \"архив\" списки -site:collegy.ucoz.ru -site:vainahkrg.kz",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Найдена газетная полоса1999г. о картотеке.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-006",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "https://ya.ru/archive/catalog/c6212baf-b01b-4009-b9df-c5c82bf57608",
+    "resource": "in_app_browser",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Переадресовано наya.ru/archive; явное требованиеавторизации, сканы непрочитаны.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-007",
+    "task_id": "T-MIL-002",
+    "exact_query": "https://archive.orb.ru/activity/10585/",
+    "resource": "direct_web_open",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "403Forbidden; официальныйкаталог не прочитан.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-008",
+    "task_id": "T-ANT-002",
+    "exact_query": "https://e-memory.kz/search/zhertvy-borby/?ID=15872/barkalova-antonida-grigorevna",
+    "resource": "direct_web_open",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Страница недоступна черезweb; первичная карточка не получена.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-009",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Печатные страницы96–97/PDF11–12 orphanages_2023.pdf",
+    "resource": "pdf_text_and_render",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Визуально уточнён контекст1948/1951; не просмотр архивныхдел.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-010",
+    "task_id": "T-CARD-1999",
+    "exact_query": "Газетнаяполоса goreckiy_children_karlag.pdf",
+    "resource": "pdf_text_and_render",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "cycle_002.md"
+    ],
+    "negative_scope": "Ограничен указанным запросом/страницей; не доказывает отсутствие человека или дела.",
+    "outcome": "Проверены подпись/дата1999/описанныйохват; актуальнаясохранность не доказана.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-T-MIL-003",
+    "task_id": "T-MIL-003",
+    "exact_query": "Действия и запросы подробно перечислены в отчёте",
+    "resource": "agent_reports/T-MIL-003-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-MIL-003-C002.md"
+    ],
+    "negative_scope": "В пределах отчёта; сканы не прочитаны, если явно не указано иное.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-T-CAU-002",
+    "task_id": "T-CAU-002",
+    "exact_query": "Действия и запросы подробно перечислены в отчёте",
+    "resource": "agent_reports/T-CAU-002-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-CAU-002-C002.md"
+    ],
+    "negative_scope": "В пределах отчёта; сканы не прочитаны, если явно не указано иное.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-T-AUD-C002",
+    "task_id": "T-AUD-C002",
+    "exact_query": "Действия и запросы подробно перечислены в отчёте",
+    "resource": "agent_reports/T-AUD-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "В пределах отчёта; сканы не прочитаны, если явно не указано иное.",
+    "next_action": "См.research_tasks.json"
+  },
+  {
+    "id": "SR-C002-MET-935-NAME",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/c6212baf-b01b-4009-b9df-c5c82bf57608",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 3,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Найдены сканы 20, 6, 9. Целевая родительская пара — скан 20; остальные попадания не импортированы как родственники.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1463-NAME",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/14711b52-8e13-4ae9-98c1-414941290783",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 1,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Точный и затем похожий поиск показали скан 178: взрослый Михаил Васильев — восприемник.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1463-FATHER",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Петр Прохоров",
+    "resource": "https://ya.ru/archive/catalog/14711b52-8e13-4ae9-98c1-414941290783",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 2,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Два попадания отдельных слов на странице не дали целевой семьи.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1466-NAME",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/0b2dee57-8c04-477f-8c1d-6b389bfad041",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 7,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Поиск одной фамилии не вывел целевую строку с OCR Боркалов; отрицательный поиск не доказывает отсутствия.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-1466-FATHER",
+    "task_id": "T-METRIC-SCANS-C002",
+    "exact_query": "Петр Прохоров Баркалов",
+    "resource": "https://ya.ru/archive/catalog/0b2dee57-8c04-477f-8c1d-6b389bfad041",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанной книги; это число OCR-попаданий, не актов о человеке.",
+    "result_count": 1,
+    "result_refs": [
+      "biographies/metric_family_1899_1904.md",
+      "agent_reports/T-AUD-C002.md"
+    ],
+    "negative_scope": "Не сплошной ручной просмотр. Ошибки OCR и варианты фамилии оставляют риск пропусков.",
+    "outcome": "Скан 8: Михаил, №17, визуальное чтение родительской пары и дат независимо проверено.",
+    "next_action": "Идентификация взрослых и поиск брака родителей по отдельным задачам."
+  },
+  {
+    "id": "SR-C002-MET-SERGEY-MIL",
+    "task_id": "T-MET-ID-SERGEY",
+    "exact_query": "Точные запросы и открытые военные записи перечислены в отчёте агента",
+    "resource": "agent_reports/T-SERGEY-METRIC-C002.md",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "agent_reports/T-SERGEY-METRIC-C002.md"
+    ],
+    "negative_scope": "Проверенные опубликованные УПК, донесение, госпитальный и наградной документы; не весь архивный комплекс.",
+    "outcome": "Год и село согласуются; день рождения/родители не найдены. Тождество остаётся hypothesis.",
+    "next_action": "Независимый документ с точной датой или семейными признаками."
+  },
+  {
+    "id": "SR-C003-001",
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "exact_query": "Петр Прохоров",
+    "resource": "https://ya.ru/archive/catalog/6a0a53cf-1747-4b73-a589-370329276297",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанного дела, похожие слова выключены; кроме явно обозначенного визуального перечтения.",
+    "result_count": 17,
+    "result_refs": [
+      "S-C003-B1895"
+    ],
+    "negative_scope": "OCR, выбранные строки и указанные сканы; не полная проверка дела или прихода.",
+    "outcome": "Скан 9: целевой ранний акт; скан 14: поручитель. Иные попадания не импортированы как родственники.",
+    "next_action": "См. очередь и доказательную записку."
+  },
+  {
+    "id": "SR-C003-002",
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "exact_query": "Баркалов",
+    "resource": "https://ya.ru/archive/catalog/6a0a53cf-1747-4b73-a589-370329276297",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанного дела, похожие слова выключены; кроме явно обозначенного визуального перечтения.",
+    "result_count": 8,
+    "result_refs": [
+      "S-C003-B1895"
+    ],
+    "negative_scope": "OCR, выбранные строки и указанные сканы; не полная проверка дела или прихода.",
+    "outcome": "Сканы 4,9,13,14,18,11,17,8. Сниппеты не показали смерти раннего Михаила; это не сплошной просмотр.",
+    "next_action": "См. очередь и доказательную записку."
+  },
+  {
+    "id": "SR-C003-003",
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "exact_query": "Петр Прохоров Баркалов",
+    "resource": "https://ya.ru/archive/catalog/8a6597bf-e880-4aa3-8401-d558fd39eff8",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанного дела, похожие слова выключены; кроме явно обозначенного визуального перечтения.",
+    "result_count": 2,
+    "result_refs": [
+      "S-C003-B1894"
+    ],
+    "negative_scope": "OCR, выбранные строки и указанные сканы; не полная проверка дела или прихода.",
+    "outcome": "Сканы 69 и 76. Прочитан акт Наталии 69; 76 остаётся OCR-ориентиром, не именной находкой в графе.",
+    "next_action": "См. очередь и доказательную записку."
+  },
+  {
+    "id": "SR-C003-004",
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "exact_query": "Петр Прохоров Баркалов",
+    "resource": "https://ya.ru/archive/catalog/5fe4c124-e5e4-4d41-a904-b83f0dcc13a4",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанного дела, похожие слова выключены; кроме явно обозначенного визуального перечтения.",
+    "result_count": 3,
+    "result_refs": [
+      "S-C003-M1893"
+    ],
+    "negative_scope": "OCR, выбранные строки и указанные сканы; не полная проверка дела или прихода.",
+    "outcome": "Сканы 86,285,83. Прочитан брак 86; 285 содержит разрозненные слова, 83 — Ольга Прохорова, не доказанная сестра.",
+    "next_action": "См. очередь и доказательную записку."
+  },
+  {
+    "id": "SR-C003-005",
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "exact_query": "Повторное визуальное чтение имени матери",
+    "resource": "https://ya.ru/archive/catalog/c6212baf-b01b-4009-b9df-c5c82bf57608/20",
+    "date": "2026-10-30",
+    "filters/time_span": "Поиск внутри указанного дела, похожие слова выключены; кроме явно обозначенного визуального перечтения.",
+    "result_count": null,
+    "result_refs": [
+      "S-C002-MET-1899-49"
+    ],
+    "negative_scope": "OCR, выбранные строки и указанные сканы; не полная проверка дела или прихода.",
+    "outcome": "Оркестратор заново читает Евгения в акте 1899. Предыдущая транскрипция не изменена.",
+    "next_action": "См. очередь и доказательную записку."
+  },
+  {
+    "id": "SR-C004-001",
+    "task_id": "T-C003-EARLY-DEATH",
+    "exact_query": "Петр Прохоров Баркалов",
+    "resource": "https://ya.ru/archive/catalog/f5a43f77-e7b2-48bb-b08e-372f1b5bfd3c",
+    "date": "2026-10-30",
+    "result_count": 2,
+    "result_refs": [
+      "S-C004-DEATH1896"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Сканы116 и31;116 — смерть сына Михаила.31 — Фекла, не проверенный родственник.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-002",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "site:spbarchives.ru/infres/-/archive/cga/R-7409/12 \"Баркалов Сергей Петрович\"",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Отображён индексированный текст официальной описи: строка10, дата22.08.1921,8листов; оригинал дела не читался.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-003",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "https://spbarchives.ru/infres/-/archive/cga/R-7409/12",
+    "resource": "web_open_and_public_http",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Прямое открытие тайм-аут, Python HTTP WinError10060; детали дела не получены.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-004",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "https://spbarchives.ru/infres/-/archive/cga/R-7409/12/10",
+    "resource": "single_candidate_detail_open",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Предполагаемая карточка недоступна. Этот URL не принят за подтверждённый шифр.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-005",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "site:spbarchives.ru/infres \"Р-7409\" \"Баркалов Сергей Петрович\"; site:spbarchives.ru/paid_access/image_viewer \"Просмотреть образы\"",
+    "resource": "official_archive_search_index_and_web_open",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Индексированный текст и открытие двух официальных страниц; тайм-аут не доказывает отсутствие карточки или образов.",
+    "outcome": "Индекс повторно показывает каталоговую строку от 22.08.1921, 8 листов. Индексированный текст официальной инструкции говорит, что кнопка просмотра образов появляется при входе и оплаченном доступе; это не подтверждает наличие образов именно дела Баркалова. Прямые страницы официального портала в этой сессии тайм-аутят.",
+    "next_action": "При восстановлении доступа открыть строку и зафиксировать шифр дела/наличие образов; оплату и запрос не выполнять без отдельного разрешения."
+  },
+  {
+    "id": "SR-C005-001",
+    "task_id": "T-ANT-002",
+    "exact_query": "q=Баркалов; q=Баркалова; затем внутренние поисковые имена детей и имя кандидата (точные детские термины редактированы из публичного журнала)",
+    "resource": "https://e-memory.kz/search/deti/",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C005-EMEMORY-DOS"
+    ],
+    "negative_scope": "Только публичная база «Дети Карлага» и проверенные варианты запроса; не исключает людей вне охвата, под другой фамилией, не внесённых в указатель или присутствующих в иных источниках.",
+    "outcome": "Запросы по фамильным вариантам и имени Антонида не дали целевой карточки. Две выдачи по внутренним детским кандидатам вручную сверены по фамилии; совпадений нет, точные имена потенциально живых людей не опубликованы. Карточки базы называют производный источник данных и содержат поле о матери; оригинальные дела не представлены.",
+    "next_action": "Продолжить поиск в конкретных архивах/фондах; не считать отрицательный результат доказательством отсутствия детей или родства."
+  },
+  {
+    "id": "SR-C005-002",
+    "task_id": "T-ANT-002",
+    "exact_query": "Официальный справочник архивов Карагандинской области; страница КНБ о специальных архивах и маршруте обращений",
+    "resource": "https://e-memory.kz/en/archive/karagandinskaya-oblast/",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C005-KRG-ARCHIVES",
+      "S-C005-KNB-ROUTE"
+    ],
+    "negative_scope": "Институциональная маршрутизация, не опись и не шифр дела конкретного лица; сама компетенция и наличие дела должны перепроверяться до будущего запроса.",
+    "outcome": "Справочник перечисляет два региональных ведомственных архива, относящихся к полиции и правовой статистике/спецучётам; отчёт агента по официальной странице КНБ разводит маршруты материалов на репрессированных и документов о ссылке/спецпоселении. Точный шифр дела не получен.",
+    "next_action": "Сохранить точный запрос проекта, но ничего не отправлять и не передавать без отдельного разрешения."
+  },
+  {
+    "id": "SR-C005-003",
+    "task_id": "T-MET-PARENTS-MARRIAGE",
+    "exact_query": "Визуально перечитаны печатные заголовки ОГАОО 389/1/726, скан 86 (пагинация 83, брак №73) и скан 2 (титульная страница)",
+    "resource": "https://ya.ru/archive/catalog/5fe4c124-e5e4-4d41-a904-b83f0dcc13a4/86",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C003-M1893"
+    ],
+    "negative_scope": "Подтверждён год/часть брачной записи в томе; не устанавливаются конкретная церковь, место церемонии, происхождение между семьями или тождество с парой 1899/1904. Независимый аудит акта ожидается.",
+    "outcome": "На самом скане86 прочитан заголовок: «Годъ, часть вторая, о бракосочетавшихся. Метрической книги на 1893». Титульный скан2 того же дела называет причт Троицкого собора г. Бузулука; каталоговое заглавие тома перечисляет несколько приходов/селений.",
+    "next_action": "Уточнить приход/церковь по отдельным локальным заголовкам и составу книги; получить независимое чтение скана86. Не выводить физическое место венчания только из титула или селений."
+  },
+  {
+    "id": "SR-C006-001",
+    "task_id": "T-CHILD-002",
+    "exact_query": "Официальная страница Управления архивов Карагандинской области: единый электронный архив, публичные каталоги и цифровые описи",
+    "resource": "https://www.gov.kz/org/karaganda-madeniet/press/article/details/14394",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C006-GAKO-EEA"
+    ],
+    "negative_scope": "Официальная обзорная страница, не поединичная опись и не подтверждение цифровой копии конкретного дела.",
+    "outcome": "Сообщает о пилотной работе региональных архивов в единой электронной системе с 2019 г. и наполнении базы; ссылки на описи/образы Компанейского детдома на странице не обнаружены.",
+    "next_action": "Искать по конкретным официальным каталогам/фондам; отсутствие страницы не доказывает отсутствие описи."
+  },
+  {
+    "id": "SR-C006-002",
+    "task_id": "T-CHILD-003",
+    "exact_query": "Статья о детских домах Центрального Казахстана, DOI 10.32523/2616-7255-2023-143-2-86-107; архивные фонды и крайние даты",
+    "resource": "https://bulhistphaa.enu.kz/index.php/main/article/download/396/242/817",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C006-KRG-ARTICLE"
+    ],
+    "negative_scope": "Научная статья вторично цитирует архивные документы; не является описью или изображением конкретного дела.",
+    "outcome": "На печатных с.90–91 статья называет фонд 469 ГАКО фондом областного отдела образования за 1942–1967 гг. и приводит ссылки на ф.469 и ф.1188; конкретные дела и листы онлайн не открыты.",
+    "next_action": "Получить официальные заголовки описей и дел, особенно для периода до 1942 г."
+  },
+  {
+    "id": "SR-C006-003",
+    "task_id": "T-CHILD-002",
+    "exact_query": "Публичное PDF-воспроизведение статьи Е. Кузнецовой «Без вины виноватые», Индустриальная Караганда, 05.12.2006, с.10; архивная справка о Компанейском детдоме",
+    "resource": "https://shahtinsklib.kz/files/userfiles/karlag/stati_o_karlage/bez_viny_vinovatye.pdf",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C006-KUZ-2006"
+    ],
+    "negative_scope": "Только вторичная газетная публикация; архивная справка/книга движения непосредственно не просмотрены; имена и прочие данные посторонних бывших воспитанников не переносились.",
+    "outcome": "Статья цитирует книгу движения воспитанников за 1948–1953 гг. с ссылкой на оп.2а/ед.хр.14 (в извлечённом тексте «Фонд 3 469»), и упоминает список/справку о детях за 1936–1955 гг. без шифра. Это точный адресный след, не подтверждённый каталожный факт.",
+    "next_action": "Сверить фонд/опись/дело по официальной описи, отдельно найти шифр раннего списка 1936 г."
+  },
+  {
+    "id": "SR-C006-004",
+    "task_id": "T-C003-INDEPENDENT-READ",
+    "exact_query": "Проверка адреса https://ya.ru/archive/catalog/6a0a53cf-1747-4b73-a589-370329276297/69, первоначально переданного как д.753/скан69",
+    "resource": "https://ya.ru/archive/catalog/6a0a53cf-1747-4b73-a589-370329276297/69",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C003-B1895"
+    ],
+    "negative_scope": "Это д.795 за 1895 г., не д.753 за 1894 г.; не доказывает ничего о записи рождения №38 1894 г.",
+    "outcome": "Аудитор увидел по хлебным крошкам ф.389/оп.1/д.795, скан69 и раздел браков; по этой ошибочной ссылке акт о рождении 1894 №38 не проверен.",
+    "next_action": "Использовать правильный адрес S-C003-B1894: https://ya.ru/archive/catalog/8a6597bf-e880-4aa3-8401-d558fd39eff8/69."
+  },
+  {
+    "id": "SR-C006-005",
+    "task_id": "T-C003-INDEPENDENT-READ",
+    "exact_query": "Исправленный прямой адрес ОГАОО 389/1/753, скан69; независимое чтение рождения №38",
+    "resource": "https://ya.ru/archive/catalog/8a6597bf-e880-4aa3-8401-d558fd39eff8/69",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C003-B1894"
+    ],
+    "negative_scope": "Подтверждает содержание записи №38 и актовых родителей, но не тождество с одноимёнными родителями 1895 г. или поздней парой. OCR интерфейса был показан до чтения; это отмечено аудитором.",
+    "outcome": "По изображению прочитаны Наталия, рождение 8 августа/крещение 14 августа 1894 г., отец Пётр Прохоров Баркалов из Дмитриевки и его законная жена Елена Феодорова. Восприемники менее уверенные; не использовать как связи.",
+    "next_action": "Сохранять родителей по записи отдельными ID; расследовать тождество с Петром/Еленой 1895 г. отдельно."
+  },
+  {
+    "id": "SR-C006-006",
+    "task_id": "T-C003-INDEPENDENT-READ",
+    "exact_query": "Независимое чтение изображения ОГАОО 389/1/726, скан86, брачная запись №73",
+    "resource": "https://ya.ru/archive/catalog/5fe4c124-e5e4-4d41-a904-b83f0dcc13a4/86",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C003-M1893"
+    ],
+    "negative_scope": "Подтверждает содержание брачной строки и отца невесты; не устанавливает физическое место венчания или тождество с кандидатами 1894–1904 гг. OCR интерфейса автоматически показан до чтения.",
+    "outcome": "По скану прочитаны 24.10.1893, Пётр Прохоров Баркалов из Дмитриевки, 21, первый брак; Евгения, дочь Феодора Карпова Мяскова из Царской Александровки, 20, первый брак. Духовенство/поручители менее уверенные.",
+    "next_action": "Отношения в рамках акта поддержать как supported; сохранить тождество с поздними лицами гипотезой и искать объяснение разногласия с Еленой 1894–1895."
+  },
+  {
+    "id": "SR-C007-001",
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "exact_query": "\"ЦГАСО\" \"Дмитриевки\" \"Прохор Баркалов\" ф.174 оп.1 д.2660",
+    "resource": "https://forum.vgd.ru/1860/143973/",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C007-VGD-DIMITRIEVKA"
+    ],
+    "negative_scope": "Пользовательский вторичный перечень, не оригинал дела; содержание именованных списков и тождество с участниками брака 1893 года не подтверждены.",
+    "outcome": "В пересказе ф.174/1/2660 за 1874–1888 годы на странице 13 назван Прохор Баркалов; в более раннем списке из той же темы есть Яков Баркалов (1844).",
+    "next_action": "Проверить официальные описи и оригинал; не выводить отцовство или поколение."
+  },
+  {
+    "id": "SR-C007-002",
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "exact_query": "\"ЦГАСО Ф.32. Оп.7. Д.3688\" Дмитриевка Петр Баркалов",
+    "resource": "https://forum.vgd.ru/1860/143973/",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C007-VGD-DIMITRIEVKA"
+    ],
+    "negative_scope": "Вторичный список в строительном/приходском деле; роль Петра и тождество жениху 1893 года не установлены.",
+    "outcome": "Форум указывает на имя Пётр Баркалов на страницах 3, 4 и 7 дела о постройке церкви в Дмитриевке за 1893–1898 годы.",
+    "next_action": "Проверить точный шифр, заголовок и оригинальные листы ЦГАСО."
+  },
+  {
+    "id": "SR-C007-003",
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "exact_query": "Самарская духовная консистория фонд 32 путеводитель Российские архивы",
+    "resource": "https://guides.rusarchives.ru/funds/112/samarskaya-duhovnaya-konsistoriya-1851-1918",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C007-RUSARCHIVES-GUIDE"
+    ],
+    "negative_scope": "Уровень фонда и общая коллекционная справка; item-level карточки трёх дел не представлены. Прямое открытие тайм-аутило.",
+    "outcome": "Индексный результат официального путеводителя связывает ф.32 с Самарской духовной консисторией; указаны 39 описей и даты фонда 1780–1935.",
+    "next_action": "Использовать только как архивно-фондовый контекст, затем проверять нужные описи/дела."
+  },
+  {
+    "id": "SR-C007-004",
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "exact_query": "ЦГАСО ф.32 оп.32 д.329 Дмитриевка 1864 1877",
+    "resource": "https://nashipredki.com/familysearch/film/2329305",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C007-NASHI-D329"
+    ],
+    "negative_scope": "Сторонний каталоговый источник; первичные метрические изображения не читались.",
+    "outcome": "Картотека связывает одноимённую Дмитриевку из ф.32/32/329 с Сызранским уездом; этот однотопонимный результат исключён из ветви Бузулукского уезда.",
+    "next_action": "Не использовать дело 329 оп.32 как источник по Дмитриевке Бузулукского уезда."
+  },
+  {
+    "id": "SR-C007-005",
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "exact_query": "https://regsamarh.ru/cgaso/el_read/16889/",
+    "resource": "direct HTTP fetch",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C007-VGD-DIMITRIEVKA"
+    ],
+    "negative_scope": "Только доступность указанного АИС-адреса из текущего сетевого клиента.",
+    "outcome": "Прямой запрос завершился ошибкой SSL; официальный предметный каталог не удалось прочитать.",
+    "next_action": "Искать официальную карточку через доступный каталоговый интерфейс/опись; не пытаться обходить TLS или регистрироваться."
+  },
+  {
+    "id": "SR-C007-006",
+    "task_id": "T-C004-INDEPENDENT-DEATH",
+    "exact_query": "Независимая попытка открыть оригинал ОГАОО 389/1/854, скан 116, смерть №17",
+    "resource": "independent agent web access",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C004-DEATH1896"
+    ],
+    "negative_scope": "Изображение недоступно; содержимое акта не проверено этим поиском.",
+    "outcome": "Прямой URL недоступен веб-просмотру; агент не смотрел OCR/транскрипцию и новых чтений нет.",
+    "next_action": "Повторить чтение оригинала, когда доступен разрешённый просмотр изображения."
+  },
+  {
+    "id": "SR-C007-007",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "\"Р-7409\" \"Баркалов Сергей Петрович\" точный номер дела",
+    "resource": "independent agent official-index search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Поиск только публично индексируемой страницы; отсутствие полного номера в выдаче не доказывает отсутствия карточки.",
+    "outcome": "Повторена строка официальной описи: позиция 10, документы от 22.08.1921, 8 листов; номер дела/карточка не получены, сайт тайм-аутит.",
+    "next_action": "Дождаться доступа к интерактивной карточке или подготовить каталоговый запрос без отправки."
+  },
+  {
+    "id": "SR-C007-008",
+    "task_id": "T-CHILD-003",
+    "exact_query": "site:gov.kz \"Компанейский детский дом\" каталог опись дело 1936; официальный путеводитель фондов ГАКО",
+    "resource": "independent agent official catalog search",
+    "date": "2026-10-30",
+    "filters/time_span": null,
+    "result_count": null,
+    "result_refs": [
+      "S-C006-KUZ-2006",
+      "S-C006-KRG-ARTICLE"
+    ],
+    "negative_scope": "Проверены только открытые индексируемые страницы официальных ресурсов; отрицательный результат не доказывает отсутствия дела.",
+    "outcome": "В проверенном публичном путеводителе нет карточки д.14 и списка 1936 г.; интерфейс не показал поединичных карточек/образов.",
+    "next_action": "Искать по описям предшественников фондов или готовить неотправленный каталоговый запрос."
+  },
+  {
+    "id": "SR-C007-009",
+    "task_id": "T-MET-PARENTS-MARRIAGE",
+    "exact_query": "Проверить приходской контекст Дмитриевки и Царской Александровки перед браком 1893 года; вторичный форумный перечень",
+    "resource": "https://forum.vgd.ru/1860/143973/",
+    "date": "2026-10-30",
+    "filters/time_span": "1843–1894",
+    "result_count": null,
+    "result_refs": [
+      "S-C007-VGD-DIMITRIEVKA"
+    ],
+    "negative_scope": "Вторичная хронология не указывает физическое место венчания конкретной пары и не заменяет книгу метрических записей.",
+    "outcome": "Автор форума сообщает: жители Дмитриевки и Царской Александровки посещали Троицкий собор Бузулука с 1843 г., с 1864 г. — церковь Царской Александровки; церковь в Дмитриевке, по сообщению автора, построена в 1894 г.",
+    "next_action": "Рассматривать Троицкий собор и Царскую Александровку как направления проверки книг за 1893 г.; не выводить место брака из места проживания."
+  },
+  {
+    "id": "SR-C008-001",
+    "task_id": "T-C008-DYAKOV-1841-PRIMARY",
+    "exact_query": "Kalmakoff 2019, section NIKITIN: Nikita Filippovich Dyakov, Melitopol uezd family list 1841; identify shelfmark in article notes",
+    "resource": "https://onomastica.ijppan.pl/index.php/ONOM/article/download/72/52",
+    "date": "2026-10-30",
+    "filters/time_span": "Article, printed p.105; list dated 1841",
+    "result_count": null,
+    "result_refs": [
+      "S-C008-KALMAKOFF-2019"
+    ],
+    "negative_scope": "Secondary article passage gives no scan or shelfmark; this does not prove a shelfmark is absent from other notes or catalogues.",
+    "outcome": "Article reports Nikita Filippovich Dyakov b.1803, household in 1841 list and migration to Ormasheni in 1847; no primary proof/link to project candidates.",
+    "next_action": "Identify precise archival reference and trace household continuity before any identity merge."
+  },
+  {
+    "id": "SR-C008-002",
+    "task_id": "T-CAU-003",
+    "exact_query": "National Archives of Georgia household records catalog; Ormasheni/Bogdanovka and years 1841, 1847, 1886",
+    "resource": "https://ais.archive.gov.ge/en/sakomlo-chanatserebis-katalogi-1",
+    "date": "2026-10-30",
+    "filters/time_span": "Catalog purpose and target village/year availability",
+    "result_count": null,
+    "result_refs": [
+      "S-C008-NGA-HOUSEHOLD-CATALOG"
+    ],
+    "negative_scope": "Official page returned HTTP 403; only indexed/general description was available; no exact village card seen.",
+    "outcome": "Catalog can identify household books by village/year but no target entry was obtained.",
+    "next_action": "Find authoritative available-book listing for villages and years; do not infer a holding from general catalog description."
+  },
+  {
+    "id": "SR-C008-003",
+    "task_id": "T-CAU-003",
+    "exact_query": "National Archives of Georgia metric books catalog; chronological span and Dyakov entries",
+    "resource": "https://archive.gov.ge/index.php/en/metrikuli-tsignebis-sadziebeli-1",
+    "date": "2026-10-30",
+    "filters/time_span": "General catalog range around 1818/1819–1921",
+    "result_count": null,
+    "result_refs": [
+      "S-C008-NGA-METRIC-CATALOG"
+    ],
+    "negative_scope": "Page returned HTTP 403; indexed snippets are not person-level search, and language versions differ by one year.",
+    "outcome": "No target entry found; metric series are incomplete and supplementary for the Doukhobor line.",
+    "next_action": "Prefer suitable household lists and verify any metric item and confession relevance."
+  },
+  {
+    "id": "SR-C008-004",
+    "task_id": "T-ROST-001",
+    "exact_query": "GARO virtual reading room: R-1390 / 1390; filters for fund 1390, archive GARO, descriptions, opisi 1/333 and 5/122",
+    "resource": "https://donarch.ru/virtual-reading-room/search/",
+    "date": "2026-10-30",
+    "filters/time_span": "R-1390; relevant 1920–1936",
+    "result_count": 0,
+    "result_refs": [
+      "S-C008-GARO-VRR"
+    ],
+    "negative_scope": "Only tested public search combinations; no card in the online interface does not prove that the file or family name is absent.",
+    "outcome": "No target item cards returned for tested R-1390 combinations.",
+    "next_action": "Inspect reading-room inventory index or official descriptions if accessible; no request sent."
+  },
+  {
+    "id": "SR-C008-005",
+    "task_id": "T-ROST-001",
+    "exact_query": "GARO NCSA index list: consolidated inventory index for R-1390, 1920–1936",
+    "resource": "https://donarch.ru/nsa/garo/",
+    "date": "2026-10-30",
+    "filters/time_span": "1920–1936",
+    "result_count": null,
+    "result_refs": [
+      "S-C008-GARO-NSA"
+    ],
+    "negative_scope": "Finding-aid description only, not inventory contents or file text.",
+    "outcome": "Official page lists consolidated R-1390 inventory index as held in the reading room, not as an online item card.",
+    "next_action": "Inspect that inventory if later publicly available."
+  },
+  {
+    "id": "SR-C008-006",
+    "task_id": "T-C008-ROST-1929-REMAINDER",
+    "exact_query": "Visually inspect pages 1–3 of 1929 Salsk Doukhobor family list; target surnames and provenance",
+    "resource": "https://doukhobor.ru/literatura/1929%20web2.pdf",
+    "date": "2026-10-30",
+    "filters/time_span": "PDF 31 pages; pages 1–3 only; section Novaya Zhizn",
+    "result_count": null,
+    "result_refs": [
+      "S-C008-DOUKHOBOR-LIST1929"
+    ],
+    "negative_scope": "Only 3 of 31 pages checked; no conclusion for pages 4–31 or whole list.",
+    "outcome": "No target surname noticed in first three pages; provenance and archive reference unknown.",
+    "next_action": "Inspect remaining pages and seek source provenance; record precise page locators."
+  },
+  {
+    "id": "SR-C008-007",
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "exact_query": "Official Russian Archives guide: Samara fonds 174 (peasant affairs) and 388 (survey offices)",
+    "resource": "https://guides.rusarchives.ru/",
+    "date": "2026-10-30",
+    "filters/time_span": "Collection-level fund context",
+    "result_count": null,
+    "result_refs": [
+      "S-C008-RUSARCHIVES-F174",
+      "S-C008-RUSARCHIVES-F388"
+    ],
+    "negative_scope": "Fund-level guide only; does not verify exact cases 174/1/2660 or 388/2/33, names, roles, pages or kinship.",
+    "outcome": "Official guides support fonds and broad document-category plausibility, not the forum case-level leads.",
+    "next_action": "Find official inventory/item cards or images; transcribe exact page and context before use."
+  },
+  {
+    "id": "SR-C009-001",
+    "task_id": "T-C009-VISUAL-RECHECK-B1895",
+    "exact_query": "Визуально проверить рукописный лист 8, мужскую запись №23, ОГАОО 389/1/795, скан 9; сравнить с транскрипцией",
+    "resource": "https://ya.ru/archive/catalog/6a0a53cf-1747-4b73-a589-370329276297/9",
+    "date": "2026-10-30",
+    "filters/time_span": "1895, часть о рождениях, мужская запись 23; визуальный просмотр всего разворота и увеличенного фрагмента",
+    "result_count": null,
+    "result_refs": [
+      "S-C003-B1895"
+    ],
+    "negative_scope": "Только один скан и одна запись; OCR был виден до визуального чтения, поэтому это не слепая независимая проверка и не доказательство тождества людей в разных актах.",
+    "outcome": "На изображении читаются Михаил, рождение/крещение 7 ноября, Пётр Прохоров Баркалов и законная жена Елена Федорова; ключевые поля совпали с имеющейся транскрипцией.",
+    "next_action": "Искать другие записи для разрешения брачно-семейного конфликта 1893–1895 гг.; ID между актами не сливать."
+  },
+  {
+    "id": "SR-C010-001",
+    "task_id": "T-C010-PETR-WITNESS-ID",
+    "exact_query": "Визуально прочитать брачную запись №7 от 6 ноября 1895 года, скан 14",
+    "resource": "https://ya.ru/archive/catalog/6a0a53cf-1747-4b73-a589-370329276297/14",
+    "date": "2026-10-30",
+    "filters/time_span": "ОГАОО 389/1/795; 1895, часть о браках; один скан и одна запись",
+    "result_count": null,
+    "result_refs": [
+      "S-C010-M1895-WITNESSES"
+    ],
+    "negative_scope": "OCR был виден в интерфейсе; роли свидетелей прочитаны визуально, независимая слепая проверка не выполнена.",
+    "outcome": "Владимир Васильев и Пётр Прохоров Баркаловы указаны свидетелями со стороны жениха; запись датирована 06.11.1895.",
+    "next_action": "Сопоставить Петра со взрослым Петром Прохоровым из записи о рождении следующего дня без объединения актовых лиц."
+  },
+  {
+    "id": "SR-C010-002",
+    "task_id": "T-C010-VLADIMIR-1895-1900-ID",
+    "exact_query": "Визуально прочитать первую запись о рождении на скане 6 за 1900 год",
+    "resource": "https://ya.ru/archive/catalog/c4e646b3-a103-46dd-8a76-e2459525efe1/6",
+    "date": "2026-10-30",
+    "filters/time_span": "ОГАОО 389/1/972; книга 1900 года, часть о рождениях; первая видимая запись",
+    "result_count": null,
+    "result_refs": [
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "negative_scope": "OCR был виден в интерфейсе; прочитан один скан. Владимир из этой записи не слит со свидетелем 1895 года.",
+    "outcome": "Александра: рождение 6 марта, крещение 9 марта; отец — крестьянин Дмитриевки Владимир Васильев Баркалов, законная жена Ольга Иванова.",
+    "next_action": "Проверить другие индексированные упоминания и искать возраст/семью в независимой записи."
+  },
+  {
+    "id": "SR-C010-003",
+    "task_id": "T-C010-VLADIMIR-1895-1900-ID",
+    "exact_query": "Владимир Васильев Баркалов",
+    "resource": "https://ya.ru/archive/search",
+    "date": "2026-10-30",
+    "filters/time_span": "Точный запрос в авторизованном Яндекс Поиске по архивам; выдача показала 52 результата; подробно проверена только первая страница результатов",
+    "result_count": 52,
+    "result_refs": [
+      "S-C010-M1895-WITNESSES",
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "negative_scope": "Не просмотрены все результаты. Упоминания в других годах и книгах остались индексными, не визуально проверенными; выдача не доказывает ни наличие, ни отсутствие родства.",
+    "outcome": "Среди первых результатов есть сканы 1895 и 1900, а также индексированные записи 1883, 1887, 1891, 1892 и 1894 годов; из последних в этом цикле оригиналы не открывались.",
+    "next_action": "Выбрать по одному раннему точному попаданию и проверить изображение, место, роль и возможные семейные детали."
+  },
+  {
+    "id": "SR-C011-001",
+    "task_id": "T-C004-INDEPENDENT-DEATH",
+    "exact_query": "Повторно визуально прочитать мужскую запись о смерти №17, ОГАОО 389/1/854, скан 116",
+    "resource": "https://ya.ru/archive/catalog/f5a43f77-e7b2-48bb-b08e-372f1b5bfd3c/116",
+    "date": "2026-10-30",
+    "filters/time_span": "1896, часть III об умерших; внешняя пагинация 113, внутренняя 34; одна запись",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-DEATH1896"
+    ],
+    "negative_scope": "OCR был виден во время повторного чтения. Проверку выполнил тот же оркестратор; она не является независимым аудитом. Мать не названа.",
+    "outcome": "На изображении читаются смерть 2 мая, погребение 3 мая, Михаил — сын Петра Прохорова Баркалова из Дмитриевки, возраст 8 месяцев, причина «отъ младенскаго». Содержание совпало с транскрипцией; идентичность умершего с ребёнком 1895 года не доказана.",
+    "next_action": "Получить отдельное независимое чтение и искать дополнительные акты для объяснения возрастного расхождения."
+  },
+  {
+    "id": "SR-C011-002",
+    "task_id": "T-C004-INDEPENDENT-DEATH",
+    "exact_query": "Независимо перепроверить изображения трёх метрических записей циклов 010–011",
+    "resource": "https://ya.ru/archive/catalog/f5a43f77-e7b2-48bb-b08e-372f1b5bfd3c/116",
+    "date": "2026-10-30",
+    "filters/time_span": "ОГАОО 389/1/795 скан14; 389/1/972 скан6; 389/1/854 скан116; прицельный визуальный аудит",
+    "result_count": null,
+    "result_refs": [
+      "S-C010-M1895-WITNESSES",
+      "S-C010-B1900-VLADIMIR",
+      "S-C004-DEATH1896"
+    ],
+    "negative_scope": "OCR/текстовый слой использован только для сверки после отдельного чтения изображений; это подтверждает содержание записей, но не тождество людей между актами.",
+    "outcome": "T-AUD-C010-C011 подтвердил имена, роли и ключевые даты всех трёх изображений; подтвердил возраст 8 месяцев в записи смерти. Совпадающие свидетели/отцы и ребёнок смерти/рождения оставлены отдельными актовыми персонами.",
+    "next_action": "Идентификационные вопросы остаются открыты в T-C010-PETR-WITNESS-ID, T-C010-VLADIMIR-1895-1900-ID и T-C003-EARLY-DEATH."
+  }
+]

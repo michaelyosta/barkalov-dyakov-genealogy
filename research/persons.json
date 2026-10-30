@@ -1,0 +1,899 @@
+[
+  {
+    "id": "P-BARK-001",
+    "aliases": [
+      "@I1@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 18,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-002",
+    "aliases": [
+      "@I2@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 45,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-003",
+    "aliases": [
+      "@I3@"
+    ],
+    "name": "Михаил Петрович /Баркалов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 60,
+    "kinship_to_client": "not_established",
+    "note": "Архивный кандидат; не отождествлять с одноимённым родителем из семейной памяти."
+  },
+  {
+    "id": "P-BARK-004A",
+    "aliases": [
+      "@I4@"
+    ],
+    "name": "Антонида (Антонина) Григорьевна /Баркалова/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 92,
+    "kinship_to_client": "not_established",
+    "note": "Архивный кандидат; не отождествлять с одноимённым родителем из семейной памяти."
+  },
+  {
+    "id": "P-BARK-005",
+    "aliases": [
+      "@I5@"
+    ],
+    "name": "Сергей Петрович /Баркалов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 117,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-006",
+    "aliases": [
+      "@I6@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 137,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-007",
+    "aliases": [
+      "@I7@"
+    ],
+    "name": "Пётр /Баркалов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 147,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-GRIGORY-LEGACY",
+    "aliases": [
+      "@I8@"
+    ],
+    "name": "Григорий /Неизвестный (отец Антониды Баркаловой)/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 157,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-001",
+    "aliases": [
+      "@I9@"
+    ],
+    "name": "Константин /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 166,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-001A",
+    "aliases": [
+      "@I10@"
+    ],
+    "name": "Мария Петровна /Дементьева/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 187,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-001B",
+    "aliases": [
+      "@I11@"
+    ],
+    "name": "Антонина /Дементьева/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 199,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-002",
+    "aliases": [
+      "@I12@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 211,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-003",
+    "aliases": [
+      "@I13@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 228,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-004",
+    "aliases": [
+      "@I14@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 244,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-001",
+    "aliases": [
+      "@I15@"
+    ],
+    "name": "Николай /Абросимов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 258,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-002",
+    "aliases": [
+      "@I16@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 272,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-005",
+    "aliases": [
+      "@I17@"
+    ],
+    "name": "Александр Константинович /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 296,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-004",
+    "aliases": [
+      "@I18@"
+    ],
+    "name": "Пётр /Дементьев/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 311,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-002",
+    "aliases": [
+      "@I19@"
+    ],
+    "name": "[Личность скрыта: жизненный статус не установлен]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 322,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-009",
+    "aliases": [
+      "@I20@"
+    ],
+    "name": "Михаил /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 339,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-008",
+    "aliases": [
+      "@I21@"
+    ],
+    "name": "Иван Михайлович /Дьяков/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 350,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-004",
+    "aliases": [
+      "@I22@"
+    ],
+    "name": "Абросим Петрович /Абросимов/",
+    "privacy": "historical_candidate",
+    "life_status": "unverified",
+    "origin": "legacy_gedcom",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-GED"
+    ],
+    "legacy_line": 369,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-004B",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 180,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-008",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 184,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-006",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 192,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DYAK-007",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 193,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-004",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 197,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-005",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 198,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-ABRO-003",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 201,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-DEME-003",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 203,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-001",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 204,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-002",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 205,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-003",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 206,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-HIST-005",
+    "aliases": [],
+    "name": "[Запись прежней таблицы; персональные сведения ожидают проверки]",
+    "privacy": "redacted",
+    "life_status": "unverified",
+    "origin": "legacy_master_table",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-LEGACY-MASTER"
+    ],
+    "legacy_line": 208,
+    "kinship_to_client": "not_established"
+  },
+  {
+    "id": "P-BARK-003-MEM",
+    "name": "[Родитель из семейной памяти]",
+    "aliases": [],
+    "privacy": "redacted",
+    "life_status": "unknown",
+    "origin": "family_memory",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "kinship_to_client": "reported_not_documented"
+  },
+  {
+    "id": "P-BARK-004-MEM",
+    "name": "[Родитель из семейной памяти]",
+    "aliases": [],
+    "privacy": "redacted",
+    "life_status": "unknown",
+    "origin": "family_memory",
+    "status": "hypothesis",
+    "source_ids": [
+      "S-MEM-20261030"
+    ],
+    "kinship_to_client": "reported_not_documented"
+  },
+  {
+    "id": "P-HIST-1853-ABROSIM",
+    "name": "Абросим Петрович Абросимов",
+    "aliases": [],
+    "life_status": "historical",
+    "privacy": "historical_candidate",
+    "origin": "published_translation_1853",
+    "status": "supported",
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное историческое хозяйство; не объединять автоматически с одноимёнными фигурами1873г."
+  },
+  {
+    "id": "P-HIST-1853-PETR",
+    "name": "Пётр [сын Абросима в записи1853]",
+    "aliases": [],
+    "life_status": "historical",
+    "privacy": "historical_candidate",
+    "origin": "published_translation_1853",
+    "status": "supported",
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное историческое хозяйство; не объединять автоматически с одноимёнными фигурами1873г."
+  },
+  {
+    "id": "P-HIST-1853-FYODOR",
+    "name": "Фёдор [сын Абросима в записи1853]",
+    "aliases": [],
+    "life_status": "historical",
+    "privacy": "historical_candidate",
+    "origin": "published_translation_1853",
+    "status": "supported",
+    "source_ids": [
+      "S-CAU-1853"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное историческое хозяйство; не объединять автоматически с одноимёнными фигурами1873г."
+  },
+  {
+    "id": "P-REC-1942-SPOUSE",
+    "name": "Антонина Прокофьевна [запись в донесении1942г.]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "unknown",
+    "status": "supported",
+    "origin": "literal_document_inscription",
+    "source_ids": [
+      "S-MIL-001"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Идентификатор записи о человеке, а не доказанное тождество с кандидатами прежней сводки."
+  },
+  {
+    "id": "P-REC-1936-MIKHAIL",
+    "name": "Михаил Петрович Баркалов [репрессионная индексная запись]",
+    "aliases": [
+      "CAND-T-MIL-003-REP-01"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "unknown",
+    "status": "supported",
+    "origin": "separate_index_record",
+    "source_ids": [
+      "S-C002-REP-COPY"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Не объединён с военной записьюP-BARK-003 или отцом из семейной памяти."
+  },
+  {
+    "id": "P-MET-1899-SERGEY",
+    "name": "Сергий [метрическая запись 1899]",
+    "aliases": [
+      "Сергій"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1899-49"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отчество Петрович выводится из записи отца; не отождествлён с военным P-BARK-005."
+  },
+  {
+    "id": "P-MET-1904-MIKHAIL",
+    "name": "Михаил [метрическая запись 1904]",
+    "aliases": [
+      "Михаилъ"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1904-17"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Не отождествлён с военным P-BARK-003 или репрессионным P-REC-1936-MIKHAIL."
+  },
+  {
+    "id": "P-MET-PETR-PROKHOROV",
+    "name": "Пётр Прохоров Баркалов / Боркалов [метрическая пара]",
+    "aliases": [
+      "Петръ Прохоровъ Баркаловъ",
+      "Петр Прохоров Боркалов"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-C002-MET-1904-17"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Группировка двух записей как одной родительской пары — supported, косвенный вывод. Дед Прохор не создан по одному отчеству."
+  },
+  {
+    "id": "P-MET-EVGENIA-FEODOROVA",
+    "name": "Евгения Феодорова [метрическая пара]",
+    "aliases": [
+      "Евгенія Ѳеодорова"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "metric_record_entity",
+    "source_ids": [
+      "S-C002-MET-1899-49",
+      "S-C002-MET-1904-17"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Девичья фамилия неизвестна. Группировка двух материнских записей — supported, косвенный вывод."
+  },
+  {
+    "id": "P-MET-1895-MIKHAIL",
+    "name": "Михаил [метрическая запись 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Рождение 1895 года; не объединён с Михаилом 1904 или военным кандидатом."
+  },
+  {
+    "id": "P-MET-1895-PETR",
+    "name": "Пётр Прохоров Баркалов [отец в акте 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельный актовый взрослый, тождество с поздним Петром не доказано."
+  },
+  {
+    "id": "P-MET-1895-ELENA",
+    "name": "Елена Федорова [мать в акте 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Федорова — форма отчества; девичья фамилия неизвестна. Не исправлять имя на Евгению."
+  },
+  {
+    "id": "P-MET-1894-NATALIA",
+    "name": "Наталия [актовая запись 1894]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Запись рождения №38 за 1894 год; основные поля независимо сверены по скану. Связи с актовыми родителями 1895 года и поздними лицами не предполагаются автоматически."
+  },
+  {
+    "id": "P-MAR-1893-PETR",
+    "name": "Пётр Прохоров Баркалов [жених 1893]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Наблюдаемая запись о браке №73 за 1893 г.; тождество с отцами в 1894/1895 и 1899/1904 не доказано."
+  },
+  {
+    "id": "P-MAR-1893-EVGENIA",
+    "name": "Евгения [невеста 1893]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Наблюдаемая запись о браке №73; указана дочерью Феодора Карпова Мяскова. Не отождествлена с Еленой 1894/1895 или матерью 1899/1904."
+  },
+  {
+    "id": "P-MAR-1893-FEODOR",
+    "name": "Феодор Карпов Мясков [отец невесты 1893]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Назван отцом невесты в записи о браке №73; предполагаемого отца Карпа по отчеству не создаём."
+  },
+  {
+    "id": "P-REC-1896-MIKHAIL-DEATH",
+    "name": "Михаил [запись о смерти 1896]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased",
+    "status": "supported",
+    "origin": "separate_source_record_entity",
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельная актовая запись. Не объединена с ребёнком 1895 или Михаилом 1904; возраст 8 месяцев сохранён."
+  },
+  {
+    "id": "P-CAT-1921-SERGEY",
+    "name": "Сергей Петрович Баркалов [студенческая каталожная запись 1921]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "unknown",
+    "status": "supported",
+    "origin": "separate_source_record_entity",
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Год/место рождения неизвестны. Дело не прочитано, номер не установлен. Не объединён с военным или метрическим Сергеем."
+  },
+  {
+    "id": "P-MET-1894-PETR",
+    "name": "Пётр Прохоров Баркалов [отец в акте 1894]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: отец Наталии в записи №38 1894 года; тождество с Петром в акте 1895, браке 1893 или поздней паре не доказано."
+  },
+  {
+    "id": "P-MET-1894-ELENA",
+    "name": "Елена Феодорова [мать в акте 1894]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: «законная жена его Елена Феодорова» в записи №38 1894 года. Не отождествлена с Еленой из записи 1895 или с Евгенией в иных актах."
+  },
+  {
+    "id": "P-MAR-1895-PETR-WITNESS",
+    "name": "Пётр Прохоров Баркалов [свидетель брака 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-M1895-WITNESSES"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: свидетель со стороны жениха 06.11.1895. Не объединён с P-MET-1895-PETR, отцом Михаила в записи 07.11.1895."
+  },
+  {
+    "id": "P-MAR-1895-VLADIMIR-WITNESS",
+    "name": "Владимир Васильев Баркалов [свидетель брака 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-M1895-WITNESSES"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: свидетель со стороны жениха. Не объединён с Владимиром Васильевым Баркаловым из записи 1900 года."
+  },
+  {
+    "id": "P-MET-1900-VLADIMIR",
+    "name": "Владимир Васильев Баркалов [отец в записи 1900]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: отец Александры в записи о рождении 06.03.1900; не объединён со свидетелем 1895 года."
+  },
+  {
+    "id": "P-MET-1900-ALEXANDRA",
+    "name": "Александра [запись о рождении 1900]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Ребёнок в записи ОГАОО 389/1/972, скан 6. Родительская формула зафиксирована в источнике; межпоколенная связь с заказчиком не установлена."
+  }
+]

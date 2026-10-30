@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30",
+  "errors": [],
+  "counts": {
+    "persons": 60,
+    "claims": 219,
+    "relationships": 51,
+    "events": 68,
+    "sources": 59,
+    "tasks": 38,
+    "institutions": 9,
+    "archive_leads": 31
+  },
+  "verified_family_edges": 0,
+  "scope": "Full Node.js mirror of research/scripts/validate.py checks: registry links, statuses, export constraints, transcription/local source hashes, and GEDCOM structure; not proof of historical truth."
+}

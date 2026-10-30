@@ -1,0 +1,642 @@
+[
+  {
+    "task_id": "T-MIL-001",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-005"
+    ],
+    "precise_question": "Что действительно читается в военных изображениях?",
+    "priority": 1,
+    "suggested_source": "S-MIL-001/002/003",
+    "owner": "military_scan",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Анкеты призыва и семейные документы",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-AUD-001",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-004A"
+    ],
+    "precise_question": "Какие ключевые связи и формулы подтверждения не обеспечены источниками?",
+    "priority": 1,
+    "suggested_source": "Локальный корпус",
+    "owner": "critical_audit",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Повторный аудит каждого нового ребра",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-001",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Дают ли указатели и свод1886 поколенные мосты?",
+    "priority": 2,
+    "suggested_source": "S-CAU-1853/1873/1886-CAT",
+    "owner": "caucasus_sources",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Смотреть полные именные документы, не статистику",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-ANT-001",
+    "linked_people": [
+      "P-BARK-004A"
+    ],
+    "precise_question": "Какая дата указана в карточке Антониды и какой хранитель дела?",
+    "priority": 1,
+    "suggested_source": "S-ANT-001; S-KNB-001",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Отдельно получить дело, RQ-001",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Какие дела по детдомам цитируются с проверяемыми шифрами?",
+    "priority": 1,
+    "suggested_source": "S-CHILD-2024; S-KUZ-001",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Поиск описей областного и районного архивов",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-002",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Где сейчас книга воспитанников1936г., описанная Кузнецовой?",
+    "priority": 1,
+    "suggested_source": "Описи архивов; правопреемник Компанейского детдома",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Кузнецова (2006) цитирует справку об упомянутой книге движения воспитанников Компанейского детдома за 1948–1953 гг. (в цитате ф.469, оп.2а, ед.хр.14, печатное/OCR-чтение «Фонд 3 469»); официальный шифр не проверен. Та же статья упоминает список 1936 г. и справку за 1936–1955 гг. без проверяемого шифра. Продолжить поиск официальной описи за 1930–1941 гг.; не приписывать детям конкретную книгу без оригинала/описи.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
+  },
+  {
+    "task_id": "T-CHILD-003",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Что содержат ф.469 оп.2 д.88/320 и ф.132 оп.1 д.6?",
+    "priority": 1,
+    "suggested_source": "Каталоги ГАКО и ГА Каркаралинского района",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "В открытой статье 2023 г. ф.469 ГАКО описан как фонд Облоно 1942–1967 гг.; д.335 и ф.1188/1/45 остаются вторичными ссылками без сверенных описей/образов. Газетная цитата указывает на книгу движения 1948–1953 гг., возможно ф.469/2а/14, но шифр требует проверки официальной описью. Фонд 469 не закрывает 1936–1941: искать отдельные фонды за ранний период. Отчёт T-KRG-CATALOG-C007: официальный сайт ГАКО показывает раздел путеводителей без поединичных записей; публичная карточка ЕЭАД по д.14 и список за 1936 год не обнаружены. Наличие дел этим не опровергнуто.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
+  },
+  {
+    "task_id": "T-ANT-002",
+    "linked_people": [
+      "P-BARK-004A",
+      "P-BARK-004-MEM"
+    ],
+    "precise_question": "Устанавливает ли дело Антониды мужа/детей и дату исполнения?",
+    "priority": 1,
+    "suggested_source": "Архивно-следственное и реабилитационное дело",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "needs_human",
+    "blocker": "Отправка обращения/передача личных документов требуют отдельного разрешения; бесплатные каталоги искать можно",
+    "follow_up": "Публичная опись/шифр дела не найдены. Бесплатный указатель «Дети Карлага» проверен без совпадения по указанным вариантам; точное дело не опубликовано. Официальный маршрут подготовки запроса сверить по S-C005-KNB-ROUTE и S-C005-KRG-ARCHIVES. Отправка RQ-001 и передача личных документов требуют отдельного разрешения.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-KIN-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Какие родители записаны в актовых записях целевых детей?",
+    "priority": 1,
+    "suggested_source": "ЗАГС/РАГС, школьные или детдомовские анкеты",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Установить каталог/доступ; персональные сведения хранить частно",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MIL-002",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-005"
+    ],
+    "precise_question": "Есть ли общие родители или явное братство Михаила и Сергея?",
+    "priority": 2,
+    "suggested_source": "Метрические книги Бузулук/Дмитриевка; личные офицерские дела",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Сопоставить метрических детей со взрослыми кандидатами; сохранить расхождение города Бузулук и Димитриевки.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
+  },
+  {
+    "task_id": "T-MIL-003",
+    "linked_people": [
+      "P-BARK-003"
+    ],
+    "precise_question": "Один ли человек в репрессионной карточке1936 и военных документах1942?",
+    "priority": 1,
+    "suggested_source": "КП Коми, лагерная анкета, призывная карточка",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Сверить репрессионную запись с первичной анкетой/точными местом и семьёй; совпадениеФИО недостаточно.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
+  },
+  {
+    "task_id": "T-MARR-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-ABRO-002"
+    ],
+    "precise_question": "Есть ли первичный акт брака1959?",
+    "priority": 2,
+    "suggested_source": "Актовая записьРАГС; именованное семейное свидетельство",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Составить отдельный частный поисковый запрос без утверждения о согласовании",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-002",
+    "linked_people": [
+      "P-HIST-004",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Какие дворыАбросимовых в полном переводе1853 и списках1873?",
+    "priority": 2,
+    "suggested_source": "Полные таблицы и оригиналы; Национальный архив Грузии",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Уточнить состав буквенных групп1873 и искать русские оригиналы.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "002",
+    "last_cycle_result": "inconclusive_for_target_records"
+  },
+  {
+    "task_id": "T-CAU-003",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Где первичные именные семейные листы1886 нужных селений?",
+    "priority": 2,
+    "suggested_source": "Национальные архивыГрузии/Азербайджана",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": "Официальный онлайн-каталог вернул HTTP 403; статья не даёт точный архивный шифр списка 1841 г.",
+    "follow_up": "Определить наличные годы подворных книг Ормашени/Богдановки; отдельно установить первичный шифр списка Мелитопольского уезда 1841 г. у Kalmakoff. Не приписывать список 1853 г. (Грузия, ф.254/2/2091) к документу 1841 г.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "008",
+    "last_cycle_result": "official_household_catalog_description_only; target_villages_not_found; 1841_Dyakov_clue_secondary"
+  },
+  {
+    "task_id": "T-ROST-001",
+    "linked_people": [
+      "P-ABRO-002",
+      "P-DYAK-002",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Какая точная деревня и родители в записи рождения исходного поколения?",
+    "priority": 1,
+    "suggested_source": "Акт рождения, посемейные/переселенческие карточки",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": "Сводный указатель описей R-1390 указан как доступный в читальном зале; происхождение списка 1929 г. неизвестно; акт 1932 г. онлайн не найден.",
+    "follow_up": "Установить происхождение списка 1929 г. и просмотреть оставшиеся 28 страниц; получить официальный заголовок/доступ к R-1390/1/333 и R-1390/5/122; затем найти акт рождения 29.04.1932. Не переносить общинную миграцию на семью.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "008",
+    "last_cycle_result": "official_GARO_search_no_item_cards; 1929_list_partial_3_of_31; no_identity_or_relationship"
+  },
+  {
+    "task_id": "T-DEME-001",
+    "linked_people": [
+      "P-DEME-001A",
+      "P-DEME-001B"
+    ],
+    "precise_question": "Мария и Антонина — варианты одного воспоминания или разные персоны?",
+    "priority": 2,
+    "suggested_source": "Оригинал семейного интервью; посемейный документ",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Не придумывать второй брак или девять документальных братьев",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-PRIV-001",
+    "linked_people": [
+      "P-BARK-001",
+      "P-ABRO-002"
+    ],
+    "precise_question": "Как безопасно обращаться с прежними данными потенциально живых людей?",
+    "priority": 1,
+    "suggested_source": "Старый публичный срез и правила новых экспортов",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Новые публикации обезличивать; отдельное решение по старой публичной истории без её переписывания",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-EXPORT-001",
+    "linked_people": [],
+    "precise_question": "Импортируется ли будущий непустой проверенныйGEDCOM?",
+    "priority": 3,
+    "suggested_source": "Gramps или другое доступное генеалогическое ПО",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Сначала документально подтвердить исходный мост; импорт пока не проверен",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CHILD-004",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Были ли переданы книгиКомпанейского детдома центру наМагнитогорской3?",
+    "priority": 1,
+    "suggested_source": "S-C002-CENTER-OFFICIAL;S-C002-TSAFT-2012",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Найти актперевода/передачи архива или справочныйкаталог, не выводить хранение поадресу.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CARD-1999",
+    "linked_people": [
+      "P-BARK-001",
+      "P-BARK-002"
+    ],
+    "precise_question": "Где и в каком составе сохранилась картотекаДетиКарлага?",
+    "priority": 1,
+    "suggested_source": "S-C002-GORECKY-1999",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Публичная база e-memory «Дети Карлага» доступна и производна от данных Центра правовой статистики Карагандинской области; не тождественна без доказательства картотеке Горецкого 1999 года. Целевых совпадений по проверенным именам нет. Хранитель/полнота картотеки 1999 г. не установлены; проект RQ-003 не отправлять без отдельного разрешения.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-METRIC-SCANS-C002",
+    "linked_people": [
+      "P-BARK-003",
+      "P-BARK-005"
+    ],
+    "precise_question": "Можно ли прочитать рождение кандидатов в найденных метрических книгах?",
+    "priority": 1,
+    "suggested_source": "S-C002-CAT-935;S-C002-CAT-1463;S-C002-YA-ACCESS",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Этап доступа и чтения выполнен. Идентификации взрослых вынесены в T-MET-ID-SERGEY / MIKHAIL; общий поиск не исчерпан.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle_result": "Ключевые записи 1899 №49 и 1904 №17 прочитаны после входа пользователя и независимо проверены."
+  },
+  {
+    "task_id": "T-AUD-C002",
+    "linked_people": [],
+    "precise_question": "Проверены ли новые каталожныеориентиры и ограничения?",
+    "priority": 1,
+    "suggested_source": "agent_reports/T-AUD-C002.md",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Оригиналы метрик независимо прочитаны. Сверить интеграцию supported-связей и запрет отождествления со взрослыми без мостика.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-CAU-CATALOG-C002",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Найдены ли конкретные группы дел1873/1886?",
+    "priority": 2,
+    "suggested_source": "S-C002-GE-CAT1;S-C002-GE-CAT2",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Этап поискакаталога выполнен; содержание селенныхлистов не проверено, T-CAU-002/003 остаютсяopen.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-ID-SERGEY",
+    "linked_people": [
+      "P-MET-1899-SERGEY",
+      "P-BARK-005"
+    ],
+    "precise_question": "Совпадает ли метрический Сергий с военным Сергеем Петровичем 1899 г.?",
+    "priority": 1,
+    "suggested_source": "Военные анкеты, документы об образовании и семейные записи с точной датой/родителями",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Новый ориентир — личное дело студента в Р-7409/12, дата22.08.1921,8листов. Номер дела и идентичность не установлены; см.T-C004-CGA-STUDENT.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-ID-MIKHAIL",
+    "linked_people": [
+      "P-MET-1904-MIKHAIL",
+      "P-BARK-003",
+      "P-REC-1936-MIKHAIL"
+    ],
+    "precise_question": "Совпадает ли метрический Михаил с военным и репрессированным кандидатами?",
+    "priority": 1,
+    "suggested_source": "Военная или репрессионная анкета с точной датой, семьёй и местом рождения",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Проверить город Бузулук против села родителей Димитриевка; не выбирать удобное объяснение без документа.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-PARENTS-MARRIAGE",
+    "linked_people": [
+      "P-MET-PETR-PROKHOROV",
+      "P-MET-EVGENIA-FEODOROVA"
+    ],
+    "precise_question": "Когда венчались Пётр Прохоров Баркалов/Боркалов и Евгения Феодорова, каково её происхождение?",
+    "priority": 2,
+    "suggested_source": "Браки Дмитриевского прихода до сентября 1899 г.; приходские и посемейные списки",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "in_progress",
+    "blocker": null,
+    "follow_up": "Брак 24.10.1893 с Евгенией независимо прочитан; запись 1894 говорит о законной жене Елене, запись 1895 повторяет Елену. Межактные личности супругов не подтверждены; точный приход/место венчания неизвестны. Искать брачные обыски, смерти, посемейные списки и однофамильцев. C007: вторичный форумный рассказ указывает на Троицкий собор Бузулука до 1864 г., затем церковь Царской Александровки, а церковь Дмитриевки — с 1894 г.; это расширяет кандидатов приходов, но не определяет место брака 1893 г. Сверять книги обоих доступных приходов. C010: Пётр Прохоров Баркалов визуально прочитан свидетелем в браке 06.11.1895, за день до рождения Михаила, где отец носит те же ФИО; это новая гипотеза тождества актовых лиц, а не разрешение конфликта Евгения/Елена. Сверять книги и семейные списки без слияния.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-MET-SIBLINGS",
+    "linked_people": [
+      "P-MET-1899-SERGEY",
+      "P-MET-1904-MIKHAIL"
+    ],
+    "precise_question": "Какие ещё дети прямо названы у этой родительской пары?",
+    "priority": 2,
+    "suggested_source": "Метрические рождения и смерти Димитриевки, варианты Баркалов/Боркалов и имена родителей",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "in_progress",
+    "blocker": null,
+    "follow_up": "Наталия 1894 и Михаил 1895 — отдельные актовые дети; независимое чтение подтверждает одинаковые имена родителей в двух записях, но родители заведены отдельными ID по каждому акту. Сходство делает братство рабочей гипотезой; не создавать sibling_of между ними и тем более с детьми 1899/1904, пока не установлено тождество родителей.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C003-INDEPENDENT-READ",
+    "linked_people": [
+      "P-MET-1894-NATALIA",
+      "P-MAR-1893-PETR",
+      "P-MAR-1893-EVGENIA",
+      "P-MAR-1893-FEODOR"
+    ],
+    "precise_question": "Подтверждаются ли по независимому чтению акты 1894 №38 и 1893 №73?",
+    "priority": 1,
+    "suggested_source": "ОГАОО 389/1/753 скан 69; 389/1/726 скан 86",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Основные строки записи о браке 1893 №73 (д.726/скан86) и рождения 1894 №38 (д.753/скан69) визуально подтверждены независимым аудитором; OCR был автоматически показан в AX до чтения, что отмечено в отчётах. Первоначально переданный аудитору URL 6a0a…/69 вел в д.795 (1895), исправленный URL 8a6597bf-e880-4aa3-8401-d558fd39eff8/69 подтверждён как д.753/1894. Не объединять актовые лица между годами.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "linked_people": [
+      "P-MET-1895-PETR",
+      "P-MET-1895-ELENA",
+      "P-MET-PETR-PROKHOROV",
+      "P-MET-EVGENIA-FEODOROVA"
+    ],
+    "precise_question": "Один ли Пётр Прохоров Баркалов записан в браке с Евгенией в 1893 г. и как отец Наталии/Михаила с Еленой в 1894–1895 гг.; почему расходятся имена супруги?",
+    "priority": 1,
+    "suggested_source": "Брачные обыски, посемейные списки, другие рождения и смерти, возраст и происхождение супругов",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Новые независимо прочитанные акты усиливают вопрос: брак с Евгенией (обе стороны — первый брак, жениху 21) 24.10.1893; менее чем через 10 месяцев запись о рождении Наталии называет Петра из той же деревни и законную жену Елену; в 1895 г. запись снова называет Елену. Не объединять тёзок, не предполагать быстрый повторный брак или ошибку без дополнительных актов. Искать смерти/новые браки/посемейные документы и проверить состав мужчин с одинаковым ФИО. C009: оркестратор перечитал изображение 389/1/795 скан 9; ключевые поля совпали с транскрипцией, OCR был виден заранее. Продолжать поиск брачных/смертных и семейных записей без слияния актовых лиц.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "009",
+    "last_cycle_result": "visual_recheck_of_B1895_scan9_matches_transcription; 1893_versus_1894_1895_spouse_identity_unresolved"
+  },
+  {
+    "task_id": "T-C003-EARLY-DEATH",
+    "linked_people": [
+      "P-MET-1895-MIKHAIL",
+      "P-MET-1904-MIKHAIL"
+    ],
+    "precise_question": "Какова судьба Михаила 1895 года; есть ли запись о смерти до 1904?",
+    "priority": 2,
+    "suggested_source": "Дмитриевские смерти 1895–1904, варианты Баркалов/Боркалов и имя отца",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "in_progress",
+    "blocker": null,
+    "follow_up": "Независимый аудит T-AUD-C010-C011 подтвердил содержание акта смерти 1896 №17: Михаил, сын Петра Прохорова Баркалова, возраст 8 месяцев. Это конфликтует с возрастом около 5 месяцев 25 дней, если запись рождения 07.11.1895 относится к тому же ребёнку. Проверить рождение непосредственно и искать другие акты/одноимённых детей; тождество не принимать автоматически.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C004-CGA-STUDENT",
+    "linked_people": [
+      "P-CAT-1921-SERGEY",
+      "P-BARK-005",
+      "P-MET-1899-SERGEY"
+    ],
+    "precise_question": "Каков точный номер и содержание личного дела студента Сергея Петровича Баркалова, Р-7409/12?",
+    "priority": 1,
+    "suggested_source": "S-C004-CGA-STUDENT",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Отчёт T-LEN-STUDENT-C006 повторно подтвердил только поисково-индексированную строку официальной описи: позиция 10, дата документов 22.08.1921, 8 листов. Полный шифр карточки и первичное дело не открыты, сведения о семье отсутствуют; прямой URL тайм-аутит. Не считать строку 10 номером дела и не платить/отправлять запрос без отдельного разрешения. Отчёт T-LEN-INDEX-C007: повторно видна только официальная индексная строка (позиция 10, дата 22.08.1921, 8 листов); полный номер дела и первичная карточка не получены, прямой сайт тайм-аутит.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C004-INDEPENDENT-DEATH",
+    "linked_people": [
+      "P-REC-1896-MIKHAIL-DEATH",
+      "P-MET-1895-MIKHAIL"
+    ],
+    "precise_question": "Подтверждаются ли независимым изображением смерть 02.05.1896 и возраст 8 месяцев?",
+    "priority": 1,
+    "suggested_source": "S-C004-DEATH1896",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Независимый аудитор T-AUD-C010-C011 прочитал изображение скана 116 и подтвердил смерть 02.05.1896, погребение 03.05 и возраст 8 месяцев; OCR использован только для сверки. Проверка содержания акта завершена. Тождество умершего с ребёнком рождения 1895 не установлено и остаётся в T-C003-EARLY-DEATH из-за возраста около 6 месяцев.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "011",
+    "last_cycle_result": "independent_image_review_confirmed_death_date_and_age_only"
+  },
+  {
+    "task_id": "T-C007-DIMITRIEVKA-PRIMARY-LEADS",
+    "linked_people": [
+      "P-MAR-1893-PETR"
+    ],
+    "precise_question": "Можно ли подтвердить по первичным описям и делам ЦГАСО точные архивные ссылки и содержание вторичных указаний на Якова Баркалова (1844), Прохора Баркалова (1874–1888) и Петра Баркалова (1893–1898) в Дмитриевке Бузулукского уезда, и позволяют ли оригиналы установить личность жениха 1893 года без слияния кандидатов?",
+    "priority": 1,
+    "suggested_source": "S-C007-VGD-DIMITRIEVKA; официальные описи ЦГАСО и оригиналы ф.388/2/33, ф.174/1/2660, ф.32/7/3688",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": "Первичные дела не просмотрены; прямой официальный АИС-адрес из вторичного указателя недоступен текущему HTTP-клиенту.",
+    "follow_up": "Сначала найти официальные карточки описей/дел и проверить шифры, заголовки, листы и доступность образов; затем читать только оригиналы. Сверять каждое упоминание Баркалова по возрасту, отчеству, сословию, семье и месту. Форумные списки не превращать в отношения; не добавлять персон и не отождествлять Прохора с отцом Петра или Петра с женихом 1893 года без независимых доказательств.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C008-DYAKOV-1841-PRIMARY",
+    "linked_people": [
+      "P-DYAK-001",
+      "P-DYAK-008",
+      "P-DYAK-009"
+    ],
+    "precise_question": "Какой первичный семейный список Мелитопольского уезда 1841 г. цитирует Kalmakoff для хозяйства Никиты Филипповича Дьякова, где хранится оригинал, и есть ли идентифицирующая цепочка к проектным кандидатам в Ормашени/Башкичете?",
+    "priority": 1,
+    "suggested_source": "Официальные каталоги; S-C008-KALMAKOFF-2019 как вторичный ориентир",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": "В статье нет архивного шифра списка; архив/фонд не установлен.",
+    "follow_up": "Проверить сноски и библиографию статьи, авторитетные каталоги Украины/Грузии для 1841 г.; проследить только идентифицирующую цепочку, не объединять однофамильцев.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "008",
+    "last_cycle_result": "secondary_article_locates_1841_list_but_no_shelfmark_or_primary_image"
+  },
+  {
+    "task_id": "T-C008-ROST-1929-REMAINDER",
+    "linked_people": [
+      "P-ABRO-002",
+      "P-DYAK-002",
+      "P-ABRO-001"
+    ],
+    "precise_question": "Что содержат оставшиеся страницы 4–31 опубликованной копии посемейного списка духоборцев Сальского округа 1929 г., и можно ли установить происхождение копии/шифр?",
+    "priority": 2,
+    "suggested_source": "S-C008-DOUKHOBOR-LIST1929 и официальный указатель ГАРО",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": "Происхождение копии не указано в просмотренном начальном фрагменте; полный список не просмотрен.",
+    "follow_up": "Просмотреть оставшиеся страницы законным публичным способом; фиксировать точные страницы/транскрипции и искать provenance. Не делать отрицательного вывода по непроверенным листам.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "008",
+    "last_cycle_result": "first_3_of_31_reviewed_no_target_names_noted"
+  },
+  {
+    "task_id": "T-C009-VISUAL-RECHECK-B1895",
+    "linked_people": [
+      "P-MET-1895-MIKHAIL",
+      "P-MET-1895-PETR",
+      "P-MET-1895-ELENA"
+    ],
+    "precise_question": "Совпадают ли ключевые поля транскрипции S-C003-B1895 с изображением ОГАОО 389/1/795, скан 9?",
+    "priority": 1,
+    "suggested_source": "S-C003-B1895; авторизованный визуальный просмотр Яндекс Архива",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "verified",
+    "blocker": null,
+    "follow_up": "Повторное изображение совпадает с транскрипцией по записи №23, Михаилу, датам 07.11, Петру Прохорову Баркалову и законной жене Елене Федоровой; OCR был виден, слепого независимого чтения нет.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "009",
+    "last_cycle_result": "key_fields_match_existing_transcription; no_identity_merge"
+  },
+  {
+    "task_id": "T-C010-PETR-WITNESS-ID",
+    "linked_people": [
+      "P-MAR-1895-PETR-WITNESS",
+      "P-MET-1895-PETR",
+      "P-MET-1895-MIKHAIL"
+    ],
+    "precise_question": "Является ли Пётр Прохоров Баркалов, свидетель брака 06.11.1895, тем же человеком, что отец Михаила в записи 07.11.1895, и какие источники это подтвердят?",
+    "priority": 1,
+    "suggested_source": "Соседние брачные и метрические записи ОГАОО, смерти, посемейные списки Дмитриевки",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Два изображения дают одинаковые ФИО и Дмитриевский контекст в событиях с разницей в день. Это сильная поисковая зацепка, но нет независимой идентифицирующей детали; не сливать актовые ID. Независимый аудитор T-AUD-C010-C011 подтвердил прочтение исходных сканов; идентичность актовых лиц по-прежнему не установлена.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "010",
+    "last_cycle_result": "candidate_identity_only_no_merge"
+  },
+  {
+    "task_id": "T-C010-VLADIMIR-1895-1900-ID",
+    "linked_people": [
+      "P-MAR-1895-VLADIMIR-WITNESS",
+      "P-MET-1900-VLADIMIR",
+      "P-MET-1900-ALEXANDRA"
+    ],
+    "precise_question": "Тождественен ли свидетель Владимир Васильев Баркалов в браке 1895 года отцу Александры в записи 1900 года; что показывают другие записи Дмитриевки?",
+    "priority": 2,
+    "suggested_source": "Метрические книги и посемейные списки Дмитриевки, включая результаты Яндекс Архива по точному имени",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Точное имя и местный контекст повторяются в разных записях; пяти лет недостаточно для надёжного слияния. Точный поиск показал 52 индексированных результата, но визуально прочитан только скан 6/1900 из результатов этого запроса. Независимый аудитор T-AUD-C010-C011 подтвердил прочтение исходных сканов; идентичность актовых лиц по-прежнему не установлена.",
+    "checkpoint": "checkpoint.md",
+    "last_cycle": "010",
+    "last_cycle_result": "candidate_identity_only_no_merge"
+  }
+]
