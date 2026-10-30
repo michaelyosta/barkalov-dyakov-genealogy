@@ -77,7 +77,9 @@
     "published_address": null,
     "source_ids": [
       "S-C002-GE-CAT1",
-      "S-C002-GE-CAT2"
+      "S-C002-GE-CAT2",
+      "S-C008-NGA-HOUSEHOLD-CATALOG",
+      "S-C008-NGA-METRIC-CATALOG"
     ],
     "access_date": "2026-10-30",
     "status": "supported",
@@ -101,10 +103,25 @@
     "kind": "archive",
     "published_address": null,
     "source_ids": [
-      "S-C007-RUSARCHIVES-GUIDE"
+      "S-C007-RUSARCHIVES-GUIDE",
+      "S-C008-RUSARCHIVES-F174",
+      "S-C008-RUSARCHIVES-F388"
     ],
     "access_date": "2026-10-30",
     "status": "supported",
     "notes": "Официальный путеводитель подтверждает фондовый уровень и общий объём фонда 32; конкретные единицы хранения из форумного пересказа по описям архива не сверены."
+  },
+  {
+    "id": "A-GARO",
+    "name": "Государственный архив Ростовской области",
+    "kind": "archive",
+    "published_address": null,
+    "source_ids": [
+      "S-C008-GARO-VRR",
+      "S-C008-GARO-NSA"
+    ],
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "notes": "Официальный сайт подтверждает поисковый интерфейс и справочный аппарат фонда R-1390; конкретные дела онлайн не сверены, сводный указатель описей указан как доступный в читальном зале."
   }
 ]

@@ -688,7 +688,8 @@
     "title_as_described": "Описание казенной дачи деревни Дмитриевка; рядом опубликован список государственных крестьян, где назван Яков Баркалов",
     "date_as_described": "1844",
     "source_ids": [
-      "S-C007-VGD-DIMITRIEVKA"
+      "S-C007-VGD-DIMITRIEVKA",
+      "S-C008-RUSARCHIVES-F388"
     ],
     "source_locator": "сообщение форума, веб-строки 210–214",
     "access_date": "2026-10-30",
@@ -711,7 +712,8 @@
     "title_as_described": "Дело о землевладении государственных крестьян Дмитриевки; вторичный список на стр.13 включает Прохора Баркалова",
     "date_as_described": "1874–1888",
     "source_ids": [
-      "S-C007-VGD-DIMITRIEVKA"
+      "S-C007-VGD-DIMITRIEVKA",
+      "S-C008-RUSARCHIVES-F174"
     ],
     "source_locator": "сообщение форума, веб-строки 215–221",
     "access_date": "2026-10-30",
@@ -734,7 +736,8 @@
     "title_as_described": "Дело о постройке церкви и образовании самостоятельного прихода в Дмитриевке; вторичный список содержит имя Пётр Баркалов",
     "date_as_described": "1893–1898",
     "source_ids": [
-      "S-C007-VGD-DIMITRIEVKA"
+      "S-C007-VGD-DIMITRIEVKA",
+      "S-C007-RUSARCHIVES-GUIDE"
     ],
     "source_locator": "сообщение форума, веб-строки 223–235",
     "access_date": "2026-10-30",
