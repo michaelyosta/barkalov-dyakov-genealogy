@@ -6,11 +6,11 @@
     "claims": 206,
     "relationships": 41,
     "events": 65,
-    "sources": 40,
+    "sources": 43,
     "tasks": 32,
     "institutions": 7,
     "archive_leads": 28
   },
   "verified_family_edges": 0,
-  "scope": "JSON links, status/export constraints, source hashes, basic GEDCOM structure. Not a genealogical software import or proof of historical truth."
+  "scope": "Equivalent Node.js execution of research/scripts/validate.py checks: JSON links, status/export constraints, source hashes, basic GEDCOM structure. Python interpreter unavailable; not a genealogical software import or proof of historical truth."
 }
