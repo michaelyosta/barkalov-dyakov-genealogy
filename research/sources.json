@@ -773,5 +773,51 @@
         "observation": "Титульная страница начального раздела: причту Троицкого собора г. Бузулука, 1893. Не проверена непрерывность этого раздела до скана 86; место совершения венчания пока не установлено."
       }
     ]
+  },
+  {
+    "id": "S-C004-DEATH1896",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": null,
+    "fond": "389",
+    "opis": "1",
+    "delo": "854",
+    "list_or_frame": "внешняя 113, внутренняя 34; мужская №17; скан 116/124",
+    "record_id": null,
+    "canonical_url": "https://ya.ru/archive/catalog/f5a43f77-e7b2-48bb-b08e-372f1b5bfd3c/116",
+    "access_date": "2026-10-30",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "Read-only research; underlying image/file not republished.",
+    "access_result": "image_visually_read_by_orchestrator",
+    "transcription_path": "transcriptions/OGAO_389_1_854_death17.md",
+    "transcription_hash": "f6ebaa4ac524aed9536ed06231e09857d3ea2ea1d1a71d3f00bacb423baac6d3",
+    "hash_scope": "UTF-8 research transcription/note with LF; not source page or image hash",
+    "reviewer": null,
+    "independent_image_review": "pending",
+    "notes": "Изображение прочитано только оркестратором. Возраст 8 месяцев конфликтует с ноябрьским рождением кандидата. Мать не названа."
+  },
+  {
+    "id": "S-C004-CGA-STUDENT",
+    "type": "search_indexed_official_catalogue",
+    "archive": "ЦГА СПб",
+    "collection": null,
+    "fond": "Р-7409",
+    "opis": "12",
+    "delo": null,
+    "list_or_frame": "первая страница выдачи, порядковая строка 10",
+    "record_id": null,
+    "canonical_url": "https://spbarchives.ru/infres/-/archive/cga/R-7409/12",
+    "access_date": "2026-10-30",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "Read-only research; underlying image/file not republished.",
+    "access_result": "search_index_text_only_direct_page_unavailable",
+    "transcription_path": "evidence_notes/CGA_R7409_op12_student_barkalov.md",
+    "transcription_hash": "65bab768857bdb1c093529c4c8f6d4a1217ca8ee31ba5a9534377f18d4736bdb",
+    "hash_scope": "UTF-8 research transcription/note with LF; not source page or image hash",
+    "reviewer": null,
+    "independent_image_review": "not_applicable_catalogue_only",
+    "notes": "Индексированный текст официального каталога; прямое открытие не удалось, личное дело не читалось. Порядковая строка 10 не принята за номер дела."
   }
 ]

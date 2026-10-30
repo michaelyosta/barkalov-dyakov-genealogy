@@ -116,5 +116,23 @@
     "status": "hypothesis",
     "question": "Имя/ожидаемое отчество и супруг согласуются; девичья фамилия не переносится на позднюю мать до независимой проверки и идентификации.",
     "next_task": "T-C003-INDEPENDENT-READ"
+  },
+  {
+    "id": "H-ID-C004-DEATH",
+    "claim_ids": [
+      "C-ID-C004-DEATH-BIRTH"
+    ],
+    "status": "hypothesis",
+    "question": "Совпадает ли умерший с ребёнком 1895 при конфликте возраста?",
+    "next_task": "T-C003-EARLY-DEATH"
+  },
+  {
+    "id": "H-ID-C004-STUDENT",
+    "claim_ids": [
+      "C-ID-C004-STUDENT-MILITARY"
+    ],
+    "status": "hypothesis",
+    "question": "Связывает ли личное дело студента военного Сергея с гражданской семьёй?",
+    "next_task": "T-C004-CGA-STUDENT"
   }
 ]

@@ -3844,5 +3844,199 @@
     "proof_argument_path": "biographies/metric_records_1893_1895.md",
     "note": "Имя/ожидаемое отчество и супруг согласуются; девичья фамилия не переносится на позднюю мать до независимой проверки и идентификации.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-C004-D96-DEATH",
+    "subject_id": "P-REC-1896-MIKHAIL-DEATH",
+    "predicate": "death_date_as_written",
+    "object": "1896-05-02",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Содержание строки по чтению оркестратора; независимое чтение ожидается. Календарь не конвертирован."
+  },
+  {
+    "id": "C-C004-D96-BURIAL",
+    "subject_id": "P-REC-1896-MIKHAIL-DEATH",
+    "predicate": "burial_date_as_written",
+    "object": "1896-05-03",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Содержание строки по чтению оркестратора; независимое чтение ожидается. Календарь не конвертирован."
+  },
+  {
+    "id": "C-C004-D96-AGE",
+    "subject_id": "P-REC-1896-MIKHAIL-DEATH",
+    "predicate": "recorded_age_at_death",
+    "object": "8 месяцев",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Содержание строки по чтению оркестратора; независимое чтение ожидается. Календарь не конвертирован."
+  },
+  {
+    "id": "C-C004-D96-FATHER",
+    "subject_id": "P-REC-1896-MIKHAIL-DEATH",
+    "predicate": "recorded_father_text",
+    "object": "Петр Прохоров Баркалов",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Содержание строки по чтению оркестратора; независимое чтение ожидается. Календарь не конвертирован."
+  },
+  {
+    "id": "C-C004-D96-CAUSE",
+    "subject_id": "P-REC-1896-MIKHAIL-DEATH",
+    "predicate": "recorded_historical_cause_of_death",
+    "object": "отъ младенскаго",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Содержание строки по чтению оркестратора; независимое чтение ожидается. Календарь не конвертирован."
+  },
+  {
+    "id": "C-C004-STUDENT-TITLE",
+    "subject_id": "P-CAT-1921-SERGEY",
+    "predicate": "catalogued_record_description",
+    "object": "Личное дело студента ветеринарного института, исключённого и выбывшего; Баркалов Сергей Петрович",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "search_index",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Только содержание поискового индекса официальной описи; дата не отождествляется с зачислением или выбытием, квалификация не установлена."
+  },
+  {
+    "id": "C-C004-STUDENT-DATE",
+    "subject_id": "P-CAT-1921-SERGEY",
+    "predicate": "catalogued_document_date",
+    "object": "1921-08-22",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "search_index",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Только содержание поискового индекса официальной описи; дата не отождествляется с зачислением или выбытием, квалификация не установлена."
+  },
+  {
+    "id": "C-C004-STUDENT-EXTENT",
+    "subject_id": "P-CAT-1921-SERGEY",
+    "predicate": "catalogued_extent",
+    "object": "8 листов",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "status": "supported",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "search_index",
+    "direct_vs_indirect": "direct_for_observed_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Только содержание поискового индекса официальной описи; дата не отождествляется с зачислением или выбытием, квалификация не установлена."
+  },
+  {
+    "id": "C-ID-C004-DEATH-BIRTH",
+    "subject_id": "P-REC-1896-MIKHAIL-DEATH",
+    "predicate": "same_person_as",
+    "object": "P-MET-1895-MIKHAIL",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-DEATH1896",
+      "S-C003-B1895"
+    ],
+    "status": "hypothesis",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [
+      "Возраст 8 месяцев против около 6 месяцев между 07.11.1895 и 02.05.1896."
+    ],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Имя, ФИО отца и село согласуются, но возраст в смерти 8 месяцев, а по рождению было бы около 6. Мать не названа; причина расхождения неизвестна."
+  },
+  {
+    "id": "C-ID-C004-STUDENT-MILITARY",
+    "subject_id": "P-CAT-1921-SERGEY",
+    "predicate": "same_person_as",
+    "object": "P-BARK-005",
+    "raw_text": null,
+    "source_ids": [
+      "S-C004-CGA-STUDENT",
+      "S-MIL-003"
+    ],
+    "status": "hypothesis",
+    "reviewer": null,
+    "export_to_verified": false,
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "proof_argument_path": "cycle_004.md",
+    "note": "Совпадает полное ФИО; год/место рождения студента неизвестны. Ветеринарный и медицинский профиль не отождествляются; содержание дела нужно прочитать."
   }
 ]

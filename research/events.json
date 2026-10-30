@@ -573,5 +573,25 @@
     "place": null,
     "claim_id": "C-C003-M95-baptism_date_as_written",
     "status": "supported"
+  },
+  {
+    "id": "E-C004-D96-DEATH",
+    "person_id": "P-REC-1896-MIKHAIL-DEATH",
+    "type": "death_date_as_written",
+    "date": "1896-05-02",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-C004-D96-DEATH",
+    "status": "supported"
+  },
+  {
+    "id": "E-C004-D96-BURIAL",
+    "person_id": "P-REC-1896-MIKHAIL-DEATH",
+    "type": "burial_date_as_written",
+    "date": "1896-05-03",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-C004-D96-BURIAL",
+    "status": "supported"
   }
 ]

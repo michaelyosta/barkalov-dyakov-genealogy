@@ -499,5 +499,75 @@
     "negative_scope": "OCR, выбранные строки и указанные сканы; не полная проверка дела или прихода.",
     "outcome": "Оркестратор заново читает Евгения в акте 1899. Предыдущая транскрипция не изменена.",
     "next_action": "См. очередь и доказательную записку."
+  },
+  {
+    "id": "SR-C004-001",
+    "task_id": "T-C003-EARLY-DEATH",
+    "exact_query": "Петр Прохоров Баркалов",
+    "resource": "https://ya.ru/archive/catalog/f5a43f77-e7b2-48bb-b08e-372f1b5bfd3c",
+    "date": "2026-10-30",
+    "result_count": 2,
+    "result_refs": [
+      "S-C004-DEATH1896"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Сканы116 и31;116 — смерть сына Михаила.31 — Фекла, не проверенный родственник.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-002",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "site:spbarchives.ru/infres/-/archive/cga/R-7409/12 \"Баркалов Сергей Петрович\"",
+    "resource": "web_search",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Отображён индексированный текст официальной описи: строка10, дата22.08.1921,8листов; оригинал дела не читался.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-003",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "https://spbarchives.ru/infres/-/archive/cga/R-7409/12",
+    "resource": "web_open_and_public_http",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Прямое открытие тайм-аут, Python HTTP WinError10060; детали дела не получены.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-004",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "https://spbarchives.ru/infres/-/archive/cga/R-7409/12/10",
+    "resource": "single_candidate_detail_open",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Только указанная книга/запрос/канал. Не доказывает отсутствие человека или дела.",
+    "outcome": "Предполагаемая карточка недоступна. Этот URL не принят за подтверждённый шифр.",
+    "next_action": "См. очередь и cycle_004.md"
+  },
+  {
+    "id": "SR-C004-005",
+    "task_id": "T-C004-CGA-STUDENT",
+    "exact_query": "site:spbarchives.ru/infres \"Р-7409\" \"Баркалов Сергей Петрович\"; site:spbarchives.ru/paid_access/image_viewer \"Просмотреть образы\"",
+    "resource": "official_archive_search_index_and_web_open",
+    "date": "2026-10-30",
+    "result_count": null,
+    "result_refs": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "negative_scope": "Индексированный текст и открытие двух официальных страниц; тайм-аут не доказывает отсутствие карточки или образов.",
+    "outcome": "Индекс повторно показывает каталоговую строку от 22.08.1921, 8 листов. Индексированный текст официальной инструкции говорит, что кнопка просмотра образов появляется при входе и оплаченном доступе; это не подтверждает наличие образов именно дела Баркалова. Прямые страницы официального портала в этой сессии тайм-аутят.",
+    "next_action": "При восстановлении доступа открыть строку и зафиксировать шифр дела/наличие образов; оплату и запрос не выполнять без отдельного разрешения."
   }
 ]

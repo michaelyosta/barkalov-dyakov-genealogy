@@ -631,5 +631,51 @@
       "T-C003-INDEPENDENT-READ"
     ],
     "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит ожидается; структурные рёбра не созданы."
+  },
+  {
+    "id": "AL-C004-OG-854",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "854",
+    "list_or_frame": "№17, скан116",
+    "title_as_described": "Смерть Михаила",
+    "date_as_described": "1896",
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "source_locator": "См. источник и запись наблюдения",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C004-INDEPENDENT-DEATH"
+    ],
+    "notes": "Выборочно прочитан акт, не вся книга. Независимое чтение ожидается."
+  },
+  {
+    "id": "AL-C004-CGA-STUDENT",
+    "archive_id": "A-CGA-SPB",
+    "fond": "Р-7409",
+    "opis": "12",
+    "delo": null,
+    "list_or_frame": "первая страница описи, строка10",
+    "title_as_described": "Личное дело студента Баркалова Сергея Петровича",
+    "date_as_described": "22.08.1921",
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "source_locator": "См. источник и запись наблюдения",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "person_named_or_found": false,
+    "task_ids": [
+      "T-C004-CGA-STUDENT"
+    ],
+    "notes": "Строка10 поисковой выдачи не считается номером дела. Оригинал личного дела не получен."
   }
 ]

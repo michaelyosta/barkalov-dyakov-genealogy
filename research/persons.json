@@ -783,5 +783,33 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Кандидатная актовая запись; дед Карп не создаётся по одному отчеству."
+  },
+  {
+    "id": "P-REC-1896-MIKHAIL-DEATH",
+    "name": "Михаил [запись о смерти 1896]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased",
+    "status": "supported",
+    "origin": "separate_source_record_entity",
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельная актовая запись. Не объединена с ребёнком 1895 или Михаилом 1904; возраст 8 месяцев сохранён."
+  },
+  {
+    "id": "P-CAT-1921-SERGEY",
+    "name": "Сергей Петрович Баркалов [студенческая каталожная запись 1921]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "unknown",
+    "status": "supported",
+    "origin": "separate_source_record_entity",
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Год/место рождения неизвестны. Дело не прочитано, номер не установлен. Не объединён с военным или метрическим Сергеем."
   }
 ]
