@@ -839,5 +839,61 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Отдельное актовое лицо: «законная жена его Елена Феодорова» в записи №38 1894 года. Не отождествлена с Еленой из записи 1895 или с Евгенией в иных актах."
+  },
+  {
+    "id": "P-MAR-1895-PETR-WITNESS",
+    "name": "Пётр Прохоров Баркалов [свидетель брака 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-M1895-WITNESSES"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: свидетель со стороны жениха 06.11.1895. Не объединён с P-MET-1895-PETR, отцом Михаила в записи 07.11.1895."
+  },
+  {
+    "id": "P-MAR-1895-VLADIMIR-WITNESS",
+    "name": "Владимир Васильев Баркалов [свидетель брака 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-M1895-WITNESSES"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: свидетель со стороны жениха. Не объединён с Владимиром Васильевым Баркаловым из записи 1900 года."
+  },
+  {
+    "id": "P-MET-1900-VLADIMIR",
+    "name": "Владимир Васильев Баркалов [отец в записи 1900]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: отец Александры в записи о рождении 06.03.1900; не объединён со свидетелем 1895 года."
+  },
+  {
+    "id": "P-MET-1900-ALEXANDRA",
+    "name": "Александра [запись о рождении 1900]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "visually_read_primary_record_entity",
+    "source_ids": [
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Ребёнок в записи ОГАОО 389/1/972, скан 6. Родительская формула зафиксирована в источнике; межпоколенная связь с заказчиком не установлена."
   }
 ]

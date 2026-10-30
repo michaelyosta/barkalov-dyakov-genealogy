@@ -161,5 +161,23 @@
     "status": "hypothesis",
     "question": "Одна ли Елена Феодорова/Федорова названа матерью в актах 1894 и 1895 гг.?",
     "next_task": "T-C003-PARENTS-CONFLICT"
+  },
+  {
+    "id": "H-ID-C010-PETR-WITNESS-FATHER",
+    "claim_ids": [
+      "C-ID-C010-PETR-WITNESS-FATHER"
+    ],
+    "status": "hypothesis",
+    "question": "Одинаковые ФИО и близкий Дмитриевский контекст; брак, где Пётр выступил свидетелем, записан за день до рождения Михаила. Это гипотеза тождества, а не установленная личность.",
+    "next_task": "T-C010-PETR-WITNESS-ID"
+  },
+  {
+    "id": "H-ID-C010-VLADIMIR-WITNESS-FATHER",
+    "claim_ids": [
+      "C-ID-C010-VLADIMIR-WITNESS-FATHER"
+    ],
+    "status": "hypothesis",
+    "question": "Совпадают полные имя, отчество и фамилия; в 1895 Владимир назван свидетелем, в 1900 — отцом ребёнка в Дмитриевке. Возраст, состав семьи и непрерывная идентифицирующая цепочка не установлены.",
+    "next_task": "T-C010-VLADIMIR-1895-1900-ID"
   }
 ]

@@ -4283,5 +4283,45 @@
     "proof_argument_path": "biographies/metric_records_1893_1895.md",
     "note": "Одна ли это Елена? Имя, форма отчества и семейная формула согласуются, но одно совпадение записей не доказывает тождество; различия написания сохраняются.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C010-PETR-WITNESS-FATHER",
+    "subject_id": "P-MAR-1895-PETR-WITNESS",
+    "predicate": "same_person_as",
+    "object": "P-MET-1895-PETR",
+    "raw_text": null,
+    "source_ids": [
+      "S-C010-M1895-WITNESSES",
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_010.md",
+    "note": "Одинаковые ФИО и близкий Дмитриевский контекст; брак, где Пётр выступил свидетелем, записан за день до рождения Михаила. Это гипотеза тождества, а не установленная личность.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C010-VLADIMIR-WITNESS-FATHER",
+    "subject_id": "P-MAR-1895-VLADIMIR-WITNESS",
+    "predicate": "same_person_as",
+    "object": "P-MET-1900-VLADIMIR",
+    "raw_text": null,
+    "source_ids": [
+      "S-C010-M1895-WITNESSES",
+      "S-C010-B1900-VLADIMIR"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "cycle_010.md",
+    "note": "Совпадают полные имя, отчество и фамилия; в 1895 Владимир назван свидетелем, в 1900 — отцом ребёнка в Дмитриевке. Возраст, состав семьи и непрерывная идентифицирующая цепочка не установлены.",
+    "export_to_verified": false
   }
 ]

@@ -537,5 +537,27 @@
     "status": "hypothesis",
     "export_to_verified": false,
     "reviewer": null
+  },
+  {
+    "id": "R-ID-C010-PETR-WITNESS-FATHER",
+    "from_person": "P-MAR-1895-PETR-WITNESS",
+    "to_person": "P-MET-1895-PETR",
+    "type": "same_person_as",
+    "temporal_scope": null,
+    "claim_id": "C-ID-C010-PETR-WITNESS-FATHER",
+    "status": "hypothesis",
+    "export_to_verified": false,
+    "reviewer": null
+  },
+  {
+    "id": "R-ID-C010-VLADIMIR-WITNESS-FATHER",
+    "from_person": "P-MAR-1895-VLADIMIR-WITNESS",
+    "to_person": "P-MET-1900-VLADIMIR",
+    "type": "same_person_as",
+    "temporal_scope": null,
+    "claim_id": "C-ID-C010-VLADIMIR-WITNESS-FATHER",
+    "status": "hypothesis",
+    "export_to_verified": false,
+    "reviewer": null
   }
 ]
