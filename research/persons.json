@@ -730,59 +730,59 @@
   },
   {
     "id": "P-MET-1894-NATALIA",
-    "name": "Наталия [запись 1894, аудит ожидается]",
+    "name": "Наталия [актовая запись 1894]",
     "aliases": [],
     "privacy": "public_historical_record_entity",
     "life_status": "deceased_historical",
-    "status": "hypothesis",
-    "origin": "pending_independent_metric_review",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
     "source_ids": [
       "S-C003-B1894"
     ],
     "kinship_to_client": "not_established",
-    "note": "Кандидатная актовая запись; parent-рёбра не внесены до независимого чтения."
+    "note": "Запись рождения №38 за 1894 год; основные поля независимо сверены по скану. Связи с актовыми родителями 1895 года и поздними лицами не предполагаются автоматически."
   },
   {
     "id": "P-MAR-1893-PETR",
-    "name": "Пётр Прохоров Баркалов [жених 1893, аудит ожидается]",
+    "name": "Пётр Прохоров Баркалов [жених 1893]",
     "aliases": [],
     "privacy": "public_historical_record_entity",
     "life_status": "deceased_historical",
-    "status": "hypothesis",
-    "origin": "pending_independent_metric_review",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
     "source_ids": [
       "S-C003-M1893"
     ],
     "kinship_to_client": "not_established",
-    "note": "Отдельный актовый кандидат; по чтению оркестратора возраст 21, первый брак."
+    "note": "Наблюдаемая запись о браке №73 за 1893 г.; тождество с отцами в 1894/1895 и 1899/1904 не доказано."
   },
   {
     "id": "P-MAR-1893-EVGENIA",
-    "name": "Евгения [невеста 1893, аудит ожидается]",
+    "name": "Евгения [невеста 1893]",
     "aliases": [],
     "privacy": "public_historical_record_entity",
     "life_status": "deceased_historical",
-    "status": "hypothesis",
-    "origin": "pending_independent_metric_review",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
     "source_ids": [
       "S-C003-M1893"
     ],
     "kinship_to_client": "not_established",
-    "note": "По чтению оркестратора дочь Феодора Карпова Мяскова, возраст 20; девичья фамилия производна из отцовской. Родительское ребро пока не создано."
+    "note": "Наблюдаемая запись о браке №73; указана дочерью Феодора Карпова Мяскова. Не отождествлена с Еленой 1894/1895 или матерью 1899/1904."
   },
   {
     "id": "P-MAR-1893-FEODOR",
-    "name": "Феодор Карпов Мясков [назван в браке 1893, аудит ожидается]",
+    "name": "Феодор Карпов Мясков [отец невесты 1893]",
     "aliases": [],
     "privacy": "public_historical_record_entity",
     "life_status": "deceased_historical",
-    "status": "hypothesis",
-    "origin": "pending_independent_metric_review",
+    "status": "supported",
+    "origin": "reviewed_primary_record_with_image_audit_ocr_exposure",
     "source_ids": [
       "S-C003-M1893"
     ],
     "kinship_to_client": "not_established",
-    "note": "Кандидатная актовая запись; дед Карп не создаётся по одному отчеству."
+    "note": "Назван отцом невесты в записи о браке №73; предполагаемого отца Карпа по отчеству не создаём."
   },
   {
     "id": "P-REC-1896-MIKHAIL-DEATH",
@@ -811,5 +811,33 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Год/место рождения неизвестны. Дело не прочитано, номер не установлен. Не объединён с военным или метрическим Сергеем."
+  },
+  {
+    "id": "P-MET-1894-PETR",
+    "name": "Пётр Прохоров Баркалов [отец в акте 1894]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: отец Наталии в записи №38 1894 года; тождество с Петром в акте 1895, браке 1893 или поздней паре не доказано."
+  },
+  {
+    "id": "P-MET-1894-ELENA",
+    "name": "Елена Феодорова [мать в акте 1894]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: «законная жена его Елена Феодорова» в записи №38 1894 года. Не отождествлена с Еленой из записи 1895 или с Евгенией в иных актах."
   }
 ]

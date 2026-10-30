@@ -593,5 +593,35 @@
     "place": null,
     "claim_id": "C-C004-D96-BURIAL",
     "status": "supported"
+  },
+  {
+    "id": "E-MAR-C006-1893-73",
+    "person_id": "P-MAR-1893-PETR",
+    "type": "MARR",
+    "claim_id": "C-MAR-93-DATE",
+    "date": "1893-10-24",
+    "place": null,
+    "status": "supported",
+    "note": "Дата как в записи, без календарной конверсии; место венчания не установлено."
+  },
+  {
+    "id": "E-MET-C006-1894-38-BIRTH",
+    "person_id": "P-MET-1894-NATALIA",
+    "type": "BIRT",
+    "claim_id": "C-MET-94-BIRTH-DATE",
+    "date": "1894-08-08",
+    "place": null,
+    "status": "supported",
+    "note": "Дата как в записи, без календарной конверсии; физическое место родов отдельно не установлено."
+  },
+  {
+    "id": "E-MET-C006-1894-38-BAPTISM",
+    "person_id": "P-MET-1894-NATALIA",
+    "type": "BAPM",
+    "claim_id": "C-MET-94-BAPTISM-DATE",
+    "date": "1894-08-14",
+    "place": null,
+    "status": "supported",
+    "note": "Дата как в записи, без календарной конверсии."
   }
 ]

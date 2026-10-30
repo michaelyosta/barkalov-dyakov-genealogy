@@ -3822,7 +3822,7 @@
     "reviewer": null,
     "status": "hypothesis",
     "proof_argument_path": "biographies/metric_records_1893_1895.md",
-    "note": "ФИО, деревня и имя супруги согласуются; изображение брака независимо не проверено. Слияние запрещено.",
+    "note": "Имя, отчество, фамилия и деревня жениха подтверждены изображением брака 1893 г.; это всё ещё не доказывает тождество с отцом поздних актов. Противоречие имени супруги в 1894–1895 гг. остаётся; слияние запрещено.",
     "export_to_verified": false
   },
   {
@@ -3842,7 +3842,7 @@
     "reviewer": null,
     "status": "hypothesis",
     "proof_argument_path": "biographies/metric_records_1893_1895.md",
-    "note": "Имя/ожидаемое отчество и супруг согласуются; девичья фамилия не переносится на позднюю мать до независимой проверки и идентификации.",
+    "note": "Брак с Евгенией в 1893 г. подтверждён изображением, но мать в актах 1894–1895 названа Еленой. Девичья фамилия и тождество с поздней матерью не переносятся без дополнительных документов.",
     "export_to_verified": false
   },
   {
@@ -4038,5 +4038,250 @@
     "contradictions": [],
     "proof_argument_path": "cycle_004.md",
     "note": "Совпадает полное ФИО; год/место рождения студента неизвестны. Ветеринарный и медицинский профиль не отождествляются; содержание дела нужно прочитать."
+  },
+  {
+    "id": "C-MAR-93-SPOUSE",
+    "subject_id": "P-MAR-1893-PETR",
+    "predicate": "recorded_spouse",
+    "object": "P-MAR-1893-EVGENIA",
+    "raw_text": "Запись №73 о бракосочетавшихся называет Петра Прохорова Баркалова и Евгению, дочь Феодора Карпова Мяскова, обоих первым браком.",
+    "time": "1893-10-24",
+    "place": null,
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "source_locator": "пагинация 83, скан 86, брак №73",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C005",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Первичный акт прямо фиксирует брак этих актовых лиц; точный приход/физическое место церемонии неизвестны. Тождество с поздними родителями остаётся гипотезой.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MAR-93-PARENT",
+    "subject_id": "P-MAR-1893-FEODOR",
+    "predicate": "parent",
+    "object": "P-MAR-1893-EVGENIA",
+    "raw_text": "крестьянина села Царской Александровки Ѳеодора Карпова Мяскова дочь Евгенія",
+    "time": "1893-10-24",
+    "place": null,
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "source_locator": "пагинация 83, скан 86, брак №73",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C005",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Слово «дочь» прямо задаёт отношение в акте. Карп — отчество Феодора; отдельное лицо по одному отчеству не создаётся.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MAR-93-DATE",
+    "subject_id": "P-MAR-1893-PETR",
+    "predicate": "marriage_date_as_written",
+    "object": "1893-10-24",
+    "raw_text": "октября 24",
+    "time": "1893-10-24",
+    "place": null,
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "source_locator": "пагинация 83, скан 86, брак №73",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C005",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Дата передана как в записи; календарная конверсия не выполнялась. Место венчания не установлено.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MET-94-FATHER",
+    "subject_id": "P-MET-1894-PETR",
+    "predicate": "parent",
+    "object": "P-MET-1894-NATALIA",
+    "raw_text": "Деревни Дмитріевки крестьянинъ Петръ Прохоровъ Баркаловъ",
+    "time": "1894-08-08",
+    "place": null,
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя пагинация 19, скан 69, запись о рождении №38",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C006-ADDENDUM",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Акт прямо называет отца Наталии; физическое место родов отдельно не установлено. Отдельное актовое лицо, не слито с Петрами 1893/1895/1899/1904.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MET-94-MOTHER",
+    "subject_id": "P-MET-1894-ELENA",
+    "predicate": "parent",
+    "object": "P-MET-1894-NATALIA",
+    "raw_text": "и законная жена его Елена Ѳеодорова",
+    "time": "1894-08-08",
+    "place": null,
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя пагинация 19, скан 69, запись о рождении №38",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C006-ADDENDUM",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Акт прямо называет мать. Форма «Феодорова» передана как в чтении; девичья фамилия и тождество с Еленой 1895 года не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MET-94-SPOUSE",
+    "subject_id": "P-MET-1894-PETR",
+    "predicate": "recorded_spouse",
+    "object": "P-MET-1894-ELENA",
+    "raw_text": "законная жена его Елена Ѳеодорова",
+    "time": "1894-08-08",
+    "place": null,
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя пагинация 19, скан 69, запись о рождении №38",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C006-ADDENDUM",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Формула акта фиксирует законную жену в данном семейном акте; не доказывает тождество родителей в других годах.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MET-94-BIRTH-DATE",
+    "subject_id": "P-MET-1894-NATALIA",
+    "predicate": "birth_date_as_written",
+    "object": "1894-08-08",
+    "raw_text": "августъ, 8",
+    "time": "1894-08-08",
+    "place": null,
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя пагинация 19, скан 69, запись о рождении №38",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C006-ADDENDUM",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Дата как в акте; календарная конверсия не выполнялась.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-MET-94-BAPTISM-DATE",
+    "subject_id": "P-MET-1894-NATALIA",
+    "predicate": "baptism_date_as_written",
+    "object": "1894-08-14",
+    "raw_text": "августъ, 14",
+    "time": "1894-08-14",
+    "place": null,
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя пагинация 19, скан 69, запись о рождении №38",
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C006-ADDENDUM",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Дата как в акте; календарная конверсия не выполнялась.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C006-GROOM93-PETR94",
+    "subject_id": "P-MAR-1893-PETR",
+    "predicate": "same_person_as",
+    "object": "P-MET-1894-PETR",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-C003-M1893",
+      "S-C003-B1894",
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Один ли это человек? Совпадают полное имя и деревня, но в записи 1893 г. указан первый брак с Евгенией, а в 1894 г. фигурирует законная жена Елена; тождество не установлено.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C006-PETR94-PETR95",
+    "subject_id": "P-MET-1894-PETR",
+    "predicate": "same_person_as",
+    "object": "P-MET-1895-PETR",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-C003-M1893",
+      "S-C003-B1894",
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Один ли это человек? Совпадают полное имя и деревня в соседних актах рождения; отдельные ID сохранены до проверки семейного состава.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C006-ELENA94-ELENA95",
+    "subject_id": "P-MET-1894-ELENA",
+    "predicate": "same_person_as",
+    "object": "P-MET-1895-ELENA",
+    "raw_text": null,
+    "time": null,
+    "place": null,
+    "source_ids": [
+      "S-C003-M1893",
+      "S-C003-B1894",
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Одна ли это Елена? Имя, форма отчества и семейная формула согласуются, но одно совпадение записей не доказывает тождество; различия написания сохраняются.",
+    "export_to_verified": false
   }
 ]

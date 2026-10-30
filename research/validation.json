@@ -2,15 +2,16 @@
   "date": "2026-10-30",
   "errors": [],
   "counts": {
-    "persons": 54,
-    "claims": 206,
-    "relationships": 41,
-    "events": 65,
-    "sources": 43,
+    "persons": 56,
+    "claims": 217,
+    "relationships": 49,
+    "events": 68,
+    "sources": 46,
     "tasks": 32,
     "institutions": 7,
     "archive_leads": 28
   },
+  "hypotheses": 18,
   "verified_family_edges": 0,
   "scope": "Equivalent Node.js execution of research/scripts/validate.py checks: JSON links, status/export constraints, source hashes, basic GEDCOM structure. Python interpreter unavailable; not a genealogical software import or proof of historical truth."
 }

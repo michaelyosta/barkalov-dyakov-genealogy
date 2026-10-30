@@ -105,8 +105,8 @@
       "C-ID-C003-GROOM93-LATE"
     ],
     "status": "hypothesis",
-    "question": "ФИО, деревня и имя супруги согласуются; изображение брака независимо не проверено. Слияние запрещено.",
-    "next_task": "T-C003-INDEPENDENT-READ"
+    "question": "Брак Петра с Евгенией в 1893 г. независимо прочитан; совпадает ли жених с поздним Петром, если в 1894–1895 гг. матерью названа Елена?",
+    "next_task": "T-C003-PARENTS-CONFLICT"
   },
   {
     "id": "H-ID-C003-BRIDE93-LATE",
@@ -114,8 +114,8 @@
       "C-ID-C003-BRIDE93-LATE"
     ],
     "status": "hypothesis",
-    "question": "Имя/ожидаемое отчество и супруг согласуются; девичья фамилия не переносится на позднюю мать до независимой проверки и идентификации.",
-    "next_task": "T-C003-INDEPENDENT-READ"
+    "question": "Брак 1893 г. независимо прочитан; совпадает ли Евгения из записи с поздней матерью, учитывая имя Елена в актах 1894–1895 гг.?",
+    "next_task": "T-C003-PARENTS-CONFLICT"
   },
   {
     "id": "H-ID-C004-DEATH",
@@ -134,5 +134,32 @@
     "status": "hypothesis",
     "question": "Связывает ли личное дело студента военного Сергея с гражданской семьёй?",
     "next_task": "T-C004-CGA-STUDENT"
+  },
+  {
+    "id": "H-ID-C006-GROOM93-PETR94",
+    "claim_ids": [
+      "C-ID-C006-GROOM93-PETR94"
+    ],
+    "status": "hypothesis",
+    "question": "Связывает ли жениха 1893 г. с отцом Наталии 1894 г. совпадение полного имени и деревни, несмотря на разные записанные супруги?",
+    "next_task": "T-C003-PARENTS-CONFLICT"
+  },
+  {
+    "id": "H-ID-C006-PETR94-PETR95",
+    "claim_ids": [
+      "C-ID-C006-PETR94-PETR95"
+    ],
+    "status": "hypothesis",
+    "question": "Один ли Пётр Прохоров Баркалов из актов 1894 и 1895 гг.?",
+    "next_task": "T-C003-PARENTS-CONFLICT"
+  },
+  {
+    "id": "H-ID-C006-ELENA94-ELENA95",
+    "claim_ids": [
+      "C-ID-C006-ELENA94-ELENA95"
+    ],
+    "status": "hypothesis",
+    "question": "Одна ли Елена Феодорова/Федорова названа матерью в актах 1894 и 1895 гг.?",
+    "next_task": "T-C003-PARENTS-CONFLICT"
   }
 ]
