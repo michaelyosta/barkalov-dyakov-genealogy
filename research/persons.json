@@ -685,5 +685,103 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Девичья фамилия неизвестна. Группировка двух материнских записей — supported, косвенный вывод."
+  },
+  {
+    "id": "P-MET-1895-MIKHAIL",
+    "name": "Михаил [метрическая запись 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Рождение 1895 года; не объединён с Михаилом 1904 или военным кандидатом."
+  },
+  {
+    "id": "P-MET-1895-PETR",
+    "name": "Пётр Прохоров Баркалов [отец в акте 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельный актовый взрослый, тождество с поздним Петром не доказано."
+  },
+  {
+    "id": "P-MET-1895-ELENA",
+    "name": "Елена Федорова [мать в акте 1895]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "supported",
+    "origin": "reviewed_metric_record_entity",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Федорова — форма отчества; девичья фамилия неизвестна. Не исправлять имя на Евгению."
+  },
+  {
+    "id": "P-MET-1894-NATALIA",
+    "name": "Наталия [запись 1894, аудит ожидается]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "hypothesis",
+    "origin": "pending_independent_metric_review",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Кандидатная актовая запись; parent-рёбра не внесены до независимого чтения."
+  },
+  {
+    "id": "P-MAR-1893-PETR",
+    "name": "Пётр Прохоров Баркалов [жених 1893, аудит ожидается]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "hypothesis",
+    "origin": "pending_independent_metric_review",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельный актовый кандидат; по чтению оркестратора возраст 21, первый брак."
+  },
+  {
+    "id": "P-MAR-1893-EVGENIA",
+    "name": "Евгения [невеста 1893, аудит ожидается]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "hypothesis",
+    "origin": "pending_independent_metric_review",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "По чтению оркестратора дочь Феодора Карпова Мяскова, возраст 20; девичья фамилия производна из отцовской. Родительское ребро пока не создано."
+  },
+  {
+    "id": "P-MAR-1893-FEODOR",
+    "name": "Феодор Карпов Мясков [назван в браке 1893, аудит ожидается]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "deceased_historical",
+    "status": "hypothesis",
+    "origin": "pending_independent_metric_review",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Кандидатная актовая запись; дед Карп не создаётся по одному отчеству."
   }
 ]

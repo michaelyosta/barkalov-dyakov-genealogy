@@ -80,5 +80,41 @@
     "status": "hypothesis",
     "question": "Тождественны ли метрический ребёнок и военный кандидат?",
     "next_task": "T-MET-ID-MIKHAIL"
+  },
+  {
+    "id": "H-ID-C003-PETR95-LATE",
+    "claim_ids": [
+      "C-ID-C003-PETR95-LATE"
+    ],
+    "status": "hypothesis",
+    "question": "Совпадают ФИО и село, но матери детей названы Еленой и Евгенией. Тождество взрослых не доказано.",
+    "next_task": "T-C003-PARENTS-CONFLICT"
+  },
+  {
+    "id": "H-ID-C003-ELENA-EVGENIA",
+    "claim_ids": [
+      "C-ID-C003-ELENA-EVGENIA"
+    ],
+    "status": "hypothesis",
+    "question": "Проверяемая возможность, не утверждение варианта имени. Прямое расхождение имён сохраняется; причина неизвестна.",
+    "next_task": "T-C003-PARENTS-CONFLICT"
+  },
+  {
+    "id": "H-ID-C003-GROOM93-LATE",
+    "claim_ids": [
+      "C-ID-C003-GROOM93-LATE"
+    ],
+    "status": "hypothesis",
+    "question": "ФИО, деревня и имя супруги согласуются; изображение брака независимо не проверено. Слияние запрещено.",
+    "next_task": "T-C003-INDEPENDENT-READ"
+  },
+  {
+    "id": "H-ID-C003-BRIDE93-LATE",
+    "claim_ids": [
+      "C-ID-C003-BRIDE93-LATE"
+    ],
+    "status": "hypothesis",
+    "question": "Имя/ожидаемое отчество и супруг согласуются; девичья фамилия не переносится на позднюю мать до независимой проверки и идентификации.",
+    "next_task": "T-C003-INDEPENDENT-READ"
   }
 ]

@@ -553,5 +553,25 @@
     "place": null,
     "claim_id": "C-MET-04-baptism_date_as_written",
     "status": "supported"
+  },
+  {
+    "id": "E-C003-M95-birth_date_as_written",
+    "person_id": "P-MET-1895-MIKHAIL",
+    "type": "birth_date_as_written",
+    "date": "1895-11-07",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-C003-M95-birth_date_as_written",
+    "status": "supported"
+  },
+  {
+    "id": "E-C003-M95-baptism_date_as_written",
+    "person_id": "P-MET-1895-MIKHAIL",
+    "type": "baptism_date_as_written",
+    "date": "1895-11-07",
+    "calendar": "as_written_not_converted",
+    "place": null,
+    "claim_id": "C-C003-M95-baptism_date_as_written",
+    "status": "supported"
   }
 ]

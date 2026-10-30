@@ -562,5 +562,74 @@
       "T-MET-ID-MIKHAIL"
     ],
     "notes": "Прочитана запись №17, не вся книга. Год 1904 визуально/каталог; OCR 1901 сохранён как отвергнутое разночтение. Дополнительно прочитана обложка: Бузулукский уезд, год 1904."
+  },
+  {
+    "id": "AL-C003-OG-795",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "795",
+    "list_or_frame": "8; №23; скан 9",
+    "title_as_described": "Выборочно прочитанный метрический акт; заголовок книги и транскрипция в sources",
+    "date_as_described": "1895",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "source_locator": "8; №23; скан 9",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C003",
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C003-PARENTS-CONFLICT"
+    ],
+    "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит выполнен."
+  },
+  {
+    "id": "AL-C003-OG-753",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "753",
+    "list_or_frame": "внутренняя 19; №38; скан 69",
+    "title_as_described": "Выборочно прочитанный метрический акт; заголовок книги и транскрипция в sources",
+    "date_as_described": "1894",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя 19; №38; скан 69",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C003-INDEPENDENT-READ"
+    ],
+    "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит ожидается; структурные рёбра не созданы."
+  },
+  {
+    "id": "AL-C003-OG-726",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "726",
+    "list_or_frame": "83; №73; скан 86",
+    "title_as_described": "Выборочно прочитанный метрический акт; заголовок книги и транскрипция в sources",
+    "date_as_described": "1893",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "source_locator": "83; №73; скан 86",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C003-INDEPENDENT-READ"
+    ],
+    "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит ожидается; структурные рёбра не созданы."
   }
 ]

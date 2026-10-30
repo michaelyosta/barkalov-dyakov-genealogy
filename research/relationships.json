@@ -416,5 +416,38 @@
     "status": "supported",
     "export_to_verified": false,
     "reviewer": "T-AUD-C002"
+  },
+  {
+    "id": "R-C003-M95-FATHER",
+    "from_person": "P-MET-1895-PETR",
+    "to_person": "P-MET-1895-MIKHAIL",
+    "type": "parent",
+    "temporal_scope": "1895",
+    "claim_id": "C-C003-M95-FATHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C003"
+  },
+  {
+    "id": "R-C003-M95-MOTHER",
+    "from_person": "P-MET-1895-ELENA",
+    "to_person": "P-MET-1895-MIKHAIL",
+    "type": "parent",
+    "temporal_scope": "1895",
+    "claim_id": "C-C003-M95-MOTHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C003"
+  },
+  {
+    "id": "R-C003-M95-SPOUSE",
+    "from_person": "P-MET-1895-PETR",
+    "to_person": "P-MET-1895-ELENA",
+    "type": "recorded_spouse",
+    "temporal_scope": "1895",
+    "claim_id": "C-C003-M95-SPOUSE",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C003"
   }
 ]

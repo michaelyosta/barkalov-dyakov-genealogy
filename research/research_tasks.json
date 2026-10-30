@@ -417,9 +417,9 @@
     "suggested_source": "Браки Дмитриевского прихода до сентября 1899 г.; приходские и посемейные списки",
     "owner": "orchestrator",
     "last_search": "2026-10-30",
-    "status": "open",
+    "status": "in_progress",
     "blocker": null,
-    "follow_up": "Начать с соседних предшествующих книг. Установить девичью фамилию и возраст; не выводить их из отчеств.",
+    "follow_up": "Найден акт 1893 №73 с Петром и Евгенией; требуется независимое чтение, точный приход и мост к поздней паре. Не объявлять задачу решённой по одному совпадению.",
     "checkpoint": "checkpoint.md"
   },
   {
@@ -433,9 +433,61 @@
     "suggested_source": "Метрические рождения и смерти Димитриевки, варианты Баркалов/Боркалов и имена родителей",
     "owner": "orchestrator",
     "last_search": "2026-10-30",
+    "status": "in_progress",
+    "blocker": null,
+    "follow_up": "Ранние акты с Еленой 1894/1895 отделены от пары с Евгенией. Не добавлять Наталию или раннего Михаила как братьев/сестёр поздних детей без разрешения идентичностей.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C003-INDEPENDENT-READ",
+    "linked_people": [
+      "P-MET-1894-NATALIA",
+      "P-MAR-1893-PETR",
+      "P-MAR-1893-EVGENIA",
+      "P-MAR-1893-FEODOR"
+    ],
+    "precise_question": "Подтверждаются ли по независимому чтению акты 1894 №38 и 1893 №73?",
+    "priority": 1,
+    "suggested_source": "ОГАОО 389/1/753 скан 69; 389/1/726 скан 86",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
     "status": "open",
     "blocker": null,
-    "follow_up": "Искать состав семьи, не отождествлять его с рассказом о братьях и сёстрах в Ленинграде без миграционного мостика.",
+    "follow_up": "У аудитора IAB не обнаружен. Повторить при фактическом доступе; root может продолжать другие источники. Не создавать по этим актам parent/spouse-рёбра до проверки.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C003-PARENTS-CONFLICT",
+    "linked_people": [
+      "P-MET-1895-PETR",
+      "P-MET-1895-ELENA",
+      "P-MET-PETR-PROKHOROV",
+      "P-MET-EVGENIA-FEODOROVA"
+    ],
+    "precise_question": "Почему при совпадающем ФИО отца матери названы Еленой и Евгенией?",
+    "priority": 1,
+    "suggested_source": "Брачные обыски, посемейные списки, другие рождения и смерти, возраст и происхождение супругов",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Проверить тёзок и документальный состав семьи; не выбирать версию повторного брака или ошибки по вероятности.",
+    "checkpoint": "checkpoint.md"
+  },
+  {
+    "task_id": "T-C003-EARLY-DEATH",
+    "linked_people": [
+      "P-MET-1895-MIKHAIL",
+      "P-MET-1904-MIKHAIL"
+    ],
+    "precise_question": "Какова судьба Михаила 1895 года; есть ли запись о смерти до 1904?",
+    "priority": 2,
+    "suggested_source": "Дмитриевские смерти 1895–1904, варианты Баркалов/Боркалов и имя отца",
+    "owner": "orchestrator",
+    "last_search": "2026-10-30",
+    "status": "open",
+    "blocker": null,
+    "follow_up": "Фамильный OCR-поиск по 1895 дал 8 сканов, явной целевой смерти в сниппетах нет. Сплошной просмотр смертей и последующие годы ещё не выполнены.",
     "checkpoint": "checkpoint.md"
   }
 ]

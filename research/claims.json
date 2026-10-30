@@ -3667,5 +3667,182 @@
     "proof_argument_path": "biographies/metric_family_1899_1904.md",
     "note": "Совместимы имя, ожидаемое отчество и год; военное место рождения город Бузулук расходится с селом родителей/приходом Димитриевка.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-C003-M95-birth_date_as_written",
+    "subject_id": "P-MET-1895-MIKHAIL",
+    "predicate": "birth_date_as_written",
+    "object": "1895-11-07",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C003",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Дата как в документе; календарь не конвертирован.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C003-M95-baptism_date_as_written",
+    "subject_id": "P-MET-1895-MIKHAIL",
+    "predicate": "baptism_date_as_written",
+    "object": "1895-11-07",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C003",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Дата как в документе; календарь не конвертирован.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C003-M95-FATHER",
+    "subject_id": "P-MET-1895-PETR",
+    "predicate": "parent",
+    "object": "P-MET-1895-MIKHAIL",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C003",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Прямое содержание независимо прочитанного акта, без отождествления с поздними родителями.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C003-M95-MOTHER",
+    "subject_id": "P-MET-1895-ELENA",
+    "predicate": "parent",
+    "object": "P-MET-1895-MIKHAIL",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C003",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Прямое содержание независимо прочитанного акта, без отождествления с поздними родителями.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C003-M95-SPOUSE",
+    "subject_id": "P-MET-1895-PETR",
+    "predicate": "recorded_spouse",
+    "object": "P-MET-1895-ELENA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C003",
+    "status": "supported",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Названа законной женой в акте рождения; дата и место брака не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C003-PETR95-LATE",
+    "subject_id": "P-MET-1895-PETR",
+    "predicate": "same_person_as",
+    "object": "P-MET-PETR-PROKHOROV",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895",
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C003",
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Совпадают ФИО и село, но матери детей названы Еленой и Евгенией. Тождество взрослых не доказано.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C003-ELENA-EVGENIA",
+    "subject_id": "P-MET-1895-ELENA",
+    "predicate": "same_person_as",
+    "object": "P-MET-EVGENIA-FEODOROVA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-B1895",
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [
+      "Имя Елена в 1895 против Евгении в 1899/1904; не разрешено."
+    ],
+    "reviewer": "T-AUD-C003",
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Проверяемая возможность, не утверждение варианта имени. Прямое расхождение имён сохраняется; причина неизвестна.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C003-GROOM93-LATE",
+    "subject_id": "P-MAR-1893-PETR",
+    "predicate": "same_person_as",
+    "object": "P-MET-PETR-PROKHOROV",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-M1893",
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "ФИО, деревня и имя супруги согласуются; изображение брака независимо не проверено. Слияние запрещено.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-ID-C003-BRIDE93-LATE",
+    "subject_id": "P-MAR-1893-EVGENIA",
+    "predicate": "same_person_as",
+    "object": "P-MET-EVGENIA-FEODOROVA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C003-M1893",
+      "S-C002-MET-1899-49"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": "biographies/metric_records_1893_1895.md",
+    "note": "Имя/ожидаемое отчество и супруг согласуются; девичья фамилия не переносится на позднюю мать до независимой проверки и идентификации.",
+    "export_to_verified": false
   }
 ]
