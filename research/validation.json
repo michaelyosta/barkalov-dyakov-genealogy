@@ -6,11 +6,11 @@
     "claims": 219,
     "relationships": 51,
     "events": 68,
-    "sources": 61,
+    "sources": 63,
     "tasks": 40,
     "institutions": 9,
     "archive_leads": 31
   },
   "verified_family_edges": 0,
-  "scope": "C013 incremental check: all transcription hashes and task-person links, new source/log IDs and references; unchanged graph/GEDCOM covered by previous validation. Not historical proof."
+  "scope": "C014 incremental validation: all transcription hashes; new source-log-task references; source/task/log uniqueness checked before1918 addition, new1918 IDs checked in current files. Graph/GEDCOM unchanged; not historical proof."
 }

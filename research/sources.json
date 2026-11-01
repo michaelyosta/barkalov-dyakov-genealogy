@@ -1248,7 +1248,7 @@
     "hash_scope": "UTF-8 transcription LF; not image hash",
     "reviewer": "T-AUD-C012-NATALIA",
     "independent_image_review": "completed_discordant_year_reading",
-    "notes": "Каталог1894; root прочитал заголовок1894, независимый аудитор1893. Год события не установлен. Даты23/24ноября и возраст3месяца согласованы. Мать не названа; тождество не принято."
+    "notes": "Каталог1894; root прочитал заголовок1894, независимый аудитор1893. Год события не установлен. Даты23/24ноября и возраст3месяца согласованы. Мать не названа; тождество не принято. C014: параллельный рукописный экземпляр389/3/10скан286 прямо указывает1894 и повторяет акт; датировка смерти1894 supported, чтение самой цифры скана134 остаётся спорным. Зависимость копий не установлена."
   },
   {
     "id": "S-C013-750-YEAR-CONTEXT",
@@ -1275,5 +1275,52 @@
     "reviewer": null,
     "independent_image_review": "pending",
     "notes": "Обложка и следующий лист визуально1894. Контекст поддерживает1894 для ноябрьской записи Наталии; разночтение целевого заголовка и независимость экземпляров ещё не разрешены."
+  },
+  {
+    "id": "S-C014-NATALIA-PARALLEL",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": null,
+    "fond": "389",
+    "opis": "3",
+    "delo": "10",
+    "list_or_frame": "скан286/299; внутренняя140, внешний274",
+    "record_id": "женская169; ноябрь23/24,1894",
+    "canonical_url": "https://ya.ru/archive/catalog/efaae0f3-afa7-4bcc-906c-3491b8568b16/286",
+    "access_date": "2026-11-01",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "User-authorized read-only viewer; image not republished",
+    "access_result": "parallel_manuscript_visually_read_after_OCR_visible",
+    "transcription_path": "transcriptions/OGAO_389_3_10_death169.md",
+    "transcription_hash": "c7eedebaf8233f7a891576a31a4049bf8a9d2fde9eb2d6617a1d5471ed1c5949",
+    "hash_scope": "UTF-8 LF transcription, not image hash",
+    "reviewer": "T-AUD-C014-COPY",
+    "independent_image_review": "completed_key_fields_patronymic_uncertain_for_Agripina",
+    "independence_group": "Buzuluk-death-register-1894-parallel-copies",
+    "notes": "Визуальный год1894. Отличается рукописное оформление от389/1/750скан134; содержательная зависимость экземпляров вероятна, происхождение не установлено. Тождество с ребёнком рождения не принято."
+  },
+  {
+    "id": "S-C014-AGRIPINA1918",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": null,
+    "fond": "389",
+    "opis": "1",
+    "delo": "2187",
+    "list_or_frame": "скан97/162,листы95об–96",
+    "record_id": "женская12; март7/9,1918",
+    "canonical_url": "https://ya.ru/archive/catalog/e13c07e2-7ed8-4de9-b172-7c1da5a604e1/97",
+    "access_date": "2026-11-01",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "Authorized read-only viewer; image not republished",
+    "access_result": "image_visually_read_OCR_visible",
+    "transcription_path": "transcriptions/OGAO_389_1_2187_death12.md",
+    "transcription_hash": "3e7749ce8adefc5b31f347e797c0062452055480f1004bf1891dec0c441c4b5b",
+    "hash_scope": "UTF-8 LF transcription; not image hash",
+    "reviewer": "T-AUD-C014-COPY",
+    "independent_image_review": "completed_key_fields_patronymic_uncertain_for_Agripina",
+    "notes": "Агрипина,жена Петра Прохорова Баркалова из Дмитриевки,28лет. Отчество требует сверки. Тождество с ранними актовыми Петрами не установлено."
   }
 ]
