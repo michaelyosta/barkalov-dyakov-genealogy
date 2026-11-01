@@ -4323,5 +4323,119 @@
     "proof_argument_path": "cycle_010.md",
     "note": "Совпадают полные имя, отчество и фамилия; в 1895 Владимир назван свидетелем, в 1900 — отцом ребёнка в Дмитриевке. Возраст, состав семьи и непрерывная идентифицирующая цепочка не установлены.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-C015-RECORDED-SPOUSE",
+    "subject_id": "P-MAR-1915-PETR",
+    "predicate": "recorded_spouse",
+    "object": "P-MAR-1915-AGRIPPINA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C015-ANASTASIA",
+    "status": "supported",
+    "proof_argument_path": "cycle_015.md",
+    "note": "Независимо подтверждённые поля отдельного брачного акта. Межактовое тождество и родство с заказчиком не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C015-PETR-AGE",
+    "subject_id": "P-MAR-1915-PETR",
+    "predicate": "age_as_written",
+    "object": "44",
+    "raw_text": null,
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C015-ANASTASIA",
+    "status": "supported",
+    "proof_argument_path": "cycle_015.md",
+    "note": "Независимо подтверждённые поля отдельного брачного акта. Межактовое тождество и родство с заказчиком не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C015-AGRIPPINA-AGE",
+    "subject_id": "P-MAR-1915-AGRIPPINA",
+    "predicate": "age_as_written",
+    "object": "25",
+    "raw_text": null,
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C015-ANASTASIA",
+    "status": "supported",
+    "proof_argument_path": "cycle_015.md",
+    "note": "Независимо подтверждённые поля отдельного брачного акта. Межактовое тождество и родство с заказчиком не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C015-PETR-ORDER",
+    "subject_id": "P-MAR-1915-PETR",
+    "predicate": "marriage_order_as_written",
+    "object": "2",
+    "raw_text": null,
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C015-ANASTASIA",
+    "status": "supported",
+    "proof_argument_path": "cycle_015.md",
+    "note": "Независимо подтверждённые поля отдельного брачного акта. Межактовое тождество и родство с заказчиком не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C015-AGRIPPINA-ORDER",
+    "subject_id": "P-MAR-1915-AGRIPPINA",
+    "predicate": "marriage_order_as_written",
+    "object": "1",
+    "raw_text": null,
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C015-ANASTASIA",
+    "status": "supported",
+    "proof_argument_path": "cycle_015.md",
+    "note": "Независимо подтверждённые поля отдельного брачного акта. Межактовое тождество и родство с заказчиком не установлены.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C015-MARRIAGE-DATE",
+    "subject_id": "P-MAR-1915-PETR",
+    "predicate": "marriage_date_as_written",
+    "object": "1915-05-01",
+    "raw_text": null,
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-AUD-C015-ANASTASIA",
+    "status": "supported",
+    "proof_argument_path": "cycle_015.md",
+    "note": "Дата как записана, без календарной конверсии. Счёт браков26 не является числом месяца.",
+    "export_to_verified": false
   }
 ]

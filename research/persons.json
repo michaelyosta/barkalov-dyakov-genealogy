@@ -895,5 +895,33 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Ребёнок в записи ОГАОО 389/1/972, скан 6. Родительская формула зафиксирована в источнике; межпоколенная связь с заказчиком не установлена."
+  },
+  {
+    "id": "P-MAR-1915-PETR",
+    "name": "Пётр Прохоров Баркалов [жених 1915]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "independently_reviewed_primary_record_entity",
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: 44 года, второй брак. Не слит с Петрами ранних актов."
+  },
+  {
+    "id": "P-MAR-1915-AGRIPPINA",
+    "name": "Агриппина Евсевьева Маслова [невеста 1915]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "independently_reviewed_primary_record_entity",
+    "source_ids": [
+      "S-C015-MARRIAGE1915"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо: 25 лет, первый брак. Не слита с умершей Агрипиной 1918; не назначена матерью Анастасии."
   }
 ]

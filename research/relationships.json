@@ -559,5 +559,16 @@
     "status": "hypothesis",
     "export_to_verified": false,
     "reviewer": null
+  },
+  {
+    "id": "R-C015-RECORDED-SPOUSE",
+    "from_person": "P-MAR-1915-PETR",
+    "to_person": "P-MAR-1915-AGRIPPINA",
+    "type": "recorded_spouse",
+    "temporal_scope": "1915; точная дата повторно сверяется",
+    "claim_id": "C-C015-RECORDED-SPOUSE",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-AUD-C015-ANASTASIA"
   }
 ]
