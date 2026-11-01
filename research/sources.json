@@ -1225,5 +1225,29 @@
     "independent_image_review": "completed_image_read_ocr_used_only_for_crosscheck",
     "independence_group": "OGAO-389-1-972",
     "notes": "Владимир Васильев Баркалов записан отцом Александры, законная жена — Ольга Иванова. Не отождествлён со свидетелем 1895 года. Независимый аудитор T-AUD-C010-C011 отдельно прочитал изображение и подтвердил ключевые поля; OCR использован лишь для сверки."
+  },
+  {
+    "id": "S-C012-NATALIA-DEATH1894",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": null,
+    "fond": "389",
+    "opis": "1",
+    "delo": "750",
+    "list_or_frame": "скан134/249; внешняя129, внутренняя140",
+    "record_id": "женская169; ноябрь23/24",
+    "canonical_url": "https://ya.ru/archive/catalog/0c4e4527-8dd1-4a7a-b8c5-7cbca15d83c5/134",
+    "access_date": "2026-10-30",
+    "recorded_date": "2026-11-01",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "User-authorized read-only viewer; image not republished",
+    "access_result": "image_visually_read_after_OCR_visible",
+    "transcription_path": "transcriptions/OGAO_389_1_750_death169.md",
+    "transcription_hash": "b1b3607cd48fd23225813c5f7655bb86340a0bd33a208aa9e5c4a78b188ff658",
+    "hash_scope": "UTF-8 transcription LF; not image hash",
+    "reviewer": null,
+    "independent_image_review": "pending",
+    "notes": "Рукописный год1894 расходится с OCR1893; каталог1894. Связь с рождением08.08.1894 не доказана; мать не названа."
   }
 ]
