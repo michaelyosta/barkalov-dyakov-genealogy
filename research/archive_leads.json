@@ -1,0 +1,753 @@
+[
+  {
+    "id": "AL-C002-KRK-6",
+    "archive_id": "A-KRK-DIST",
+    "fond": "132",
+    "opis": "1",
+    "delo": "6",
+    "list_or_frame": "1;2–3",
+    "title_as_described": "Годовой отчёт о работе детского дома за1951г. — содержание цитируемого листа",
+    "date_as_described": "1951",
+    "source_ids": [
+      "S-C002-CHILD-2023"
+    ],
+    "source_locator": "печатнаяс.97/PDF12",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CHILD-003"
+    ],
+    "notes": "Не установлен полный заголовок или крайние даты дела; это не книга воспитанников1936г.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C002-KRK-5",
+    "archive_id": "A-KRK-DIST",
+    "fond": "132",
+    "opis": "1",
+    "delo": "5",
+    "list_or_frame": "85;58;96",
+    "title_as_described": "Устройство детдома после переводаСаранского; опубликованный контекст",
+    "date_as_described": "1948–1949 (контекст)",
+    "source_ids": [
+      "S-C002-CHILD-2023"
+    ],
+    "source_locator": "печатнаяс.96/PDF11",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CHILD-003"
+    ],
+    "notes": "Л.85 относится к помещению; диапазон дела и преемство с лечебным детдомом1938 не установлены.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C002-KRG-335",
+    "archive_id": "A-KRG-REG",
+    "fond": "469",
+    "opis": "2",
+    "delo": "335",
+    "list_or_frame": "51;55",
+    "title_as_described": "Материалы,цитируемые при историиКомпанейского детдома",
+    "date_as_described": null,
+    "source_ids": [
+      "S-C002-CHILD-2023"
+    ],
+    "source_locator": "печатнаяс.92/PDF7",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CHILD-003"
+    ],
+    "notes": "Историческое повествование о1934г. не определяет дату самого дела.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C002-KRG-1188-45",
+    "archive_id": "A-KRG-REG",
+    "fond": "1188",
+    "opis": "1",
+    "delo": "45",
+    "list_or_frame": "26;30",
+    "title_as_described": "Санитарная докладная и проверкаКомпанейского детдома",
+    "date_as_described": null,
+    "source_ids": [
+      "S-C002-CHILD-2023"
+    ],
+    "source_locator": "печатнаяс.93/PDF8",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CHILD-003"
+    ],
+    "notes": "В публикации только относительный интервалпятьмесяцев; названиефонда и даты дела проверить.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C002-KRG-7A",
+    "archive_id": "A-KRG-REG",
+    "fond": "469",
+    "opis": "2",
+    "delo": "7а",
+    "list_or_frame": "40",
+    "title_as_described": "Решение о переводеСаранского детдома вКаркаралинск",
+    "date_as_described": "1948 (контекст)",
+    "source_ids": [
+      "S-C002-CHILD-2023"
+    ],
+    "source_locator": "печатнаяс.96/PDF11",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CHILD-003"
+    ],
+    "notes": "Цитируется как решение20.08.1948; подлинник и полный диапазон дела не проверены.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C002-OG-935",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "935",
+    "list_or_frame": "обложка; рукописная пагинация 19, №49, скан 20",
+    "title_as_described": "Метрики Димитриевки,Кандауровки,Курманаевки",
+    "date_as_described": "1899",
+    "source_ids": [
+      "S-C002-CAT-935",
+      "S-C002-MET-935-COVER",
+      "S-C002-MET-1899-49"
+    ],
+    "source_locator": "каталожная карточка/опись",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": true,
+    "task_ids": [
+      "T-MIL-002"
+    ],
+    "notes": "Прочитаны обложка и запись №49, не вся книга. Бузулукский уезд подтверждён обложкой; 188 листов на ней, 194 скана в сервисе.",
+    "person_named_or_found": true,
+    "reported_total_leaves": null,
+    "cover_reported_leaves": 188,
+    "viewer_total_scans": 194
+  },
+  {
+    "id": "AL-C002-OG-1463",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "1463",
+    "list_or_frame": null,
+    "title_as_described": "ГородБузулук:Троицкий собор иАлександро-Невская церковь",
+    "date_as_described": "1904",
+    "source_ids": [
+      "S-C002-CAT-1463"
+    ],
+    "source_locator": "каталожная карточка/опись",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-MIL-002"
+    ],
+    "notes": "Выполнен поиск OCR и просмотр найденной строки: взрослый Михаил Васильев — восприемник, не искомый младенец. Сплошной просмотр книги не выполнен.",
+    "person_named_or_found": false,
+    "reported_total_leaves": 237
+  },
+  {
+    "id": "AL-C002-OG-3-17",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "3",
+    "delo": "17",
+    "list_or_frame": null,
+    "title_as_described": "Бузулук:Троицкий собор",
+    "date_as_described": "1904",
+    "source_ids": [
+      "S-C002-CAT-OP3"
+    ],
+    "source_locator": "каталожная карточка/опись",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-MIL-002"
+    ],
+    "notes": "Листы не просмотрены; число листов по справочнику. Для935 уезд не указан в заголовке.",
+    "person_named_or_found": false,
+    "reported_total_leaves": 150
+  },
+  {
+    "id": "AL-C002-OG-3-28",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "3",
+    "delo": "28",
+    "list_or_frame": null,
+    "title_as_described": "Бузулук:Александро-Невская церковь",
+    "date_as_described": "1904",
+    "source_ids": [
+      "S-C002-CAT-OP3"
+    ],
+    "source_locator": "каталожная карточка/опись",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-MIL-002"
+    ],
+    "notes": "Листы не просмотрены; число листов по справочнику. Для935 уезд не указан в заголовке.",
+    "person_named_or_found": false,
+    "reported_total_leaves": 92
+  },
+  {
+    "id": "AL-C002-OG-3-56",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "3",
+    "delo": "56",
+    "list_or_frame": null,
+    "title_as_described": "Бузулук:Покровская церковь",
+    "date_as_described": "1904",
+    "source_ids": [
+      "S-C002-CAT-OP3"
+    ],
+    "source_locator": "каталожная карточка/опись",
+    "access_date": "2026-10-30",
+    "status": "hypothesis",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-MIL-002"
+    ],
+    "notes": "Листы не просмотрены; число листов по справочнику. Для935 уезд не указан в заголовке.",
+    "person_named_or_found": false,
+    "reported_total_leaves": 38
+  },
+  {
+    "id": "AL-C002-GE-1873-111",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "111",
+    "list_or_frame": null,
+    "title_as_described": "Тифлисский уезд,букваБ",
+    "date_as_described": "1873",
+    "source_ids": [
+      "S-C002-GE-CAT1"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-002"
+    ],
+    "notes": "Наличие села Башкичет внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Башкичет",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1873-118-119",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "118-119",
+    "list_or_frame": null,
+    "title_as_described": "Тифлисский уезд,букваК",
+    "date_as_described": "1873",
+    "source_ids": [
+      "S-C002-GE-CAT1"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-002"
+    ],
+    "notes": "Наличие села Караклис внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Караклис",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1873-123",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "123",
+    "list_or_frame": null,
+    "title_as_described": "Тифлисский уезд,букваО",
+    "date_as_described": "1873",
+    "source_ids": [
+      "S-C002-GE-CAT1"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-002"
+    ],
+    "notes": "Наличие села Ормашени внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Ормашени",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1873-189",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "189",
+    "list_or_frame": null,
+    "title_as_described": "Ахалкалакский уезд,букваГ",
+    "date_as_described": "1873",
+    "source_ids": [
+      "S-C002-GE-CAT1"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-002"
+    ],
+    "notes": "Наличие села Горелое внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Горелое",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1873-191",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "191",
+    "list_or_frame": null,
+    "title_as_described": "Ахалкалакский уезд,букваЕ",
+    "date_as_described": "1873",
+    "source_ids": [
+      "S-C002-GE-CAT1"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-002"
+    ],
+    "notes": "Наличие села Ефремовка внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Ефремовка",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1873-202",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "202",
+    "list_or_frame": null,
+    "title_as_described": "Ахалкалакский уезд,букваТ",
+    "date_as_described": "1873",
+    "source_ids": [
+      "S-C002-GE-CAT1"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-002"
+    ],
+    "notes": "Наличие села Троицкое внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Троицкое",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1886-1538-1541",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "1538-1541",
+    "list_or_frame": null,
+    "title_as_described": "Борчалинский уезд,букваБ",
+    "date_as_described": "1886",
+    "source_ids": [
+      "S-C002-GE-CAT2"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-003"
+    ],
+    "notes": "Наличие села Башкичет внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Башкичет",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1886-1551-1554",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "1551-1554",
+    "list_or_frame": null,
+    "title_as_described": "Борчалинский уезд,букваК",
+    "date_as_described": "1886",
+    "source_ids": [
+      "S-C002-GE-CAT2"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-003"
+    ],
+    "notes": "Наличие села Караклис внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Караклис",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1886-1559",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "1559",
+    "list_or_frame": null,
+    "title_as_described": "Борчалинский уезд,букваО",
+    "date_as_described": "1886",
+    "source_ids": [
+      "S-C002-GE-CAT2"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-003"
+    ],
+    "notes": "Наличие села Ормашени внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Ормашени",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1886-1870-1871",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "1870-1871",
+    "list_or_frame": null,
+    "title_as_described": "Ахалкалакский уезд,букваГ",
+    "date_as_described": "1886",
+    "source_ids": [
+      "S-C002-GE-CAT2"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-003"
+    ],
+    "notes": "Наличие села Горелое внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Горелое",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1886-1874",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "1874",
+    "list_or_frame": null,
+    "title_as_described": "Ахалкалакский уезд,букваЕ",
+    "date_as_described": "1886",
+    "source_ids": [
+      "S-C002-GE-CAT2"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-003"
+    ],
+    "notes": "Наличие села Ефремовка внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Ефремовка",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-GE-1886-1892",
+    "archive_id": "A-GE-HIST",
+    "fond": "254",
+    "opis": "3-1",
+    "delo": "1892",
+    "list_or_frame": null,
+    "title_as_described": "Ахалкалакский уезд,букваТ",
+    "date_as_described": "1886",
+    "source_ids": [
+      "S-C002-GE-CAT2"
+    ],
+    "source_locator": "групповой заголовок описи",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-CAU-003"
+    ],
+    "notes": "Наличие села Троицкое внутри тома не подтверждено; это кандидат по уезду/букве. Сканы не получены.",
+    "person_named_or_found": false,
+    "target_village_hypothesis": "Троицкое",
+    "digital_materials_observed": false
+  },
+  {
+    "id": "AL-C002-OG-1466",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "1466",
+    "list_or_frame": "рукописная пагинация 7, №17, скан 8/133",
+    "title_as_described": "Метрики Димитриевки и Кандауровки",
+    "date_as_described": "1904",
+    "source_ids": [
+      "S-C002-MET-1904-17",
+      "S-C002-MET-1466-COVER"
+    ],
+    "source_locator": "заголовок сервиса и изображение листа",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C002",
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-MIL-002",
+      "T-MET-ID-MIKHAIL"
+    ],
+    "notes": "Прочитана запись №17, не вся книга. Год 1904 визуально/каталог; OCR 1901 сохранён как отвергнутое разночтение. Дополнительно прочитана обложка: Бузулукский уезд, год 1904."
+  },
+  {
+    "id": "AL-C003-OG-795",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "795",
+    "list_or_frame": "8; №23; скан 9",
+    "title_as_described": "Выборочно прочитанный метрический акт; заголовок книги и транскрипция в sources",
+    "date_as_described": "1895",
+    "source_ids": [
+      "S-C003-B1895"
+    ],
+    "source_locator": "8; №23; скан 9",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": "T-AUD-C003",
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C003-PARENTS-CONFLICT"
+    ],
+    "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит выполнен."
+  },
+  {
+    "id": "AL-C003-OG-753",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "753",
+    "list_or_frame": "внутренняя 19; №38; скан 69",
+    "title_as_described": "Выборочно прочитанный метрический акт; заголовок книги и транскрипция в sources",
+    "date_as_described": "1894",
+    "source_ids": [
+      "S-C003-B1894"
+    ],
+    "source_locator": "внутренняя 19; №38; скан 69",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C003-INDEPENDENT-READ"
+    ],
+    "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит ожидается; структурные рёбра не созданы."
+  },
+  {
+    "id": "AL-C003-OG-726",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "726",
+    "list_or_frame": "83; №73; скан 86",
+    "title_as_described": "Выборочно прочитанный метрический акт; заголовок книги и транскрипция в sources",
+    "date_as_described": "1893",
+    "source_ids": [
+      "S-C003-M1893"
+    ],
+    "source_locator": "83; №73; скан 86",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C003-INDEPENDENT-READ"
+    ],
+    "notes": "Прочитан оркестратором только указанный акт, не вся книга. Независимый аудит ожидается; структурные рёбра не созданы."
+  },
+  {
+    "id": "AL-C004-OG-854",
+    "archive_id": "A-OGAO-O",
+    "fond": "389",
+    "opis": "1",
+    "delo": "854",
+    "list_or_frame": "№17, скан116",
+    "title_as_described": "Смерть Михаила",
+    "date_as_described": "1896",
+    "source_ids": [
+      "S-C004-DEATH1896"
+    ],
+    "source_locator": "См. источник и запись наблюдения",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": true,
+    "person_named_or_found": true,
+    "task_ids": [
+      "T-C004-INDEPENDENT-DEATH"
+    ],
+    "notes": "Выборочно прочитан акт, не вся книга. Независимое чтение ожидается."
+  },
+  {
+    "id": "AL-C004-CGA-STUDENT",
+    "archive_id": "A-CGA-SPB",
+    "fond": "Р-7409",
+    "opis": "12",
+    "delo": null,
+    "list_or_frame": "первая страница описи, строка10",
+    "title_as_described": "Личное дело студента Баркалова Сергея Петровича",
+    "date_as_described": "22.08.1921",
+    "source_ids": [
+      "S-C004-CGA-STUDENT"
+    ],
+    "source_locator": "См. источник и запись наблюдения",
+    "access_date": "2026-10-30",
+    "status": "supported",
+    "reviewer": null,
+    "original_seen": false,
+    "person_named_or_found": false,
+    "task_ids": [
+      "T-C004-CGA-STUDENT"
+    ],
+    "notes": "Строка10 поисковой выдачи не считается номером дела. Оригинал личного дела не получен."
+  },
+  {
+    "id": "AL-C007-DIM-1844",
+    "archive_id": "A-CGASO",
+    "fond": "388",
+    "opis": "2",
+    "delo": "33",
+    "list_or_frame": "соседний список без установленного листа (по форумному пересказу)",
+    "title_as_described": "Описание казенной дачи деревни Дмитриевка; рядом опубликован список государственных крестьян, где назван Яков Баркалов",
+    "date_as_described": "1844",
+    "source_ids": [
+      "S-C007-VGD-DIMITRIEVKA",
+      "S-C008-RUSARCHIVES-F388"
+    ],
+    "source_locator": "сообщение форума, веб-строки 210–214",
+    "access_date": "2026-10-30",
+    "status": "hypothesis",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-C007-DIMITRIEVKA-PRIMARY-LEADS"
+    ],
+    "notes": "Вторичный пользовательский пересказ; оригинал и границы соседнего списка не просмотрены. Имя Яков Баркалов — только поисковый ориентир; новая персона и родственные отношения не утверждаются.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C007-DIM-LAND-1874",
+    "archive_id": "A-CGASO",
+    "fond": "174",
+    "opis": "1",
+    "delo": "2660",
+    "list_or_frame": "форум ссылается на стр.13; архивный лист не установлен",
+    "title_as_described": "Дело о землевладении государственных крестьян Дмитриевки; вторичный список на стр.13 включает Прохора Баркалова",
+    "date_as_described": "1874–1888",
+    "source_ids": [
+      "S-C007-VGD-DIMITRIEVKA",
+      "S-C008-RUSARCHIVES-F174"
+    ],
+    "source_locator": "сообщение форума, веб-строки 215–221",
+    "access_date": "2026-10-30",
+    "status": "hypothesis",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-C007-DIMITRIEVKA-PRIMARY-LEADS"
+    ],
+    "notes": "Имя/формулировка переданы вторичным источником; оригинал, контекст списка и личность не установлены. Совпадение имени Прохор с отчеством жениха 1893 года — исследовательская зацепка, не доказательство отцовства.",
+    "person_named_or_found": false
+  },
+  {
+    "id": "AL-C007-DIM-CHURCH-1893",
+    "archive_id": "A-CGASO",
+    "fond": "32",
+    "opis": "7",
+    "delo": "3688",
+    "list_or_frame": "стр.3, 4, 7 по форумному пересказу; архивные листы не установлены",
+    "title_as_described": "Дело о постройке церкви и образовании самостоятельного прихода в Дмитриевке; вторичный список содержит имя Пётр Баркалов",
+    "date_as_described": "1893–1898",
+    "source_ids": [
+      "S-C007-VGD-DIMITRIEVKA",
+      "S-C007-RUSARCHIVES-GUIDE"
+    ],
+    "source_locator": "сообщение форума, веб-строки 223–235",
+    "access_date": "2026-10-30",
+    "status": "hypothesis",
+    "reviewer": null,
+    "original_seen": false,
+    "task_ids": [
+      "T-C007-DIMITRIEVKA-PRIMARY-LEADS"
+    ],
+    "notes": "Вторичный перечень приводит Петра Баркалова на стр.3, 4 и 7, но роль упомянутого лица не установлена. Оригинал не просмотрен; не отождествлять с женихом 1893 года и не выводить подпись/родство.",
+    "person_named_or_found": false
+  }
+]

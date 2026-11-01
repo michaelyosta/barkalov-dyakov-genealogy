@@ -1,0 +1,513 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "6ca0bcdc04fc0344aac32905aa252a65c5ef5c5199a5227e9133041e96569d0e",
+    "size": 722,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "README.md",
+    "sha256": "ca0af37f90510da350fd594a96f6479fce5f5d26e4a27863de900234b86cee4f",
+    "size": 11791,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "contradictions_and_hypotheses.md",
+    "sha256": "02e30b62e8fcaa402a0ed97c7f533ef669c6512861c12c0c27607247cea08f60",
+    "size": 30111,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/2014kletskaya-kladbishhe.pdf",
+    "sha256": "cf9a0e779b14d0208ac70721ea8a17be4ddc10c717958969ce0f0413c230847d",
+    "size": 3066873,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/2014kletskaya-park.pdf",
+    "sha256": "3c0ca18e841ccab8590bc8ca6b4b57e7326f73099c46f97cbaa0cf2a38945263",
+    "size": 5838199,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/2014starokletskij.pdf",
+    "sha256": "a0a482e67352145103d365c78b4e619182825418e36bc1bee2237ff378a0076d",
+    "size": 1767446,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/gosp_21719868_1.jpg",
+    "sha256": "2a9a1671074986e729f865a6857bd390dc5e928092d9f35d4ee632356253f85a",
+    "size": 224773,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/istmat_40780.txt",
+    "sha256": "8d5e843a024021048d720ce8769e6ed52ad20021b6ad78a1ca1335d67cdb4081",
+    "size": 5676,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/istmat_40781.txt",
+    "sha256": "0f216d9718430ab4dd547cb7906719b2da256078c5ca7f6b0317f563cacb080f",
+    "size": 26433,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/kletskij-402-starokletskij-pdf.jpg",
+    "sha256": "03a0dc9b9a6f8c1ef1a1e0af757ff77432f01f0b7e79a989280d1b0422445ef2",
+    "size": 143245,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/kp_orenburg_tom3_p300.png",
+    "sha256": "920babc00e38dc1d5914c3a426c502c3c85d716a3537160b181bd42d7bb51dbb",
+    "size": 3358152,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/openlist_all_83_barkalov.txt",
+    "sha256": "c8f7099572a222d71551374900f57bfe5063b1722bdd2a67783e378a77f7d7a0",
+    "size": 16580,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/openlist_target_pages.txt",
+    "sha256": "89f230008b53bf635bb6f18a0f2b6c4b8be445d4c2e7744e4943ffda21171f1b",
+    "size": 16009,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230449.jpg",
+    "sha256": "015950ff4b783e5649f064d5fed6de28ebce3dfb33ad8ae1b28acbe8d54406bd",
+    "size": 311644,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230688.jpg",
+    "sha256": "54226e4f0d31309177e7bcbc0d444dd3a09e676c949df69f9c6c1a815c94099e",
+    "size": 504769,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230698-e1658086256978.jpg",
+    "sha256": "1eb5cf063350f8d990c897f652890269472f7d6a3e42a10448c8771f83b662ee",
+    "size": 488966,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230699-e1658086275457.jpg",
+    "sha256": "f09d147d0556a9f89d6f87e3ca52f9686efc10213321aaca189f8407f464083d",
+    "size": 456902,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230700-e1658086298170.jpg",
+    "sha256": "2d301d2569c731718ea2752384dce39ab505544cdb8a1e2b918f6f39d47d22e2",
+    "size": 489209,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230702-e1658086334322.jpg",
+    "sha256": "b9befe233c404bf66808eb8a58fa2251c4c890d999861c69be7f21a3a9719ea8",
+    "size": 510988,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230703-e1658086353520.jpg",
+    "sha256": "4b928364952fbfad422ec49df32e121928d300f5940824ed2da0e2be945983bb",
+    "size": 514586,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230704-e1658086372768.jpg",
+    "sha256": "c371249014fbf38bf31828d3dc8c4fa497bff8b3570fc3806a799e4dcc64f02c",
+    "size": 504118,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230705-e1658086401271.jpg",
+    "sha256": "907955538ce9d89ec4d0e99069d9c0536f9a5bbbfb2a50cc4ed475d500a64802",
+    "size": 527343,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230711-e1658086545395.jpg",
+    "sha256": "66aa5e5880d25f38931c7b2a932d897dd961775e7e72af8342b313937841f848",
+    "size": 473475,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230712-rotated-1.jpg",
+    "sha256": "992410b4b4f1f167aa695860f83537234de937b1a7e62df78c1e72afc2958e87",
+    "size": 614909,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230713-rotated-1.jpg",
+    "sha256": "19d10949303af90f1867b046559fbff2effc24f5b893680d254fafe12a7a2bc0",
+    "size": 634826,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230714-rotated-1.jpg",
+    "sha256": "69ea5258c08f922d4648b7638d9360fe0ef5afe45fc01e37ec3d67030d68d034",
+    "size": 642955,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230715-rotated-1.jpg",
+    "sha256": "d037986143cc1a0ea317e9f7219e23c93c74ce3dbe2daad1c5ca2b8d2c3cf427",
+    "size": 578114,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230723.jpg",
+    "sha256": "95eb4baabf18d2f79f3830109cb78b93ced74da10265a2bc4b124810c3ee2585",
+    "size": 453008,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/p1230724-rotated-1.jpg",
+    "sha256": "b9760da3801b00d4e666c4370fd66eaad5de209f52bb4c66c465b276ad844391",
+    "size": 595676,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/plen_30030991_1.jpg",
+    "sha256": "a3aa7edb04f359b93b0267cdf6588e291cce681ad6d4980cdfae9b93e068f1c0",
+    "size": 97954,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/plen_30735050_1.jpg",
+    "sha256": "a95b79ecc5617fab87b0509ec91e26251ffaeafc5cee9e060c9a7dad7370c9d7",
+    "size": 109798,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/plen_30735050_2.jpg",
+    "sha256": "bdb7c502b8cae161ec03c64ef3c85e64a3f1cc0edf730156c11b71a5cfb5b757",
+    "size": 82158,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/plen_30779851_1.jpg",
+    "sha256": "a5941650e6caff0dda0c6e9191ffabd27a27dc3802b81d97f54ad56f73648cec",
+    "size": 96535,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/plen_30779851_2.jpg",
+    "sha256": "067c600ce1e53e1d49a1a10a435d23d0a592e0f2ae806275447d1452f086e670",
+    "size": 83265,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1853_fam_vill.html",
+    "sha256": "daaf6bd61e6b65201c825433e7314b16bcb95a6cf971cac092af43cd9dbb1d67",
+    "size": 112106,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1853_vill_body.txt",
+    "sha256": "d6d4502165ae03abf5e3d6f64763ffbe58122d0160bb9f946803cca8af5e592f",
+    "size": 12119,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1853_vill_clean.txt",
+    "sha256": "5c9d81048430c0733991e2d7dc90253f9a387d673271377e5ebf9bf087765ac6",
+    "size": 9263,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1853_vill_fam.html",
+    "sha256": "87a6f8c75bd411aad655ca3a15333c797bf141b55e769ca567b55b622ee1c91b",
+    "size": 90477,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1873_fam_vill.html",
+    "sha256": "8b0392099ca2592a06bf3e8e6ce968f41a4350a38b4f1bb318463803a90405ba",
+    "size": 111954,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1873_vill_body.txt",
+    "sha256": "15f07e217245793669a136f3fdce9a4bef0e97d908cbf6d4710093e34cb425ae",
+    "size": 14175,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1873_vill_clean.txt",
+    "sha256": "cfae8f8740346c92a72fb7994c5c1ea13940e1dae91060fd9ed53192bf0792fe",
+    "size": 11385,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/1873_vill_fam.html",
+    "sha256": "538df1a34885f1d91b9e3d68fecab111caa1e63aa8ad2d629775d5ad2a707de3",
+    "size": 91939,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Conscripts.pdf",
+    "sha256": "f9ad84b5c002f8f1411a437f7d7fadf2a73ca36a29ad5911c150515549d42e32",
+    "size": 82325,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Conscripts.txt",
+    "sha256": "1888b429cc2a6f489543694da05b16db066e9dbe1f5579c59bdd2901ec396b5e",
+    "size": 15606,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Elders.pdf",
+    "sha256": "87c68c4e415dd6f9ba8ba77cea04dc0e155ab9f62029d90782e2e5dafe647d71",
+    "size": 55159,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Elders.txt",
+    "sha256": "4303f871e337f6db57ce3498a830c1859a78c09a0ee96478a11c98a18365d56d",
+    "size": 8579,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Reservists.pdf",
+    "sha256": "fdbf61f2dd213625d6ae80e8537e77a7cdb74d0e60e0d6a9e8a674cab908668e",
+    "size": 113746,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Reservists.txt",
+    "sha256": "4dd7aed49539788fb150319a26f33130a6ad5cbcdb536cb4fcf168510efe5ece",
+    "size": 25360,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Soviet-Doukhobor-Soldiers.pdf",
+    "sha256": "1218ad4e2754b737b9e3c0c44143f4351a247db19e8ad1928e1eaab6fde9092a",
+    "size": 695736,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/Soviet-Doukhobor-Soldiers.txt",
+    "sha256": "967e9436456e98dab5f19b24f7c8856dd165bd76e673a41a6fa224585a98876c",
+    "size": 209013,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/census_and_registers_1853_1873_report.md",
+    "sha256": "a24a14a1fbca5df892ea88243953cef5e1ad650aa87fd900e5fbafc4668ddd92",
+    "size": 30401,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/surnames_all.html",
+    "sha256": "157de6b7aedd91c1cc7aff793cfc358c385a5be9a39d2c6462075a6591f4bb24",
+    "size": 575010,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/surnames_all_clean.txt",
+    "sha256": "30773f9c746d808181e46b81ffcd138df997b42fad27abf00cf2606e19adeada",
+    "size": 364878,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/trdc_1853.pdf",
+    "sha256": "9c43d8795208eb2f607e982c32ff0ce8da36691e01e49c03ca075dfeb86b144d",
+    "size": 58146,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/doukhobor/trdc_1853.txt",
+    "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+    "size": 3,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/georgian_census_1886_report.md",
+    "sha256": "c8ffdb430dc6053c68ae92ce6ada1f9b8f04d229944ca32ed3800a5fa6f8f495",
+    "size": 28554,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/round2/vgd_and_migration_records_report.md",
+    "sha256": "e99733703d7c18954ef86742bb9ccae880cd5132c6c7aeaa4206597464313130",
+    "size": 53123,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/tsamo_1034sp_barkalov_mp_2.jpg",
+    "sha256": "6ef51fa90258c17d9166b637c19d5dc2e5afb56babbbb699f9a51c02881e6bda",
+    "size": 71938,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/tsamo_293sd_barkalov_mp_1.jpg",
+    "sha256": "023c3c07f2876c6abbd95eeb861a80fab5e00551ec1cdc8e38baa657ce5d8c11",
+    "size": 317899,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/tsamo_barkalov_mv_3292847.jpg",
+    "sha256": "4338d2a843e2328279dbcf7f60d9231138a49fea2d05719e2c8bf441ecb3abe0",
+    "size": 198632,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "documents/tsamo_barkalov_sp_4487593.jpg",
+    "sha256": "b3c6ff38d35bd367a85d3e4bfd611065de3c5ef70b5153395ca768813cb5a930",
+    "size": 230865,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "family_tree.ged",
+    "sha256": "fd393ab3ed84927bf15eaaeee225241c7fdeac79f9802f69208d292566c2b800",
+    "size": 24202,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "group_reports/group_A_barkalov_leningrad.md",
+    "sha256": "ee578a86f9f38ea275bf9770922bfdf5149b3c3fd2660848438b6b2f158c9f28",
+    "size": 68407,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "group_reports/group_B_military_kletskaya.md",
+    "sha256": "9f3447a370a7a799a3401064f1bf31dce5b3181f5709247b0695063ca4909c28",
+    "size": 46525,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "group_reports/group_C_antonina_bamlag.md",
+    "sha256": "e51f827f5f6fb4aa7be48277eb8edcf6dbd040aa7d90aa0834e836e5c24cb8a1",
+    "size": 50016,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "group_reports/group_D_dyakov_tselina_wwi.md",
+    "sha256": "06706070e7f785a0b5eb06e3ffa22c8f72eb38204f75cc57761da6b4faec3d5b",
+    "size": 70910,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "group_reports/group_E_doukhobor_origins.md",
+    "sha256": "5b843ff7181a0c2cd24635726c1ae84cd53f0fdea7f22ff569d9fdd873939019",
+    "size": 99995,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "group_reports/group_F_karaganda_sortirovochnaya.md",
+    "sha256": "0e3ff8f5dfae0d3bc48acade138643103a7f65daef5711d2a0c1ee0b9949cf74",
+    "size": 77854,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "incoming_archive_replies/README.md",
+    "sha256": "1f8698338d694146962a8fa90d74e72bb3eb706cd8a15b71ab9fb8dd418ce901",
+    "size": 1485,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "master_investigation_report.md",
+    "sha256": "160c7e191132f41bb89294a7da66ef4391bbfe7d82bcdf9fc7599386b22c8474",
+    "size": 103303,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "official_archive_requests.md",
+    "sha256": "263feff758b5548dfd4bafece43a7bf8f3775eb1e95b0d8fd709f16bc919d5b1",
+    "size": 57482,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "private_kinship_docs/README.md",
+    "sha256": "8c4922ff84b4afe2d7f832d4040fb4a4b73c442d7cb9b644774a3a6d7b0c9caf",
+    "size": 693,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  },
+  {
+    "path": "sources_and_search_log.md",
+    "sha256": "c5620f111f9eb9d723684b6e235700b5b0d36ca693919c51c9d9c41dc23b6379",
+    "size": 58970,
+    "baseline_commit": "e71e6af",
+    "read_status": "inventoried_not_automatically_verified"
+  }
+]
