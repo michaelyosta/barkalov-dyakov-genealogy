@@ -570,5 +570,38 @@
     "status": "supported",
     "export_to_verified": false,
     "reviewer": "T-AUD-C015-ANASTASIA"
+  },
+  {
+    "id": "R-C017-FATHER",
+    "from_person": "P-BIRTH-1915-PETR",
+    "to_person": "P-BIRTH-1915-ANASTASIA",
+    "type": "parent",
+    "temporal_scope": "1915",
+    "claim_id": "C-C017-FATHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-C016-ANASTASIA-BIRTH"
+  },
+  {
+    "id": "R-C017-MOTHER",
+    "from_person": "P-BIRTH-1915-AGRIPPINA",
+    "to_person": "P-BIRTH-1915-ANASTASIA",
+    "type": "parent",
+    "temporal_scope": "1915",
+    "claim_id": "C-C017-MOTHER",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-C016-ANASTASIA-BIRTH"
+  },
+  {
+    "id": "R-C017-SPOUSE",
+    "from_person": "P-BIRTH-1915-PETR",
+    "to_person": "P-BIRTH-1915-AGRIPPINA",
+    "type": "recorded_spouse",
+    "temporal_scope": "1915",
+    "claim_id": "C-C017-SPOUSE",
+    "status": "supported",
+    "export_to_verified": false,
+    "reviewer": "T-C016-ANASTASIA-BIRTH"
   }
 ]

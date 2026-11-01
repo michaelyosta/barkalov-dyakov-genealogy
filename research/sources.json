@@ -1408,5 +1408,29 @@
     "access_result": "web_text_read_not_primary_document",
     "reviewer": null,
     "notes": "Публикатор описывает 987 домохозяйств и предупреждает об ошибках чтения. В доступном тексте страницы поиск «Барк» совпадений не дал. Это вторичная транскрипция, не первичная перепись; ни отсутствие семьи, ни её состав этим не доказаны. Архивный шифр и оригинал не установлены."
+  },
+  {
+    "id": "S-C017-ANASTASIA-BIRTH1915",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": null,
+    "fond": "173",
+    "opis": "16",
+    "delo": "2147",
+    "list_or_frame": "скан74/205; рукописная73",
+    "record_id": "женская146;21/25октября1915",
+    "canonical_url": "https://ya.ru/archive/catalog/07f353e6-02f3-4853-ad0e-6ff6333fc959/74",
+    "access_date": "2026-11-01",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "User-authorized read-only viewer; image not republished",
+    "access_result": "image_read_by_agent_and_orchestrator_OCR_visible",
+    "transcription_path": "transcriptions/OGAO_173_16_2147_birth146.md",
+    "transcription_hash": "ea7d3992e58a13b7cdb0ab01ecba259d2c92d10047b904cd3d41ebfcbca1d61a",
+    "hash_scope": "UTF-8 LF transcription; not image hash",
+    "reviewer": "T-C016-ANASTASIA-BIRTH",
+    "independent_image_review": "completed_key_fields_OCR_visible",
+    "independence_group": "OGAO-173-16-2147",
+    "notes": "Анастасия21/25октября; родителиПётрПрохоровБаркалов/Боркалов и законнаяженаАгриппинаЕвсеева. Маслова не указана. Межактовое тождество открыто."
   }
 ]

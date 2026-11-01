@@ -923,5 +923,49 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Отдельное актовое лицо: 25 лет, первый брак. Не слита с умершей Агрипиной 1918; не назначена матерью Анастасии."
+  },
+  {
+    "id": "P-BIRTH-1915-ANASTASIA",
+    "name": "Анастасия [рождение 1915]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "independently_reviewed_primary_record_entity",
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Не слита с умершей Анастасией1916."
+  },
+  {
+    "id": "P-BIRTH-1915-PETR",
+    "name": "Пётр Прохоров Баркалов / Боркалов [отец в акте 1915]",
+    "aliases": [
+      "Петръ Прохоровъ Боркаловъ"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "independently_reviewed_primary_record_entity",
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Не слит с женихом1915 или ранними актовыми Петрами."
+  },
+  {
+    "id": "P-BIRTH-1915-AGRIPPINA",
+    "name": "Агриппина Евсеева [мать в акте 1915]",
+    "aliases": [],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "independently_reviewed_primary_record_entity",
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Девичья фамилия в этом акте не названа. Не слита с невестой Масловой или умершей Агрипиной1918."
   }
 ]

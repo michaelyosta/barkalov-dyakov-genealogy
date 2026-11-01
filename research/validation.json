@@ -2,15 +2,15 @@
   "date": "2026-11-01",
   "errors": [],
   "counts": {
-    "persons": 62,
-    "claims": 225,
-    "relationships": 52,
-    "events": 69,
-    "sources": 67,
-    "tasks": 42,
+    "persons": 65,
+    "claims": 230,
+    "relationships": 55,
+    "events": 71,
+    "sources": 68,
+    "tasks": 43,
     "institutions": 9,
     "archive_leads": 31
   },
   "verified_family_edges": 0,
-  "scope": "C016 incremental checks: all transcription hashes, source/task/log uniqueness, task-person and new search-log references. No graph/GEDCOM changes; prior C015 graph validation retained. Not historical proof."
+  "scope": "C017 checks: registry uniqueness, person/source/claim/edge/event/task/log references, proof files, all transcription hashes and edge export eligibility; verified GEDCOM has no FAM. Not proof of genealogical identity."
 }

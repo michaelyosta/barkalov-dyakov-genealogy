@@ -4437,5 +4437,100 @@
     "proof_argument_path": "cycle_015.md",
     "note": "Дата как записана, без календарной конверсии. Счёт браков26 не является числом месяца.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-C017-BIRTH-DATE",
+    "subject_id": "P-BIRTH-1915-ANASTASIA",
+    "predicate": "birth_date_as_written",
+    "object": "1915-10-21",
+    "raw_text": null,
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-C016-ANASTASIA-BIRTH",
+    "status": "supported",
+    "proof_argument_path": "cycle_017.md",
+    "note": "Дата как в документе, без календарной конверсии.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C017-BAPTISM-DATE",
+    "subject_id": "P-BIRTH-1915-ANASTASIA",
+    "predicate": "baptism_date_as_written",
+    "object": "1915-10-25",
+    "raw_text": null,
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-C016-ANASTASIA-BIRTH",
+    "status": "supported",
+    "proof_argument_path": "cycle_017.md",
+    "note": "Дата как в документе, без календарной конверсии.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C017-FATHER",
+    "subject_id": "P-BIRTH-1915-PETR",
+    "predicate": "parent",
+    "object": "P-BIRTH-1915-ANASTASIA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-C016-ANASTASIA-BIRTH",
+    "status": "supported",
+    "proof_argument_path": "cycle_017.md",
+    "note": "Прямое содержание актовой родительской графы; межактовое тождество открыто.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C017-MOTHER",
+    "subject_id": "P-BIRTH-1915-AGRIPPINA",
+    "predicate": "parent",
+    "object": "P-BIRTH-1915-ANASTASIA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-C016-ANASTASIA-BIRTH",
+    "status": "supported",
+    "proof_argument_path": "cycle_017.md",
+    "note": "Мать названа прямо; фамилию Маслова из брака не присваивать без доказательства тождества.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C017-SPOUSE",
+    "subject_id": "P-BIRTH-1915-PETR",
+    "predicate": "recorded_spouse",
+    "object": "P-BIRTH-1915-AGRIPPINA",
+    "raw_text": null,
+    "source_ids": [
+      "S-C017-ANASTASIA-BIRTH1915"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": "T-C016-ANASTASIA-BIRTH",
+    "status": "supported",
+    "proof_argument_path": "cycle_017.md",
+    "note": "Названа законной женой; дата брака этим актом не установлена.",
+    "export_to_verified": false
   }
 ]
