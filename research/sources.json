@@ -1249,5 +1249,31 @@
     "reviewer": "T-AUD-C012-NATALIA",
     "independent_image_review": "completed_discordant_year_reading",
     "notes": "Каталог1894; root прочитал заголовок1894, независимый аудитор1893. Год события не установлен. Даты23/24ноября и возраст3месяца согласованы. Мать не названа; тождество не принято."
+  },
+  {
+    "id": "S-C013-750-YEAR-CONTEXT",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": null,
+    "fond": "389",
+    "opis": "1",
+    "delo": "750",
+    "list_or_frame": "обложка скан1; соседний скан135, внешняя130/внутренняя141",
+    "record_id": null,
+    "canonical_url": "https://ya.ru/archive/catalog/0c4e4527-8dd1-4a7a-b8c5-7cbca15d83c5/135",
+    "additional_urls": [
+      "https://ya.ru/archive/catalog/0c4e4527-8dd1-4a7a-b8c5-7cbca15d83c5/1"
+    ],
+    "access_date": "2026-11-01",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "User-authorized viewer; images not republished",
+    "access_result": "cover_and_adjacent_image_visually_read",
+    "transcription_path": "transcriptions/OGAO_389_1_750_year_context.md",
+    "transcription_hash": "73cfeba116594f972ccf048e7f01b48b853283697adc305e97f31d04009dcbaf",
+    "hash_scope": "UTF-8 LF transcription, not image hash",
+    "reviewer": null,
+    "independent_image_review": "pending",
+    "notes": "Обложка и следующий лист визуально1894. Контекст поддерживает1894 для ноябрьской записи Наталии; разночтение целевого заголовка и независимость экземпляров ещё не разрешены."
   }
 ]

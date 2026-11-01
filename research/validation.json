@@ -6,11 +6,11 @@
     "claims": 219,
     "relationships": 51,
     "events": 68,
-    "sources": 60,
+    "sources": 61,
     "tasks": 40,
     "institutions": 9,
     "archive_leads": 31
   },
   "verified_family_edges": 0,
-  "scope": "C012 incremental validation: unique registry IDs; all transcription hashes; person/task/log task links; new log source links; claims and edge/export consistency. Historical log result_refs are heterogeneous and not assumed to be source IDs. Unchanged GEDCOM covered by C011 full validation; not historical proof."
+  "scope": "C013 incremental check: all transcription hashes and task-person links, new source/log IDs and references; unchanged graph/GEDCOM covered by previous validation. Not historical proof."
 }
