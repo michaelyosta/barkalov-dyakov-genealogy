@@ -2,15 +2,15 @@
   "date": "2026-11-01",
   "errors": [],
   "counts": {
-    "persons": 65,
-    "claims": 230,
+    "persons": 66,
+    "claims": 234,
     "relationships": 55,
-    "events": 71,
-    "sources": 68,
-    "tasks": 43,
+    "events": 73,
+    "sources": 69,
+    "tasks": 44,
     "institutions": 9,
     "archive_leads": 31
   },
   "verified_family_edges": 0,
-  "scope": "C017 checks: registry uniqueness, person/source/claim/edge/event/task/log references, proof files, all transcription hashes and edge export eligibility; verified GEDCOM has no FAM. Not proof of genealogical identity."
+  "scope": "C018 Node equivalent of validate.py: registry IDs, references, statuses, proof/transcription files and hashes, available local source hashes including Git baselines, GEDCOM boundaries/version/cross-references and unchanged legacy GEDCOM. No genealogical software import or proof of historical identity."
 }

@@ -967,5 +967,21 @@
     ],
     "kinship_to_client": "not_established",
     "note": "Девичья фамилия в этом акте не названа. Не слита с невестой Масловой или умершей Агрипиной1918."
+  },
+  {
+    "id": "P-DEATH-1911-EVGENIA",
+    "name": "Евгения Феодорова Баркалова [смерть 1911]",
+    "aliases": [
+      "Евгенія Ѳеодорова Баркалова"
+    ],
+    "privacy": "public_historical_record_entity",
+    "life_status": "historical",
+    "status": "supported",
+    "origin": "primary_record_read_by_orchestrator",
+    "source_ids": [
+      "S-C018-EVGENIA-DEATH1911"
+    ],
+    "kinship_to_client": "not_established",
+    "note": "Отдельное актовое лицо. Муж не назван. Независимое чтение изображения не состоялось из-за недоступности браузера аудитору. Не слита с невестой 1893 или матерью детей 1899–1904."
   }
 ]

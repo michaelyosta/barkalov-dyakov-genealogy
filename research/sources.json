@@ -1432,5 +1432,28 @@
     "independent_image_review": "completed_key_fields_OCR_visible",
     "independence_group": "OGAO-173-16-2147",
     "notes": "Анастасия21/25октября; родителиПётрПрохоровБаркалов/Боркалов и законнаяженаАгриппинаЕвсеева. Маслова не указана. Межактовое тождество открыто."
+  },
+  {
+    "id": "S-C018-EVGENIA-DEATH1911",
+    "type": "copy_primary_document",
+    "archive": "ОГАОО",
+    "collection": "Метрические книги церквей Александровской, Николаевской города Бузулука, 1911",
+    "fond": "389",
+    "opis": "1",
+    "delo": "1750",
+    "list_or_frame": "скан 182/188; справа рукописная 181",
+    "record_id": "женская №119; 8/9 декабря 1911",
+    "canonical_url": "https://ya.ru/archive/catalog/497cb38c-a23f-4be9-a86c-c6d8458e415d/182",
+    "access_date": "2026-11-01",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "access_rights": "User-authorized read-only viewer; image not republished",
+    "access_result": "image_read_by_orchestrator_OCR_visible",
+    "transcription_path": "transcriptions/OGAO_389_1_1750_death119.md",
+    "transcription_hash": "2f2bd419e10f7fb09bf4f7467f75cc49d6080391a8dbb6e0c8af3b62a061ed10",
+    "hash_scope": "UTF-8 LF transcription; not image hash",
+    "reviewer": null,
+    "independent_image_review": "attempted_unavailable_to_auditor",
+    "notes": "Евгения Феодорова Баркалова, крестьянка из Дмитриевки Лабазинской волости Бузулукского уезда, 36 лет. Муж не назван. Совпадение с ранней Евгенией/первой женой Петра не установлено. См. T-AUD-C018-EVGENIA1911: аудит не выполнен; источник прочитан только root."
   }
 ]

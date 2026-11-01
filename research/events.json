@@ -653,5 +653,25 @@
     "place": null,
     "status": "supported",
     "note": "Даты как записаны; место регистрации по каталогу Акбулак, место рождения отдельно не установлено."
+  },
+  {
+    "id": "E-C018-EVGENIA-DEATH",
+    "person_id": "P-DEATH-1911-EVGENIA",
+    "type": "DEAT",
+    "claim_id": "C-C018-EVGENIA-DEATH-DATE",
+    "date": "1911-12-08",
+    "place": null,
+    "status": "supported",
+    "note": "Дата как в акте. Только чтение root; кандидат не объединён с другими Евгениями."
+  },
+  {
+    "id": "E-C018-EVGENIA-BURIAL",
+    "person_id": "P-DEATH-1911-EVGENIA",
+    "type": "BURI",
+    "claim_id": "C-C018-EVGENIA-BURIAL-DATE",
+    "date": "1911-12-09",
+    "place": "городское кладбище; город по каталогу Бузулук",
+    "status": "supported",
+    "note": "Дата как в акте. Только чтение root; кандидат не объединён с другими Евгениями."
   }
 ]

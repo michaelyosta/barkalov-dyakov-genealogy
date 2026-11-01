@@ -4532,5 +4532,81 @@
     "proof_argument_path": "cycle_017.md",
     "note": "Названа законной женой; дата брака этим актом не установлена.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-C018-EVGENIA-DEATH-DATE",
+    "subject_id": "P-DEATH-1911-EVGENIA",
+    "predicate": "death_date",
+    "object": "1911-12-08",
+    "raw_text": null,
+    "source_ids": [
+      "S-C018-EVGENIA-DEATH1911"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": "cycle_018.md",
+    "note": "Изображение прочитано root, независимый визуальный аудит не выполнен. Дата как в записи; календарная конверсия не выполнялась.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C018-EVGENIA-BURIAL-DATE",
+    "subject_id": "P-DEATH-1911-EVGENIA",
+    "predicate": "burial_date",
+    "object": "1911-12-09",
+    "raw_text": null,
+    "source_ids": [
+      "S-C018-EVGENIA-DEATH1911"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": "cycle_018.md",
+    "note": "Изображение прочитано root, независимый визуальный аудит не выполнен. Дата погребения, не дата смерти.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C018-EVGENIA-AGE",
+    "subject_id": "P-DEATH-1911-EVGENIA",
+    "predicate": "recorded_age",
+    "object": "36 лет",
+    "raw_text": null,
+    "source_ids": [
+      "S-C018-EVGENIA-DEATH1911"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": "cycle_018.md",
+    "note": "Изображение прочитано root, независимый визуальный аудит не выполнен. Примерно двухлетнее расхождение с возрастом 20 лет невесты октября 1893; тождество не принято.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-C018-EVGENIA-ORIGIN",
+    "subject_id": "P-DEATH-1911-EVGENIA",
+    "predicate": "recorded_origin",
+    "object": "село Димитриевка, Лобазинская волость, Бузулукский уезд",
+    "raw_text": null,
+    "source_ids": [
+      "S-C018-EVGENIA-DEATH1911"
+    ],
+    "original_vs_derived": "copy_of_primary",
+    "direct_vs_indirect": "direct_for_record_content",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": "cycle_018.md",
+    "note": "Изображение прочитано root, независимый визуальный аудит не выполнен. Происхождение по записи, не установленное место смерти.",
+    "export_to_verified": false
   }
 ]
