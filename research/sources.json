@@ -1244,10 +1244,10 @@
     "access_rights": "User-authorized read-only viewer; image not republished",
     "access_result": "image_visually_read_after_OCR_visible",
     "transcription_path": "transcriptions/OGAO_389_1_750_death169.md",
-    "transcription_hash": "b1b3607cd48fd23225813c5f7655bb86340a0bd33a208aa9e5c4a78b188ff658",
+    "transcription_hash": "fc2fb25fd24e30df49d88025fe47ee2d801a99db97013aaf93e0a3bccfb945a3",
     "hash_scope": "UTF-8 transcription LF; not image hash",
-    "reviewer": null,
-    "independent_image_review": "pending",
-    "notes": "Рукописный год1894 расходится с OCR1893; каталог1894. Связь с рождением08.08.1894 не доказана; мать не названа."
+    "reviewer": "T-AUD-C012-NATALIA",
+    "independent_image_review": "completed_discordant_year_reading",
+    "notes": "Каталог1894; root прочитал заголовок1894, независимый аудитор1893. Год события не установлен. Даты23/24ноября и возраст3месяца согласованы. Мать не названа; тождество не принято."
   }
 ]
