@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-16",
   "errors": [],
   "counts": {
     "persons": 66,
@@ -12,5 +12,5 @@
     "archive_leads": 31
   },
   "verified_family_edges": 0,
-  "scope": "C018 Node equivalent of validate.py: registry IDs, references, statuses, proof/transcription files and hashes, available local source hashes including Git baselines, GEDCOM boundaries/version/cross-references and unchanged legacy GEDCOM. No genealogical software import or proof of historical identity."
+  "scope": "JSON links, status/export constraints, source hashes, basic GEDCOM structure. Not a genealogical software import or proof of historical truth."
 }

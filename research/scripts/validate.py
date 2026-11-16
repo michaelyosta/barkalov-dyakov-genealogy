@@ -1,4 +1,5 @@
 """Check evidence references and export eligibility, not historical truth."""
+from datetime import date
 from pathlib import Path
 import hashlib
 import json
@@ -7,6 +8,7 @@ import subprocess
 
 ROOT=Path(__file__).resolve().parents[2]
 R=ROOT/'research'
+TEXT_EXTS=('.txt','.md','.ged','.json','.jsonl','.html','.csv','.py')
 errors=[]
 def require(condition,message):
     if not condition: errors.append(message)
@@ -88,18 +90,24 @@ for source in sources:
                 content=subprocess.check_output(['git','show',source['baseline_commit']+':'+local],cwd=ROOT)
             else:
                 content=path.read_bytes()
+            if local.lower().endswith(TEXT_EXTS):
+                content=content.replace(b'\r\n',b'\n')
             require(hashlib.sha256(content).hexdigest()==source['content_hash'],source['id']+': source hash changed')
-ged=(ROOT/'family_tree_verified.ged').read_text(encoding='utf-8')
-definitions=set(re.findall(r'^0 (@[^@]+@) \w+',ged,re.M))
-references=set(re.findall(r'^\d+ (?:SUBM|FAMC|FAMS|HUSB|WIFE|CHIL) (@[^@]+@)',ged,re.M))
-require(references<=definitions,'GEDCOM dangling cross-references')
-require(ged.startswith('0 HEAD\n') and ged.rstrip().endswith('0 TRLR'),'GEDCOM boundary missing')
-require('2 VERS 5.5.1' in ged and '1 CHAR UTF-8' in ged,'GEDCOM encoding/version missing')
-require(not re.search(r'^0 @[^@]+@ FAM',ged,re.M),'Cycle001 export unexpectedly contains family edges')
-original=next(s for s in sources if s['id']=='S-LEGACY-GED')
-require(hashlib.sha256((ROOT/'family_tree.ged').read_bytes().replace(b'\r\n',b'\n')).hexdigest()==original['content_hash'],'Legacy GEDCOM modified')
-report={'date':'2026-10-30','errors':errors,'counts':{k:len(v) for k,v in [('persons',people),('claims',claims),('relationships',relationships),('events',events),('sources',sources),('tasks',tasks),('institutions',institutions),('archive_leads',archive_leads)]},
-    'verified_family_edges':sum(e['export_to_verified'] for e in relationships),
+def validate_gedcom(ged_path,label,require_no_fam=False):
+    """Validate basic GEDCOM 5.5.1 framing and cross-reference integrity."""
+    ged=ged_path.read_text(encoding='utf-8-sig').replace('\r\n','\n')
+    definitions=set(re.findall(r'^0 (@[^@]+@) \w+',ged,re.M))
+    references=set(re.findall(r'^\d+ (?:SUBM|FAMC|FAMS|HUSB|WIFE|CHIL|SOUR) (@[^@]+@)',ged,re.M))
+    require(references<=definitions,f'{label}: dangling cross-references {sorted(references-definitions)}')
+    require(ged.startswith('0 HEAD\n') and ged.rstrip().endswith('0 TRLR'),f'{label}: GEDCOM boundary missing')
+    require('2 VERS 5.5.1' in ged and '1 CHAR UTF-8' in ged,f'{label}: GEDCOM encoding/version missing')
+    if require_no_fam:
+        require(not re.search(r'^0 @[^@]+@ FAM',ged,re.M),f'{label}: verified export unexpectedly contains family edges')
+verified_edges=sum(e['export_to_verified'] for e in relationships)
+validate_gedcom(ROOT/'family_tree_verified.ged','family_tree_verified.ged',require_no_fam=(verified_edges==0))
+validate_gedcom(ROOT/'family_tree.ged','family_tree.ged',require_no_fam=False)
+report={'date':date.today().isoformat(),'errors':errors,'counts':{k:len(v) for k,v in [('persons',people),('claims',claims),('relationships',relationships),('events',events),('sources',sources),('tasks',tasks),('institutions',institutions),('archive_leads',archive_leads)]},
+    'verified_family_edges':verified_edges,
     'scope':'JSON links, status/export constraints, source hashes, basic GEDCOM structure. Not a genealogical software import or proof of historical truth.'}
 (R/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False,indent=2))
