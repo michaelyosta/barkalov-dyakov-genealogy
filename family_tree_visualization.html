@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Интерактивное семейное древо: Баркаловы, Дьяковы, Дементьевы, Абросимовы, Алпеевы</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    :root {
+      --background: #0b1120;
+      --card: #111827;
+      --content: #1e293b;
+      --foreground: #f1f5f9;
+      --muted-foreground: #94a3b8;
+      --placeholder: #64748b;
+      --border: #273549;
+      --primary: #38bdf8;
+      --primary-foreground: #082f49;
+    }
+    html.theme-light {
+      --background: #f8fafc;
+      --card: #ffffff;
+      --content: #f1f5f9;
+      --foreground: #0f172a;
+      --muted-foreground: #475569;
+      --placeholder: #94a3b8;
+      --border: #cbd5e1;
+      --primary: #0284c7;
+      --primary-foreground: #ffffff;
+    }
+    html.theme-light .text-sky-400 { color: #0284c7 !important; }
+    html.theme-light .text-emerald-400 { color: #059669 !important; }
+    html.theme-light .text-violet-400 { color: #6d28d9 !important; }
+    html.theme-light .text-amber-400 { color: #b45309 !important; }
+    html.theme-light .text-rose-400 { color: #be123c !important; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .canvas-viewport {
+      position: relative;
+      overflow: hidden;
+      cursor: grab;
+      user-select: none;
+      touch-action: none;
+    }
+    .canvas-viewport.dragging { cursor: grabbing; }
+    .canvas-stage {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 2980px;
+      height: 775px;
+      transform-origin: 0 0;
+    }
+    .node-card {
+      position: absolute;
+      width: 216px;
+      height: 102px;
+      transition: transform 0.14s ease, box-shadow 0.14s ease, opacity 0.2s ease, border-color 0.15s ease;
+      cursor: pointer;
+    }
+    .node-card:hover {
+      transform: translateY(-2px);
+      z-index: 20;
+    }
+    .node-card.selected {
+      box-shadow: 0 0 0 2px var(--primary), 0 8px 20px rgba(0, 0, 0, 0.22);
+      z-index: 30;
+    }
+    .node-card.dimmed { opacity: 0.2; }
+    .edge-path {
+      fill: none;
+      transition: opacity 0.2s ease, stroke-width 0.15s ease;
+      cursor: pointer;
+    }
+    .edge-path:hover { stroke-width: 3.5 !important; }
+    .edge-path.dimmed { opacity: 0.12; }
+    .pill-dot {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
+    @keyframes pulseBridge {
+      0%, 100% { stroke-opacity: 1; }
+      50% { stroke-opacity: 0.35; }
+    }
+    .bridge-pulse {
+      animation: pulseBridge 2s ease-in-out infinite;
+    }
+    .thin-scroll::-webkit-scrollbar { width: 7px; height: 7px; }
+    .thin-scroll::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 999px;
+    }
+  </style>
+</head>
+<body class="bg-[var(--background)] text-[var(--foreground)] antialiased">
+  <div class="flex flex-col">
+    <!-- Top Header & Controls -->
+    <header class="bg-[var(--card)] border-b border-[var(--border)] px-4 py-3 flex flex-col gap-3">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <h1 class="text-base font-semibold text-[var(--foreground)]">
+              Генеалогическое древо и карта архивных мостов
+            </h1>
+            <span class="text-xs px-2.5 py-0.5 rounded-full bg-[var(--content)] border border-[var(--border)] text-[var(--muted-foreground)]">
+              31 персона (family_tree.ged) · 0 доказанных рёбер в family_tree_verified.ged
+            </span>
+          </div>
+          <p class="text-xs text-[var(--muted-foreground)] mt-0.5">
+            Кликните по любой карточке или пунктирному «разрыву», чтобы открыть досье, противоречия и нужный архивный запрос. Перетаскивайте полотно мышью и масштабируйте колёсиком.
+          </p>
+        </div>
+
+        <!-- View Mode Tabs + Theme Toggle -->
+        <div class="flex items-center gap-2 flex-wrap">
+          <button id="themeToggleBtn" title="Переключить светлую/тёмную тему" class="px-2.5 py-1.5 rounded-lg text-xs font-medium bg-[var(--content)] border border-[var(--border)] text-[var(--foreground)] hover:border-[var(--primary)]">
+            Светлая / Тёмная
+          </button>
+          <div class="flex items-center gap-1.5 bg-[var(--content)] p-1 rounded-lg border border-[var(--border)]">
+          <button data-tab="tree" class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">
+            Древо связей
+          </button>
+          <button data-tab="bridges" class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[var(--muted-foreground)] hover:text-[var(--foreground)]">
+            Матрица 6 мостов
+          </button>
+          <button data-tab="timeline" class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[var(--muted-foreground)] hover:text-[var(--foreground)]">
+            Хронология миграций
+          </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Bar (shown in Tree mode) -->
+      <div id="treeToolbar" class="flex flex-wrap items-center justify-between gap-2">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button data-branch="all" class="branch-btn px-2.5 py-1 rounded-md text-xs font-medium border border-[var(--border)] bg-[var(--primary)] text-[var(--primary-foreground)]">
+            Всё древо (31)
+          </button>
+          <button data-branch="core" class="branch-btn px-2.5 py-1 rounded-md text-xs font-medium border border-[var(--border)] bg-[var(--content)] text-[var(--foreground)] hover:border-[var(--primary)]">
+            Мост к потомкам
+          </button>
+          <button data-branch="barkalov" class="branch-btn px-2.5 py-1 rounded-md text-xs font-medium border border-[var(--border)] bg-[var(--content)] text-[var(--foreground)] hover:border-[var(--primary)]">
+            Баркаловы (Ленинград / Бузулук)
+          </button>
+          <button data-branch="doukhobor" class="branch-btn px-2.5 py-1 rounded-md text-xs font-medium border border-[var(--border)] bg-[var(--content)] text-[var(--foreground)] hover:border-[var(--primary)]">
+            Дьяковы · Дементьевы · Абросимовы
+          </button>
+          <button data-branch="alpeyev" class="branch-btn px-2.5 py-1 rounded-md text-xs font-medium border border-[var(--border)] bg-[var(--content)] text-[var(--foreground)] hover:border-[var(--primary)]">
+            Алпеевы (Самара → РК)
+          </button>
+          <button id="toggleGapsBtn" class="px-2.5 py-1 rounded-md text-xs font-medium border border-amber-500/50 bg-amber-500/10 text-[var(--foreground)] hover:bg-amber-500/20">
+            Подсветить ключевые разрывы (?)
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <div class="relative">
+            <input id="searchInput" type="text" placeholder="Поиск: фамилия, год, место..."
+              class="text-xs bg-[var(--content)] text-[var(--foreground)] placeholder-[var(--placeholder)] border border-[var(--border)] rounded-md px-3 py-1.5 w-56 focus:outline-none focus:border-[var(--primary)]" />
+          </div>
+          <div class="flex items-center gap-1 bg-[var(--content)] border border-[var(--border)] rounded-md p-0.5">
+            <button id="zoomOutBtn" title="Уменьшить" class="px-2 py-1 text-xs font-semibold hover:bg-[var(--card)] rounded">−</button>
+            <span id="zoomLabel" class="text-xs text-[var(--muted-foreground)] px-1.5 min-w-[46px] text-center">60%</span>
+            <button id="zoomInBtn" title="Увеличить" class="px-2 py-1 text-xs font-semibold hover:bg-[var(--card)] rounded">+</button>
+            <button id="fitBtn" class="px-2 py-1 text-xs hover:bg-[var(--card)] rounded border-l border-[var(--border)]">Вписать</button>
+            <button id="resetZoomBtn" class="px-2 py-1 text-xs hover:bg-[var(--card)] rounded">100%</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legend Strip -->
+      <div id="legendStrip" class="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-[var(--muted-foreground)]">
+        <span class="flex items-center gap-1.5">
+          <span class="pill-dot" style="background:#10b981;"></span>
+          Первичная запись (ЦАМО / эвакуация)
+        </span>
+        <span class="flex items-center gap-1.5">
+          <span class="pill-dot" style="background:#0ea5e9;"></span>
+          Книга памяти / OpenList / Белая книга (вторичный архив)
+        </span>
+        <span class="flex items-center gap-1.5">
+          <span class="pill-dot" style="background:#f59e0b;"></span>
+          Семейная версия / гипотеза (без первичного акта)
+        </span>
+        <span class="flex items-center gap-1.5">
+          <span class="pill-dot" style="background:#8b5cf6;"></span>
+          Обезличенный потомок (ФИО и дата в private_kinship_docs/)
+        </span>
+        <span class="flex items-center gap-2">
+          <span class="inline-block w-6 border-t-2 border-[var(--muted-foreground)]"></span>
+          Внутрисемейная связка модели
+        </span>
+        <span class="flex items-center gap-2">
+          <span class="inline-block w-6 border-t-2 border-dashed border-amber-500"></span>
+          Недоказанный разрыв / альтернатива (?)
+        </span>
+      </div>
+    </header>
+
+    <!-- Main Workspace: Canvas/View + Side Inspector -->
+    <div class="flex-1 flex flex-col lg:flex-row">
+      <!-- Left Main Content Area -->
+      <main class="flex-1 relative flex flex-col min-w-0">
+        <!-- TAB 1: Interactive Tree Canvas -->
+        <section id="tab-tree" class="flex-1 flex flex-col">
+          <div id="canvasViewport" class="canvas-viewport bg-[var(--background)] w-full h-[640px] lg:h-[740px]">
+            <div id="canvasStage" class="canvas-stage">
+              <!-- Branch Background Swimlanes -->
+              <div class="absolute rounded-2xl border border-[var(--border)] bg-[var(--content)]/45" style="left:16px;top:16px;width:968px;height:734px;">
+                <div class="px-4 py-2.5 flex items-center justify-between border-b border-[var(--border)]/70">
+                  <span class="text-xs font-semibold tracking-wide uppercase text-sky-400">
+                    I. Ветвь Баркаловых и Следовских
+                  </span>
+                  <span class="text-xs text-[var(--muted-foreground)]">
+                    Бузулук / Дмитриевка → Ленинград / Гатчина → Воркутлаг / Клетская / Караганда
+                  </span>
+                </div>
+              </div>
+
+              <div class="absolute rounded-2xl border border-[var(--border)] bg-[var(--content)]/45" style="left:996px;top:16px;width:968px;height:734px;">
+                <div class="px-4 py-2.5 flex items-center justify-between border-b border-[var(--border)]/70">
+                  <span class="text-xs font-semibold tracking-wide uppercase text-emerald-400">
+                    II. Духоборческие ветви: Дьяковы · Дементьевы (Кукановы) · Абросимовы
+                  </span>
+                  <span class="text-xs text-[var(--muted-foreground)]">
+                    Грузия (1853, 1873) → Целинский р-н (1921–1933) → ст. Караганда-Сортировочная
+                  </span>
+                </div>
+              </div>
+
+              <div class="absolute rounded-2xl border border-[var(--border)] bg-[var(--content)]/45" style="left:1976px;top:16px;width:988px;height:734px;">
+                <div class="px-4 py-2.5 flex items-center justify-between border-b border-[var(--border)]/70">
+                  <span class="text-xs font-semibold tracking-wide uppercase text-violet-400">
+                    III. Ветвь Алпеевых (по «Белой книге Самарской области»)
+                  </span>
+                  <span class="text-xs text-[var(--muted-foreground)]">
+                    д. Нижняя Быковка Самарской губ. → Казахстан (высылка 1931 г., реаб. 1991 г.)
+                  </span>
+                </div>
+              </div>
+
+              <!-- Row Labels on Swimlanes (non-overlapping subtle level indicators) -->
+              <div class="absolute text-xs font-medium text-[var(--muted-foreground)] px-2 py-0.5 rounded bg-[var(--card)] border border-[var(--border)]" style="left:28px;top:52px;">
+                Архивные лица и кандидаты (ЦАМО / XIX–XX вв.)
+              </div>
+              <div class="absolute text-xs font-medium text-[var(--muted-foreground)] px-2 py-0.5 rounded bg-[var(--card)] border border-[var(--border)]" style="left:1008px;top:52px;">
+                Однофамильные исторические кандидаты (не привязаны)
+              </div>
+              <div class="absolute text-xs font-medium text-[var(--muted-foreground)] px-2 py-0.5 rounded bg-[var(--card)] border border-[var(--border)]" style="left:1988px;top:52px;">
+                Боковой кандидат (т. 7) и ядерная семья 1931 г. (т. 11)
+              </div>
+
+              <!-- SVG Edge Layer -->
+              <svg id="edgeSvg" width="2980" height="775" class="absolute inset-0 pointer-events-auto" style="overflow:visible;"></svg>
+
+              <!-- Central 1959 Marriage Hub Pill (Col 3, Row 3 between @I1@ and @I16@) -->
+              <div id="marriageHub" data-edge-id="E-MARR-1959"
+                class="absolute rounded-xl border-2 border-dashed border-amber-500 bg-[var(--card)] px-3 py-2 shadow-sm cursor-pointer hover:scale-105 transition-transform text-center"
+                style="left:774px;top:614px;width:204px;">
+                <div class="text-xs font-semibold text-amber-400">Союз ветвей (~1959 г.)</div>
+                <div class="text-xs text-[var(--foreground)] mt-0.5">г. Караганда · семейная версия</div>
+                <div class="text-xs text-[var(--muted-foreground)] mt-0.5">Закрывает: Запрос № 11 (РАГС)</div>
+              </div>
+
+              <!-- Contradiction Badge @I10@ vs @I11@ -->
+              <div id="conflictBadge" data-edge-id="E-CONFLICT-A"
+                class="absolute rounded-lg border border-dashed border-rose-500/70 bg-[var(--card)] px-2.5 py-1 text-center cursor-pointer hover:scale-105 transition-transform"
+                style="left:1600px;top:350px;width:176px;">
+                <div class="text-xs font-semibold text-rose-400">Противоречие имени</div>
+                <div class="text-xs text-[var(--muted-foreground)]">Мария vs Антонина</div>
+              </div>
+
+              <!-- Card Container (Populated by JS) -->
+              <div id="cardsLayer" class="absolute inset-0 pointer-events-none"></div>
+            </div>
+          </div>
+
+          <!-- Quick Floating Hint Under Canvas -->
+          <div class="px-4 py-2 bg-[var(--card)] border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2 text-xs text-[var(--muted-foreground)]">
+            <span>Подсказка: в строгом экспорте <code class="text-[var(--foreground)]">family_tree_verified.ged</code> семейных рёбер пока <b>0</b> — любая пунктирная линия обозначает разрыв, требующий первичной архивной справки.</span>
+            <span>Колёсико мыши — зум · Перетаскивание — панорамирование</span>
+          </div>
+        </section>
+
+        <!-- TAB 2: Key Bridges & Archive Requests Matrix -->
+        <section id="tab-bridges" class="hidden p-5 overflow-y-auto thin-scroll max-h-[760px]">
+          <div class="max-w-5xl mx-auto space-y-4">
+            <div class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-4">
+              <h2 class="text-base font-semibold text-[var(--foreground)]">6 критических мостов (почему в проверенном древе 0 рёбер и что именно их соединит)</h2>
+              <p class="text-xs text-[var(--muted-foreground)] mt-1">
+                Исследование накопило первичные карточки ЦАМО, OpenList и метрик 1893–1918 гг., но ключевые родовые связки прерываются на закрытых актах ЗАГС и следственных/учётных делах 1931–1959 гг.
+              </p>
+            </div>
+            <div id="bridgesGrid" class="grid grid-cols-1 md:grid-cols-2 gap-3.5"></div>
+          </div>
+        </section>
+
+        <!-- TAB 3: Historical & Migration Timeline -->
+        <section id="tab-timeline" class="hidden p-5 overflow-y-auto thin-scroll max-h-[760px]">
+          <div class="max-w-5xl mx-auto space-y-4">
+            <div class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-4 flex flex-wrap items-center justify-between gap-2">
+              <div>
+                <h2 class="text-base font-semibold text-[var(--foreground)]">Хронология миграций и подтверждённых дат (1802–1991)</h2>
+                <p class="text-xs text-[var(--muted-foreground)] mt-0.5">Синхронизация четырёх географических траекторий в единой ленте с разделением архивных фактов и гипотез.</p>
+              </div>
+            </div>
+            <div id="timelineList" class="space-y-2.5"></div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Right Side Inspector Panel -->
+      <aside id="inspectorPanel" class="w-full lg:w-[370px] bg-[var(--card)] border-t lg:border-t-0 lg:border-l border-[var(--border)] p-4 flex flex-col gap-3 overflow-y-auto thin-scroll max-h-[780px]">
+        <div id="inspectorContent" class="space-y-3"></div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    // Verified dataset synced verbatim with family_tree.ged and audited repository reports (2026-11-16)
+    const PEOPLE = [
+      // --- WING 1: BARKALOVS (Cols 0..3) ---
+      {
+        id: "@I6@", researchId: "P-BARK-006", branch: "barkalov", core: false,
+        name: "Тамара Ефимовна Следовская", shortName: "Т. Е. Следовская",
+        years: "род. 1900 — уп. 1944", place: "Ленинград → Кологрив",
+        status: "primary", statusLabel: "ЦАМО + ЦГА СПб",
+        x: 32, y: 88, sex: "F", gapTag: null,
+        summary: "Жена майора медслужбы С. П. Баркалова по донесению СЭГ-282 (ЦАМО Ф. 33 Оп. 11458 Д. 366 Л. 37) и эвакуационной карточке ЦГА СПб № 284329 (1900 г.р., эвакуирована 15–16.09.1941 через Ладогу).",
+        caveat: "Подтверждает ленинградскую привязку Сергея Петровича Баркалова; кровное родство С. П. и М. П. Баркаловых остаётся гипотезой до проверки УПК и метрик.",
+        request: "См. Запрос № 6 (ЦГА СПб / УПК офицера ЦАМО)",
+        links: [
+          { label: "Супруг: С. П. Баркалов", target: "@I5@" }
+        ]
+      },
+      {
+        id: "@I5@", researchId: "P-BARK-005", branch: "barkalov", core: false,
+        name: "Сергей Петрович Баркалов", shortName: "С. П. Баркалов",
+        years: "1899 — 24.06.1944", place: "с. Дмитриевка → Ленинград → СЭГ-282",
+        status: "primary", statusLabel: "ЦАМО РФ (первич.)",
+        x: 276, y: 88, sex: "M", gapTag: "Братство?",
+        summary: "Уроженец с. Дмитриевка Бузулукского уезда. Проживал в Ленинграде, призван Приморским РВК г. Ленинграда 01.04.1942. Майор медслужбы СЭГ-282, умер от кровоизлияния в мозг 24.06.1944 в г. Ново-Белица Гомельской обл.",
+        caveat: "Соседство с М. П. Баркаловым в Книге памяти Оренбургской обл. (т. 3, с. 299) не доказывает родное братство. В research/ найдены метрики 1899 и 1904 гг. в с. Димитриевка на общую пару родителей (Пётр Прохоров и Елена/Евгения), но тождество со взрослыми кандидатами ещё проверяется.",
+        request: "Сверка дела студента ЦГА СПб ф. Р-7409 и УПК ЦАМО",
+        links: [
+          { label: "Супруга: Т. Е. Следовская", target: "@I6@" },
+          { label: "Кандидат в братья: М. П. Баркалов (ЦАМО)", target: "@I23@" }
+        ]
+      },
+      {
+        id: "@I23@", researchId: "P-BARK-003 (воен.)", branch: "barkalov", core: true,
+        name: "Михаил Петрович Баркалов (ЦАМО)", shortName: "М. П. Баркалов (ЦАМО)",
+        years: "1904 — 15.11.1942", place: "г. Бузулук → 1034 сп 293 сд → х. Старо-Клетский",
+        status: "primary", statusLabel: "ЦАМО РФ (первич.)",
+        x: 520, y: 88, sex: "M", gapTag: "Мост № 3",
+        summary: "Единственный боец М. Баркалов в Клетском районе. Красноармеец/сержант, командир отделения 1034 сп 293 сд (линейная часть, не штрафбат). Погиб 15.11.1942 на Клетском плацдарме; увековечен в паспорте ВМЦ № 34-341/2014 (№ 41).",
+        caveat: "Тождество боевого Михаила (призван из Бузулука, жена — Антонина Прокофьевна) с репрессированным в 1936 г. (@I24@) и отцом из семейной памяти (@I3@) не доказано первичными документами.",
+        request: "Запрос № 3 + сверка в ЦАМО/ВК Бузулука (задача T-MIL-003)",
+        links: [
+          { label: "Жена в донесении: А. Прокофьевна", target: "@I26@" },
+          { label: "Сверка: М. П. Баркалов (КП Коми 1936)", target: "@I24@" },
+          { label: "Отец по памяти: М. П. Баркалов", target: "@I3@" }
+        ]
+      },
+      {
+        id: "@I26@", researchId: "P-BARK-004B", branch: "barkalov", core: false,
+        name: "Антонина Прокофьевна Баркалова", shortName: "А. П. Баркалова (1942)",
+        years: "уп. ноябрь 1942", place: "г. Бузулук, 22 линия, д. 20",
+        status: "primary", statusLabel: "ЦАМО (донесение)",
+        x: 764, y: 88, sex: "F", gapTag: "Конфликт отчества",
+        summary: "Записана женой М. П. Баркалова в списке безвозвратных потерь 293-й сд (ЦАМО Ф. 58 Оп. 18001 Д. 250 Л. 17).",
+        caveat: "Несовпадение отчества с Антонидой Григорьевной (@I25@): возможен второй брак М. П. Баркалова после 1939 г., ошибка писаря или речь идёт о двух разных семьях однофамильцев.",
+        request: "Запрос № 1 и № 3 (проверка анкеты 1936/1938 гг. и ЗАГС Бузулука)",
+        links: [
+          { label: "Муж по донесению: М. П. Баркалов", target: "@I23@" },
+          { label: "Альтернатива: А. Г. Баркалова", target: "@I25@" }
+        ]
+      },
+      {
+        id: "@I24@", researchId: "P-BARK-003 (репр.)", branch: "barkalov", core: true,
+        name: "Михаил Петрович Баркалов (Воркутлаг)", shortName: "М. П. Баркалов (1936)",
+        years: "1904 — ? (освоб. 06.04.1939)", place: "Самарская губ. → Воркутлаг (Ухтпечлаг)",
+        status: "secondary", statusLabel: "КП Коми / OpenList",
+        x: 276, y: 244, sex: "M", gapTag: "Мост № 3",
+        summary: "Арестован 06.04.1936, осуждён 10.09.1936 ОСО при НКВД СССР за КРТД к 3 годам ИТЛ, прибыл в Ухтпечлаг/Воркутлаг 22.10.1936, освобождён 06.04.1939 (Книга памяти Республики Коми, т. 9, ч. 2).",
+        caveat: "В краткой публикации не указаны место жительства до ареста и состав семьи — без анкеты из дела УФСБ связь с Ленинградом и отцовство для Потомков № 1 и № 2 остаются рабочей гипотезой.",
+        request: "Запрос № 3 (УФСБ по СПб и ЛО / ИЦ МВД Коми — анкета арестованного 1936 г.)",
+        links: [
+          { label: "Сверка: М. П. Баркалов (ЦАМО 1942)", target: "@I23@" },
+          { label: "Отец по семейной памяти", target: "@I3@" }
+        ]
+      },
+      {
+        id: "@I25@", researchId: "P-BARK-004A", branch: "barkalov", core: true,
+        name: "Антонида Григорьевна Баркалова", shortName: "А. Г. Баркалова (1909)",
+        years: "1909 — приг. 05.10.1938", place: "г. СПб / Ленинград → г. Каркаралинск",
+        status: "secondary", statusLabel: "ДКНБ РК / OpenList",
+        x: 764, y: 244, sex: "F", gapTag: "Запрос № 1",
+        summary: "Няня Каркаралинского лечебного детдома, ур. Санкт-Петербурга. Арестована 05.07.1938, приговорена 05.10.1938 Тройкой УНКВД по Карагандинской обл. по ст. 58-1а, 58-11 УК РСФСР к ВМН; реабилитирована 26.05.1989.",
+        caveat: "Дата 05.10.1938 в базе — дата приговора Тройки, не доказанный акт исполнения. В открытой карточке муж и дети не названы; тождество с матерью Потомков № 1 и № 2 проверяется по анкете дела.",
+        request: "Запрос № 1 (СГА ДП Карагандинской обл. и УКПСиСУ ГП РК)",
+        links: [
+          { label: "Мать по семейной памяти", target: "@I4@" },
+          { label: "Сверка отчества: А. П. Баркалова", target: "@I26@" }
+        ]
+      },
+      {
+        id: "@I3@", researchId: "P-BARK-003 (профиль)", branch: "barkalov", core: true,
+        name: "Михаил Баркалов (отец в памяти)", shortName: "Михаил Баркалов (сем.)",
+        years: "уп. 1930-е (по памяти)", place: "Ленинград / Гатчина → ?",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 276, y: 432, sex: "M", gapTag: "Запрос № 2–3",
+        summary: "Отец Потомков № 1 и № 2 по семейному свидетельству: жил в Ленинграде/Гатчине, подвергся репрессиям перед войной и не вернулся с фронта.",
+        caveat: "Первичный акт ЗАГС о рождении детей и о браке родителей пока не получен; объединение с @I23@ (ЦАМО) и @I24@ (Воркутлаг) — главная проверяемая гипотеза по линии Баркаловых.",
+        request: "Запросы № 2 (ЗАГС СПб/Гатчина) и № 3 (УФСБ)",
+        links: [
+          { label: "Супруга (по памяти): Антонина", target: "@I4@" },
+          { label: "Сын: [Потомок № 2]", target: "@I2@" },
+          { label: "Дочь: [Потомок № 1]", target: "@I1@" },
+          { label: "Кандидат ЦАМО 1942", target: "@I23@" },
+          { label: "Кандидат Воркутлаг 1936", target: "@I24@" }
+        ]
+      },
+      {
+        id: "@I4@", researchId: "P-BARK-004 (профиль)", branch: "barkalov", core: true,
+        name: "Антонина Баркалова (мать в памяти)", shortName: "Антонина Баркалова (сем.)",
+        years: "уп. 1930-е (по памяти)", place: "Ленинград / Гатчина → Казахстан / БАМлаг?",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 520, y: 432, sex: "F", gapTag: "Запрос № 1, 9",
+        summary: "Мать Потомков № 1 и № 2 по семейным воспоминаниям; после репрессии мужа выслана с детьми в Казахстан, затем по семейной легенде «отправлена на БАМ» и связь оборвалась.",
+        caveat: "Ключевой кандидат — Антонида Григорьевна Баркалова (1909, СПб), осуждённая в Каркаралинске в 1938 г. (легенда о БАМе характерна для дезинформации НКВД о приговорённых к ВМН, но альтернативная версия БАМлага проверяется Запросом № 9).",
+        request: "Запрос № 1 (Караганда) и контрольный Запрос № 9 (Благовещенск)",
+        links: [
+          { label: "Муж (по памяти): Михаил", target: "@I3@" },
+          { label: "Кандидат OpenList/ДКНБ РК", target: "@I25@" },
+          { label: "Дочь: [Потомок № 1]", target: "@I1@" },
+          { label: "Сын: [Потомок № 2]", target: "@I2@" }
+        ]
+      },
+      {
+        id: "@I2@", researchId: "P-BARK-002", branch: "barkalov", core: true,
+        name: "[Потомок № 2 (муж., Баркаловы)]", shortName: "[Потомок № 2]",
+        years: "конец 1920-х — 1930-е (скрыто)", place: "Ленинград/Гатчина → детдом ст. Караганда-Сорт.",
+        status: "redacted", statusLabel: "Обезличено (PII)",
+        x: 276, y: 602, sex: "M", gapTag: "Запрос № 2, 4",
+        summary: "Брат Потомка № 1; по семейным сведениям воспитывался в детском доме у ст. Караганда-Сортировочная (вероятно Компанейский детдом). В базах призыва РККА в ВОВ (ЦАМО) не значится — согласуется с рождением после 1927 г.",
+        caveat: "Полные ФИО и дата рождения скрыты для приватности и подставляются локально из private_kinship_docs/. Акт рождения и книга воспитанников детдома ещё не получены.",
+        request: "Запросы № 2 (ЗАГС СПб/ЛО) и № 4 (ГАКО Ф. 469 / ул. Магнитогорская, 3)",
+        links: [
+          { label: "Сестра: [Потомок № 1]", target: "@I1@" },
+          { label: "Отец (по памяти)", target: "@I3@" },
+          { label: "Мать (по памяти)", target: "@I4@" }
+        ]
+      },
+      {
+        id: "@I1@", researchId: "P-BARK-001", branch: "barkalov", core: true,
+        name: "[Потомок № 1 (жен., Баркаловы / Дьякова)]", shortName: "[Потомок № 1]",
+        years: "нач. 1930-х гг. (скрыто)", place: "Ленинград/Гатчина → Караганда-Сорт.",
+        status: "redacted", statusLabel: "Обезличено (PII)",
+        x: 520, y: 602, sex: "F", gapTag: "Запрос № 2, 4, 11",
+        summary: "Ключевое связующее лицо со стороны ветви Баркаловых. По семейным сведениям в детстве попала в детдом у ст. Караганда-Сортировочная, а около 1959 г. в г. Караганде вышла замуж за Потомка № 3.",
+        caveat: "ФИО и дата рождения скрыты; реальные данные берутся из закрытого файла private_kinship_docs/. Документы о рождении, детдоме и браке 1959 г. в репозиторий пока не приобщены.",
+        request: "Запросы № 2 (ЗАГС), № 4 (ГАКО Ф. 469) и № 11 (РАГС Караганды 1959 г.)",
+        links: [
+          { label: "Супруг (~1959): [Потомок № 3]", target: "@I16@" },
+          { label: "Брат: [Потомок № 2]", target: "@I2@" },
+          { label: "Отец (по памяти)", target: "@I3@" },
+          { label: "Мать (по памяти)", target: "@I4@" }
+        ]
+      },
+
+      // --- WING 2: DOUKHOBORS (Cols 4..7) ---
+      {
+        id: "@I22@", researchId: "P-HIST-004", branch: "doukhobor", core: false,
+        name: "Абросим Петрович Абросимов", shortName: "А. П. Абросимов",
+        years: "р. ок. 1822 — уп. 1873", place: "Таврия → с. Горелое (Грузия)",
+        status: "secondary", statusLabel: "Индекс 1853/1873",
+        x: 1008, y: 88, sex: "M", gapTag: null,
+        summary: "Домохозяин в с. Горелое Ахалкалакского уезда (31 год в переводе налогового реестра 1853 г., уп. 1873 г.). Дал гореловской ветви внутриобщинную («уличную») фамилию Абросины.",
+        caveat: "Исторический патриарх одноимённой ветви; поколенная связь к Николаю Абросимову (@I15@) XX века не прослежена.",
+        request: "Запрос № 10 (ЦИАГ Ф. 254 / Ф. 220) и № 12 (ГАРО Ф. Р-1390)",
+        links: [
+          { label: "Дальний контекст рода: Н. Абросимов", target: "@I15@" }
+        ]
+      },
+      {
+        id: "@I21@", researchId: "P-DYAK-008", branch: "doukhobor", core: false,
+        name: "Иван Михайлович Дьяков", shortName: "И. М. Дьяков (1875)",
+        years: "род. 1875 — ссылка 1895", place: "с. Ормашени (Грузия) → Якутия",
+        status: "secondary", statusLabel: "Conscripts.pdf",
+        x: 1252, y: 88, sex: "M", gapTag: null,
+        summary: "Призывник-духобор 1895 г. из с. Ормашени Борчалинского уезда, сосланный в Якутскую область за отказ от военной службы после сожжения оружия.",
+        caveat: "Несвязанный исторический кандидат того же поколения и ареала (Борчалинский уезд); прямое родство с Константином Дьяковым (@I9@) не доказано.",
+        request: "Запрос № 10 (ЦИАГ, посемейные списки 1886 г.)",
+        links: [
+          { label: "Целевой предок по памяти: К. Дьяков", target: "@I9@" }
+        ]
+      },
+      {
+        id: "@I19@", researchId: "P-DEME-002", branch: "doukhobor", core: false,
+        name: "Алексей Иванович Дементьев", shortName: "А. И. Дементьев (1911)",
+        years: "род. 1911 — осужд. 1937", place: "с. Успенка Целинского р-на",
+        status: "secondary", statusLabel: "OpenList / КП Ростов",
+        x: 1496, y: 88, sex: "M", gapTag: null,
+        summary: "Житель духоборческой общины «Успенье» (с. Успенка Хлебодаренского с/с Целинского р-на). Арестован 30.04.1937, осуждён 19.10.1937 Тройкой УНКВД по АЧК, реаб. 22.08.1959.",
+        caveat: "Фиксирует фамилию Дементьевых в с. Успенка, но родство с «9 братьями» и Марией/Антониной Дементьевой (@I10@/@I11@) документально не подтверждено.",
+        request: "Запрос № 8 (УФСБ по Ростовской обл. / ГАРФ подписные листы)",
+        links: [
+          { label: "Вариант 1: М. П. Дементьева", target: "@I10@" },
+          { label: "Вариант 2: А. Дементьева", target: "@I11@" }
+        ]
+      },
+      {
+        id: "@I17@", researchId: "P-DYAK-005", branch: "doukhobor", core: false,
+        name: "Александр Константинович Дьяков", shortName: "А. К. Дьяков (1907)",
+        years: "род. 1907 — осужд. 1941", place: "с. Богдановка, Акмолинская обл.",
+        status: "secondary", statusLabel: "e-memory.kz ID 78465",
+        x: 1740, y: 88, sex: "M", gapTag: null,
+        summary: "В базе Госкомиссии РК: с. Богдановка Сталинского р-на Акмолинской обл., охранник тракторного отряда; арест 19.05.1941, осуждён по ст. 58-10 на 6 лет ИТЛ, реаб. в 1964/1992 гг.",
+        caveat: "Предложен в старом отчёте по отчеству «Константинович» и названию села «Богдановка»; с. Богдановка в Акмолинской обл. может быть казахстанским топонимом, не Грузией. Родство с @I9@ не доказано.",
+        request: "Запрос № 8 (спецдело в СГА ДП)",
+        links: [
+          { label: "Возможный отец?: К. Дьяков", target: "@I9@" }
+        ]
+      },
+      {
+        id: "@I9@", researchId: "P-DYAK-001", branch: "doukhobor", core: true,
+        name: "Константин Дьяков", shortName: "Константин Дьяков",
+        years: "ок. 1880? — после 1933?", place: "Грузия → Целинский р-н → Караганда-Сорт.",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 1252, y: 244, sex: "M", gapTag: "Запрос № 8, 12",
+        summary: "Глава раскулаченной духоборческой семьи в семейной памяти: выход из Грузии, участие в ПМВ (работа с лошадьми/плен в Австрии), переселение в Целинский р-н и высылка ок. 1933 г. на ст. Караганда-Сортировочная.",
+        caveat: "В открытых базах репрессированных не найден. ПМВ-кандидат из лагеря Брюкс (#30779851, 1880 г.р.) указывает место рождения «Архангельское», что противоречит Грузии.",
+        request: "Запросы № 8 (дело спецпоселенца ИЦ МВД / СГА ДП) и № 12 (ГАРО Р-1390)",
+        links: [
+          { label: "Вариант жены 1: Мария Петровна", target: "@I10@" },
+          { label: "Вариант жены 2: Антонина", target: "@I11@" },
+          { label: "Дочь: Елизавета Константиновна", target: "@I12@" },
+          { label: "Сын: Василий Константинович", target: "@I13@" }
+        ]
+      },
+      {
+        id: "@I10@", researchId: "P-DEME-001A", branch: "doukhobor", core: false,
+        name: "Мария Петровна Дементьева", shortName: "М. П. Дементьева (вар. 1)",
+        years: "конец XIX — XX в.", place: "Грузия → Целинский р-н → Караганда?",
+        status: "hypothesis", statusLabel: "Семейная память (1)",
+        x: 1496, y: 244, sex: "F", gapTag: "Противоречие",
+        summary: "Супруга Константина Дьякова и мать Елизаветы и Василия по первой ветви устных семейных показаний (род Дементьевых / уличная фамилия Кукановы).",
+        caveat: "Сохраняется строго раздельно от Антонины Дементьевой (@I11@) до получения посемейного листа спецпоселенцев.",
+        request: "Запрос № 8 (дело спецпоселенцев СГА ДП / ИЦ ГУ МВД Ростов)",
+        links: [
+          { label: "Предполагаемый муж: К. Дьяков", target: "@I9@" },
+          { label: "Альтернатива (вар. 2): Антонина", target: "@I11@" }
+        ]
+      },
+      {
+        id: "@I11@", researchId: "P-DEME-001B", branch: "doukhobor", core: false,
+        name: "Антонина Дементьева (9 братьев)", shortName: "А. Дементьева (вар. 2)",
+        years: "конец XIX — XX в.", place: "Грузия → Целинский р-н → Караганда?",
+        status: "hypothesis", statusLabel: "Семейная память (2)",
+        x: 1740, y: 244, sex: "F", gapTag: "Противоречие",
+        summary: "Супруга Константина Дьякова по второй ветви семейной памяти (упоминаются 9 братьев Дементьевых/Кукановых и выход из Грузии).",
+        caveat: "Возможны второй брак (сорорат), смешение поколений или контаминация имени с Антониной Баркаловой в Караганде.",
+        request: "Запрос № 8 и Запрос № 10 (списки 1886 г. с. Башкичет)",
+        links: [
+          { label: "Предполагаемый муж?: К. Дьяков", target: "@I9@" },
+          { label: "Альтернатива (вар. 1): Мария Петровна", target: "@I10@" }
+        ]
+      },
+      {
+        id: "@I15@", researchId: "P-ABRO-001", branch: "doukhobor", core: true,
+        name: "Николай Абросимов", shortName: "Николай Абросимов",
+        years: "нач. XX в. — ум. 1931/1932?", place: "Целинский р-н Северо-Кавказского края",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 1008, y: 432, sex: "M", gapTag: "Запрос № 7",
+        summary: "Первый муж Елизаветы Константиновны Дьяковой и отец Потомка № 3; по семейному сообщению умер около 1931–1932 гг. в Целинском районе.",
+        caveat: "Критическая хронологическая развилка: если смерть наступила раньше весны 1932 г., требуется объяснение отцовства в акте рождения 1932 г. Отчество и место выхода не установлены.",
+        request: "Запрос № 7 (ЗАГС Целинского р-на — брак 1927–1932, смерть 1931–1932)",
+        links: [
+          { label: "Супруга: Е. К. Дьякова", target: "@I12@" },
+          { label: "Сын: [Потомок № 3]", target: "@I16@" }
+        ]
+      },
+      {
+        id: "@I12@", researchId: "P-DYAK-002", branch: "doukhobor", core: true,
+        name: "Елизавета Константиновна Дьякова (Абросимова)", shortName: "Е. К. Дьякова (Абросимова)",
+        years: "ок. 1908–1912 — XX в.", place: "Грузия → Целина → Караганда-Сорт.",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 1252, y: 432, sex: "F", gapTag: "Запрос № 7, 8",
+        summary: "Дочь Константина Дьякова, мать Потомка № 3. По семейной версии работала на стройке в центре Караганды («Карагандажилстрой» / «Промжилстрой»), получила травму правой руки и перешла в валяльную артель («Пимокатный»).",
+        caveat: "Первичные дела спецпоселенцев, трудовые карточки в ГАКО / Госархиве г. Караганды и акты ВТЭК ещё не запрошены.",
+        request: "Запросы № 7 (ЗАГС Целины) и № 8 (СГА ДП + Госархив г. Караганды)",
+        links: [
+          { label: "Муж: Николай Абросимов", target: "@I15@" },
+          { label: "Сын: [Потомок № 3]", target: "@I16@" },
+          { label: "Отец: Константин Дьяков", target: "@I9@" },
+          { label: "Брат: В. К. Дьяков", target: "@I13@" }
+        ]
+      },
+      {
+        id: "@I13@", researchId: "P-DYAK-003", branch: "doukhobor", core: false,
+        name: "Василий Константинович Дьяков", shortName: "В. К. Дьяков",
+        years: "ок. 1910–1915 — ?", place: "Грузия → Целина → Караганда-Сорт.",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 1496, y: 432, sex: "M", gapTag: "Запрос № 8",
+        summary: "Сын Константина Дьякова, брат Елизаветы Константиновны. В открытых базах ВОВ однофамильцы из других регионов исключены (возможно был на спецучёте НКПС/трудармии).",
+        caveat: "Учётная карточка спецпоселенца и трудовые фонды угольной промышленности Караганды не проверены.",
+        request: "Запрос № 8 (СГА ДП Карагандинской обл. / Филиал ГАКО ул. Гончарная, 13)",
+        links: [
+          { label: "Отец: Константин Дьяков", target: "@I9@" },
+          { label: "Сестра: Е. К. Дьякова", target: "@I12@" },
+          { label: "Супруга: Капитолина", target: "@I14@" }
+        ]
+      },
+      {
+        id: "@I14@", researchId: "P-DYAK-004", branch: "doukhobor", core: false,
+        name: "Капитолина Дьякова", shortName: "Капитолина Дьякова",
+        years: "ок. 1912–1920 — ?", place: "Поволжье → ст. Караганда-Сорт.",
+        status: "hypothesis", statusLabel: "Семейная память",
+        x: 1740, y: 432, sex: "F", gapTag: "Связь с Алпеевой?",
+        summary: "Супруга Василия Константиновича Дьякова по семейному преданию; была раскулачена и выслана с семьёй в Казахстан из Поволжья.",
+        caveat: "Девичья фамилия и отчество в устной версии отсутствуют. Сходство биографии (Поволжье / 1931 г. высылка) порождает открытую гипотезу сопоставления с Капитолиной Петровной Алпеевой (@I_ALP_5@, 1919 г.р., Самарская губ.).",
+        request: "Запрос № 8 (СГА ДП Карагандинской обл.) и архивы Алпеевых",
+        links: [
+          { label: "Муж: В. К. Дьяков", target: "@I13@" },
+          { label: "Возможная персона?: К. П. Алпеева", target: "@I_ALP_5@" }
+        ]
+      },
+      {
+        id: "@I16@", researchId: "P-ABRO-002", branch: "doukhobor", core: true,
+        name: "[Потомок № 3 (Абросимов → Дьяков)]", shortName: "[Потомок № 3]",
+        years: "весна 1932? (скрыто)", place: "Целинский р-н → ст. Караганда-Сорт.",
+        status: "redacted", statusLabel: "Обезличено (PII)",
+        x: 1008, y: 602, sex: "M", gapTag: "Запрос № 7, 11",
+        summary: "Ключевое связующее лицо со стороны духоборческих ветвей. По семейному свидетельству рождён с фамилией Абросимов, с матерью и дедом выслан в Караганду-Сортировочную, сменил фамилию на Дьяков и около 1959 г. вступил в брак с Потомком № 1.",
+        caveat: "ФИО и точная дата рождения скрыты для приватности (хранятся локально в private_kinship_docs/). Акт рождения 1932 г. и смена фамилии документально ещё не приобщены.",
+        request: "Запросы № 7 (ЗАГС Целины 1932 г.) и № 11 (РАГС Караганды 1959 г.)",
+        links: [
+          { label: "Супруга (~1959): [Потомок № 1]", target: "@I1@" },
+          { label: "Отец: Николай Абросимов", target: "@I15@" },
+          { label: "Мать: Е. К. Дьякова", target: "@I12@" }
+        ]
+      },
+
+      // --- WING 3: ALPEYEVS (Cols 8..11) ---
+      {
+        id: "@I_ALP_9@", researchId: "P-ALP-009", branch: "alpeyev", core: false,
+        name: "Иван Андреевич Алпеев", shortName: "И. А. Алпеев (1868)",
+        years: "род. 1868 — высылка 1931", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 7, с. 35)",
+        x: 1984, y: 244, sex: "M", gapTag: "Братство?",
+        summary: "Раскулачен в 1931 г. в том же селе Нижняя Быковка Кошкинского района Самарской обл. с тем же отчеством «Андреевич» (выслан с Василием Фёдоровичем, 1925 г.р.).",
+        caveat: "Статус «старшего брата» Петра Андреевича основан на совпадении отчества и села; для доказательства нужны метрические книги с. Нижняя Быковка в ЦГАСО.",
+        request: "Запросы № 3–4 (ИЦ МВД Самарской обл. и ЦГАСО, раздел 8 отчёта Алпеевых)",
+        links: [
+          { label: "Кандидат в братья: П. А. Алпеев", target: "@I_ALP_1@" }
+        ]
+      },
+      {
+        id: "@I_ALP_1@", researchId: "P-ALP-001", branch: "alpeyev", core: false,
+        name: "Пётр Андреевич Алпеев", shortName: "П. А. Алпеев (1889)",
+        years: "род. 1889 — высылка 1931 (реаб. 1991)", place: "д. Нижняя Быковка, Самарская губ. → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11) + уст.",
+        x: 2228, y: 244, sex: "M", gapTag: "Дело Тройки?",
+        summary: "Глава семьи в записи «Белой книги Самарской области» (т. 11, с. 6): выслан на спецпоселение в Казахстан в 1931 г. по Постановлению от 01.02.1930, реабилитирован по Закону от 18.10.1991.",
+        caveat: "ВНИМАНИЕ (аудит 2026-11-16): сведения о побеге из ссылки, аресте и расстреле Тройкой УНКВД в Караганде — устная семейная гипотеза; в тексте Белой книги и открытых базах РК приговора и даты смерти нет.",
+        request: "Запросы в СГА ДП и УКПСиСУ Карагандинской обл., ИЦ ГУ МВД Самарской обл.",
+        links: [
+          { label: "Супруга: А. Г. Алпеева", target: "@I_ALP_2@" },
+          { label: "Возможный брат: И. А. Алпеев", target: "@I_ALP_9@" },
+          { label: "Старшая дочь: Капитолина (1919)", target: "@I_ALP_5@" }
+        ]
+      },
+      {
+        id: "@I_ALP_2@", researchId: "P-ALP-002", branch: "alpeyev", core: false,
+        name: "Анна Гавриловна Алпеева", shortName: "А. Г. Алпеева (1889)",
+        years: "род. 1889 — высылка 1931 (реаб. 1991)", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 2472, y: 244, sex: "F", gapTag: null,
+        summary: "Мать 6 детей в записи о выселении 1931 г. («Белая книга Самарской области», т. 11, с. 6); реабилитирована 18.10.1991.",
+        caveat: "Предположение о гибели в 1931–1933 гг. на спецпоселении (вместе с тремя сыновьями) основано на отсутствии среди выживших в семейной памяти; точная дата смерти документально не установлена.",
+        request: "Запрос в СГА ДП Карагандинской обл. и архивы ЗАГС",
+        links: [
+          { label: "Супруг: П. А. Алпеев", target: "@I_ALP_1@" },
+          { label: "Дочь: Капитолина (1919)", target: "@I_ALP_5@" }
+        ]
+      },
+      {
+        id: "@I_ALP_5@", researchId: "P-ALP-005", branch: "alpeyev", core: false,
+        name: "Капитолина Петровна Алпеева", shortName: "К. П. Алпеева (1919)",
+        years: "род. 1919 — высылка 1931 (12 лет)", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 1984, y: 432, sex: "F", gapTag: "Связь с @I14@?",
+        summary: "Старшая дочь в записи 1931 г. (в 1931 г. исполнилось 12 лет — точно согласуется с устной семейной памятью о том, что «выжили три девочки, старшей было 12 лет»). Реабилитирована 18.10.1991.",
+        caveat: "По возрасту, региону высылки (Поволжье → Казахстан) и редкому имени сопоставима с Капитолиной Дьяковой (@I14@), но тождество требует прямой проверки дела спецпоселенцев и брака В. К. Дьякова.",
+        request: "Проверка дела спецпоселенки в СГА ДП Карагандинской обл.",
+        links: [
+          { label: "Возможная персона?: Капитолина Дьякова", target: "@I14@" },
+          { label: "Отец: П. А. Алпеев", target: "@I_ALP_1@" },
+          { label: "Мать: А. Г. Алпеева", target: "@I_ALP_2@" }
+        ]
+      },
+      {
+        id: "@I_ALP_3@", researchId: "P-ALP-003", branch: "alpeyev", core: false,
+        name: "Степан Петрович Алпеев", shortName: "С. П. Алпеев (1912)",
+        years: "род. 1912 — высылка 1931", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 2228, y: 432, sex: "M", gapTag: null,
+        summary: "Старший сын в списке высланной семьи («Белая книга Самарской области», т. 11, с. 6); в 1931 г. — 19 лет. Реабилитирован 18.10.1991.",
+        caveat: "Дальнейшая судьба и дата смерти документально не установлены (семейная память относит к не пережившим 1930-е гг.).",
+        request: "Запрос в СГА ДП Карагандинской обл.",
+        links: [{ label: "Отец: П. А. Алпеев", target: "@I_ALP_1@" }]
+      },
+      {
+        id: "@I_ALP_4@", researchId: "P-ALP-004", branch: "alpeyev", core: false,
+        name: "Илларион Петрович Алпеев", shortName: "И. П. Алпеев (1916)",
+        years: "род. 1916 — высылка 1931", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 2472, y: 432, sex: "M", gapTag: null,
+        summary: "Второй сын в записи выселения 1931 г. («Белая книга», т. 11, с. 6); возраст в 1931 г. — 15 лет. Реабилитирован 18.10.1991.",
+        caveat: "Дальнейшая судьба и дата смерти документально не установлены.",
+        request: "Запрос в СГА ДП Карагандинской обл.",
+        links: [{ label: "Отец: П. А. Алпеев", target: "@I_ALP_1@" }]
+      },
+      {
+        id: "@I_ALP_6@", researchId: "P-ALP-006", branch: "alpeyev", core: false,
+        name: "Афанасий Петрович Алпеев", shortName: "А. П. Алпеев (1920)",
+        years: "род. 1920 — высылка 1931", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 2716, y: 432, sex: "M", gapTag: null,
+        summary: "Младший сын в записи выселения 1931 г. («Белая книга», т. 11, с. 6); возраст в 1931 г. — 11 лет. Реабилитирован 18.10.1991.",
+        caveat: "Дальнейшая судьба и дата смерти документально не установлены.",
+        request: "Запрос в СГА ДП Карагандинской обл.",
+        links: [{ label: "Отец: П. А. Алпеев", target: "@I_ALP_1@" }]
+      },
+      {
+        id: "@I_ALP_7@", researchId: "P-ALP-007", branch: "alpeyev", core: false,
+        name: "Татьяна Петровна Алпеева", shortName: "Т. П. Алпеева (1923)",
+        years: "род. 1923 — высылка 1931", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 2228, y: 602, sex: "F", gapTag: null,
+        summary: "Средняя дочь в записи 1931 г. (8 лет; одна из трёх выживших сестёр по устной семейной памяти). Реабилитирована 18.10.1991.",
+        caveat: "Соотношение с устным именем «Анастасия» предположительно объясняется смешением с однофамилицей А. С. Алпеевой (1912 г.р., из Курской обл., Карлаг), требует проверки метрик в ЦГАСО.",
+        request: "Запрос в ЦГАСО (метрическая книга прихода с. Нижняя Быковка)",
+        links: [{ label: "Отец: П. А. Алпеев", target: "@I_ALP_1@" }]
+      },
+      {
+        id: "@I_ALP_8@", researchId: "P-ALP-008", branch: "alpeyev", core: false,
+        name: "Фёкла Петровна Алпеева", shortName: "Ф. П. Алпеева (1924)",
+        years: "род. 1924 — высылка 1931", place: "д. Нижняя Быковка → Казахстан",
+        status: "secondary", statusLabel: "Белая книга (т. 11)",
+        x: 2472, y: 602, sex: "F", gapTag: null,
+        summary: "Младшая дочь в записи 1931 г. (7 лет; «Белая книга», т. 11, с. 6). Реабилитирована 18.10.1991.",
+        caveat: "Предположительно в быту и поздних документах упоминалась как Фаня / Зинаида — гипотеза подлежит проверке по метрике 1924 г. и актам ЗАГС.",
+        request: "Запрос в ЦГАСО и органы ЗАГС",
+        links: [{ label: "Отец: П. А. Алпеев", target: "@I_ALP_1@" }]
+      }
+    ];
+
+    // Custom non-overlapping routed edges between the 31 cards
+    // cardW=216, cardH=102 => centerX = x+108, top=y, bottom=y+102
+    const EDGES = [
+      // --- WING 1: BARKALOVS ---
+      {
+        id: "E-F3", kind: "family", isBridgeGap: false,
+        from: "@I6@", to: "@I5@",
+        d: "M 248 139 L 276 139",
+        label: "Брак (ЦАМО / ЦГА СПб)",
+        title: "Семья @F3@: С. П. Баркалов и Т. Е. Следовская",
+        detail: "Документально зафиксированы как супруги в донесении СЭГ-282 ЦАМО РФ (Ф. 33 Оп. 11458 Д. 366 Л. 37) и эвакуационной карточке ЦГА СПб № 284329.",
+        request: "Подтверждено донесением ЦАМО"
+      },
+      {
+        id: "E-SIB-SP-MP", kind: "gap", isBridgeGap: false,
+        from: "@I5@", to: "@I23@",
+        d: "M 492 139 L 520 139",
+        label: "братья?",
+        title: "Гипотеза братства С. П. и М. П. Баркаловых",
+        detail: "В Книге памяти Оренбургской обл. (т. 3, с. 299) идут соседними строками с одинаковым отчеством и географией Бузулукского уезда; метрики 1899 и 1904 гг. в с. Димитриевка зафиксированы отдельно в research/, но прямое тождество с бойцами ЦАМО ещё не закрыто.",
+        request: "Запрос УПК С. П. Баркалова / Т-MIL-002"
+      },
+      {
+        id: "E-F11", kind: "family", isBridgeGap: false,
+        from: "@I23@", to: "@I26@",
+        d: "M 736 139 L 764 139",
+        label: "жена по ЦАМО",
+        title: "Семья @F11@: М. П. Баркалов и Антонина Прокофьевна (1942)",
+        detail: "В именном списке потерь 293-й сд (ноябрь 1942 г.) женой Михаила Петровича указана Баркалова Антонина Прокофьевна (г. Бузулук, 22 линия, д. 20).",
+        request: "Сверка с анкетами 1936/1938 гг. (Запросы № 1, № 3)"
+      },
+      {
+        id: "E-ID-23-24", kind: "gap", isBridgeGap: true,
+        from: "@I23@", to: "@I24@",
+        d: "M 628 190 L 628 214 L 414 214 L 414 244",
+        label: "один и тот же 1904 г.р.?",
+        title: "Ключевой разрыв № 3А: боец ЦАМО 1942 ↔ осуждённый ОСО 1936",
+        detail: "Оба носителя ФИО «Баркалов Михаил Петрович» родились в 1904 г. (Бузулук / Самарская губ.), но без лагерной анкеты и призывного дела не доказано, что это один и тот же человек.",
+        request: "Запрос № 3 (дело УФСБ / ИЦ МВД, задача T-MIL-003)"
+      },
+      {
+        id: "E-ID-24-3", kind: "gap", isBridgeGap: true,
+        from: "@I24@", to: "@I3@",
+        d: "M 384 346 L 384 432",
+        label: "отец из памяти?",
+        title: "Ключевой разрыв № 3Б: осуждённый Воркутлага ↔ отец Потомков № 1–2",
+        detail: "Проверяется гипотеза, что осуждённый ОСО 1936 г. М. П. Баркалов был мужем Антонины Баркаловой и отцом Потомков № 1 и № 2 в Ленинграде/Гатчине.",
+        request: "Запрос № 2 (ЗАГС о браке и рождении) и Запрос № 3 (УФСБ)"
+      },
+      {
+        id: "E-ID-25-26", kind: "gap", isBridgeGap: true,
+        from: "@I26@", to: "@I25@",
+        d: "M 872 190 L 872 244",
+        label: "Прокофьевна vs Григорьевна?",
+        title: "Расхождение отчеств жён (1938 vs 1942)",
+        detail: "Антонида Григорьевна (приговорённая к ВМН 05.10.1938 в Каркаралинске) против Антонины Прокофьевны (в донесении ЦАМО 1942 г.): возможны второй брак после 1939 г., искажение при призыве или разные семьи.",
+        request: "Запросы № 1 и № 3"
+      },
+      {
+        id: "E-ID-25-4", kind: "gap", isBridgeGap: true,
+        from: "@I25@", to: "@I4@",
+        d: "M 764 295 L 656 295 L 656 432",
+        label: "кандидат в матери?",
+        title: "Ключевой разрыв № 1: А. Г. Баркалова (ДКНБ РК) ↔ мать Потомков № 1–2",
+        detail: "Единственная репрессированная в Карагандинской обл. уроженка Ленинграда по фамилии Баркалова, работавшая няней в Каркаралинском лечебном детдоме. Для доказательства материнства нужна анкета арестованной от 05.07.1938.",
+        request: "Запрос № 1 (СГА ДП Карагандинской обл., задача T-ANT-002)"
+      },
+      {
+        id: "E-F1-MARR", kind: "family", isBridgeGap: false,
+        from: "@I3@", to: "@I4@",
+        d: "M 492 483 L 520 483",
+        title: "Семья @F1@ (семейная версия)",
+        detail: "Родители Потомков № 1 и № 2 по устному семейному свидетельству.",
+        request: "Запрос № 2 (ЗАГС СПб/ЛО)"
+      },
+      {
+        id: "E-F1-CHILDREN", kind: "family", isBridgeGap: false,
+        from: "@I3@", to: "@I1@",
+        d: "M 506 483 L 506 560 L 384 560 L 384 602 M 506 560 L 628 560 L 628 602",
+        title: "Дети пары @F1@: Потомок № 1 и Потомок № 2",
+        detail: "По семейным сведениям вывезены с матерью в Казахстан и помещены в детский дом у ст. Караганда-Сортировочная (вероятно Компанейский детдом). Первичные документы не приобщены.",
+        request: "Запросы № 2 (ЗАГС) и № 4 (ГАКО Ф. 469)"
+      },
+
+      // --- WING 2: DOUKHOBORS ---
+      {
+        id: "E-HIST-ABR", kind: "gap", isBridgeGap: false,
+        from: "@I22@", to: "@I15@",
+        d: "M 1116 190 L 1116 432",
+        label: "исторический род?",
+        title: "Контекст рода Абросимовых (Горелое 1853/1873 → Целина)",
+        detail: "А. П. Абросимов зафиксирован в 1853/1873 гг. в с. Горелое; прямая поколенная цепочка от XIX века к Николаю Абросимову (@I15@) требует описей ГАРО Ф. Р-1390 и ЦИАГ Ф. 254.",
+        request: "Запросы № 10 и № 12"
+      },
+      {
+        id: "E-HIST-DYAK", kind: "gap", isBridgeGap: false,
+        from: "@I21@", to: "@I9@",
+        d: "M 1360 190 L 1360 244",
+        label: "то же поколение?",
+        title: "Контекст Дьяковых Борчалинского уезда",
+        detail: "И. М. Дьяков (1875 г.р., с. Ормашени) — однофамилец того же поколения в Закавказье; прямое родство с Константином Дьяковым не установлено.",
+        request: "Запрос № 10 (ЦИАГ Ф. 254)"
+      },
+      {
+        id: "E-HIST-DEM1", kind: "gap", isBridgeGap: false,
+        from: "@I19@", to: "@I10@",
+        d: "M 1604 190 L 1604 244",
+        label: "род Дементьевых?",
+        title: "Однофамильцы Дементьевы в общине «Успенье» (с. Успенка)",
+        detail: "Репрессированный в 1937 г. А. И. Дементьев подтверждает проживание семьи Дементьевых в с. Успенка Целинского р-на, но связь с супругой К. Дьякова не доказана.",
+        request: "Запрос № 8 (УФСБ Ростовской обл.)"
+      },
+      {
+        id: "E-HIST-AKM", kind: "gap", isBridgeGap: false,
+        from: "@I17@", to: "@I9@",
+        d: "M 1848 190 L 1848 214 L 1408 214 L 1408 244",
+        title: "Кандидат А. К. Дьяков (Акмолинская обл.)",
+        detail: "Гипотетический старший сын по совпадению отчества «Константинович»; требует проверки с. Богдановка в Акмолинской обл.",
+        request: "Запрос № 8"
+      },
+      {
+        id: "E-CONFLICT-M", kind: "gap", isBridgeGap: true,
+        from: "@I9@", to: "@I10@",
+        d: "M 1468 295 L 1496 295",
+        title: "Ветвь 1 памяти: супруга Мария Петровна Дементьева",
+        detail: "До получения дела спецпоселенцев сохраняется раздельно от второго варианта имени (Антонина).",
+        request: "Запрос № 8 (СГА ДП Карагандинской обл.)"
+      },
+      {
+        id: "E-CONFLICT-A", kind: "gap", isBridgeGap: true,
+        from: "@I9@", to: "@I11@",
+        d: "M 1404 346 L 1404 370 L 1848 370 L 1848 346",
+        title: "Ветвь 2 памяти: супруга Антонина Дементьева (9 братьев)",
+        detail: "Возможны второй брак (сорорат), путаница поколений или замещение имени в памяти.",
+        request: "Запрос № 8 (СГА ДП Карагандинской обл.)"
+      },
+      {
+        id: "E-F4-CHIL", kind: "family", isBridgeGap: false,
+        from: "@I9@", to: "@I12@",
+        d: "M 1344 346 L 1344 404 L 1360 404 L 1360 432 M 1344 404 L 1604 404 L 1604 432",
+        title: "Семья @F4@: дети Константина Дьякова (Елизавета и Василий)",
+        detail: "По семейному свидетельству вся семья была раскулачена в Целинском р-не и выслана на ст. Караганда-Сортировочная (ок. 1933 г.).",
+        request: "Запросы № 8 и № 12"
+      },
+      {
+        id: "E-F5A-MARR", kind: "family", isBridgeGap: false,
+        from: "@I15@", to: "@I12@",
+        d: "M 1224 483 L 1252 483",
+        title: "Семья @F5A@: Николай Абросимов и Е. К. Дьякова",
+        detail: "По семейной версии поженились в Целинском р-не; вопрос о том, умер ли Николай до или после рождения Потомка № 3 весной 1932 г., открыт.",
+        request: "Запрос № 7 (ЗАГС Целинского р-на)"
+      },
+      {
+        id: "E-F5A-CHILD", kind: "family", isBridgeGap: false,
+        from: "@I15@", to: "@I16@",
+        d: "M 1238 483 L 1238 560 L 1116 560 L 1116 602",
+        title: "Сын пары @F5A@: [Потомок № 3]",
+        detail: "Рождён с фамилией Абросимов, позже в Казахстане получил фамилию матери/деда — Дьяков.",
+        request: "Запрос № 7 (ЗАГС Целинского р-на)"
+      },
+      {
+        id: "E-F6-MARR", kind: "family", isBridgeGap: false,
+        from: "@I13@", to: "@I14@",
+        d: "M 1712 483 L 1740 483",
+        title: "Семья @F6@: В. К. Дьяков и Капитолина",
+        detail: "Брак в Караганде по семейному свидетельству.",
+        request: "Запрос № 8 (СГА ДП Карагандинской обл.)"
+      },
+      {
+        id: "E-KAP-ALP", kind: "gap", isBridgeGap: true,
+        from: "@I14@", to: "@I_ALP_5@",
+        d: "M 1956 483 L 1984 483",
+        label: "одна Капитолина?",
+        title: "Межветвевой мост: Капитолина Дьякова (Поволжье) ↔ К. П. Алпеева (Самарская губ.)",
+        detail: "Гипотеза сопоставления: обе высланы из Поволжья в Казахстан в 1931 г., совпадают редкое имя и поколение. Прямого подтверждения пока нет.",
+        request: "Сверка дел спецпоселенцев в СГА ДП и акта брака В. К. Дьякова"
+      },
+
+      // --- CENTRAL 1959 MARRIAGE BRIDGE (@F5@) ---
+      {
+        id: "E-F5-L", kind: "gap", isBridgeGap: true,
+        from: "@I1@", to: "@I16@",
+        d: "M 736 653 L 774 653 M 978 653 L 1008 653",
+        title: "Ключевой разрыв № 5: Брак ~1959 г. в Караганде (@F5@)",
+        detail: "Центральный союз, соединяющий ленинградскую ветвь Баркаловых и духоборческую ветвь Дьяковых/Абросимовых. В публичном репозитории актовая запись РАГС пока отсутствует.",
+        request: "Запрос № 11 (Отдел РАГС г. Караганды — запись 1959 г.)"
+      },
+
+      // --- WING 3: ALPEYEVS ---
+      {
+        id: "E-ALP-BRO", kind: "gap", isBridgeGap: true,
+        from: "@I_ALP_9@", to: "@I_ALP_1@",
+        d: "M 2200 295 L 2228 295",
+        label: "брат?",
+        title: "Кандидат в старшие братья: И. А. и П. А. Алпеевы",
+        detail: "Оба из с. Нижняя Быковка с отчеством «Андреевич», оба высланы в Казахстан в 1931 г.; метрики ЦГАСО не проверены.",
+        request: "Запрос № 4 по Алпеевым (ЦГАСО, приход с. Нижняя Быковка)"
+      },
+      {
+        id: "E-ALP-MARR", kind: "family", isBridgeGap: false,
+        from: "@I_ALP_1@", to: "@I_ALP_2@",
+        d: "M 2444 295 L 2472 295",
+        title: "Семья @F_ALP_1@ (Белая книга, т. 11, с. 6)",
+        detail: "Выселена из с. Нижняя Быковка в 1931 г. в полном составе (родители и 6 детей). Побег и расстрел П. А. Алпеева требуют проверки в СГА ДП / УКПСиСУ Караганды.",
+        request: "Запросы № 1–3 по Алпеевым"
+      },
+      {
+        id: "E-ALP-CHIL", kind: "family", isBridgeGap: false,
+        from: "@I_ALP_1@", to: "@I_ALP_5@",
+        d: [
+          "M 2458 295 L 2458 386",
+          "M 2092 386 L 2824 386",
+          "M 2092 386 L 2092 432",
+          "M 2336 386 L 2336 432",
+          "M 2580 386 L 2580 432",
+          "M 2824 386 L 2824 432",
+          "M 2214 386 L 2214 562 L 2336 562 L 2336 602",
+          "M 2458 386 L 2458 562 L 2580 562 L 2580 602"
+        ].join(" "),
+        title: "6 детей П. А. и А. Г. Алпеевых по «Белой книге»",
+        detail: "Степан (1912), Илларион (1916), Капитолина (1919 — ровно 12 лет в 1931 г.), Афанасий (1920), Татьяна (1923), Фёкла (1924). Сведения о судьбе детей в ссылке требуют архивной проверки.",
+        request: "Запросы № 1–4 (СГА ДП Караганда / ЦГАСО)"
+      }
+    ];
+
+    const BRIDGES = [
+      {
+        num: "Мост № 1", task: "T-ANT-002 (Запрос № 1)",
+        title: "Антонида Григорьевна Баркалова (1909) ↔ Мать Потомков № 1 и № 2",
+        where: "СГА ДП и УКПСиСУ ГП РК по Карагандинской обл.",
+        why: "Подтверждает имена мужа и детей в анкете арестованной от 05.07.1938 и реальную дату приведения приговора 05.10.1938 в исполнение (закрывает также легенду о БАМлаге)."
+      },
+      {
+        num: "Мост № 2", task: "T-KIN-001 · T-MIL-003 (Запросы № 2–3)",
+        title: "ЗАГС СПб / Гатчины (рождения, брак) + УФСБ (дело М. П. Баркалова 1936)",
+        where: "Комитет ЗАГС СПб / Гатчины, УФСБ по СПб и ЛО",
+        why: "Прямо устанавливает отчество и личность отца Потомков № 1 и № 2, связывая (или разграничивая) репрессированного 1936 г. и бойца 1942 г. под Клетской."
+      },
+      {
+        num: "Мост № 3", task: "T-CHILD-002..004 (Запросы № 4–5)",
+        title: "Компанейский / Каркаралинский детдома и «Дети Карлага»",
+        where: "ГАКО (Ф. 469), ул. Магнитогорская 3 (Караганда), Каркаралинский филиал",
+        why: "Документально фиксирует пребывание Потомков № 1 и № 2 на ст. Караганда-Сортировочная и сведения о родителях при приёме."
+      },
+      {
+        num: "Мост № 4", task: "T-ROST-001 (Запросы № 7, № 8, № 12)",
+        title: "Николай Абросимов + Потомок № 3 (1932) + дело К. Дьякова и ГАРО Р-1390",
+        where: "ЗАГС Целинского р-на, СГА ДП / ИЦ МВД, ГАРО",
+        why: "Разрешает хронологию смерти Николая (1931–1932 vs весна 1932), смену фамилии на Дьяков и спорное имя бабушки (Мария vs Антонина Дементьева)."
+      },
+      {
+        num: "Мост № 5", task: "T-MARR-001 (Запрос № 11)",
+        title: "Акт о браке ~1959 г. в Караганде ([Потомок № 1] + [Потомок № 3])",
+        where: "Отдел РАГС г. Караганды",
+        why: "Юридически соединяет ленинградскую линию Баркаловых и духоборческую линию Дьяковых/Абросимовых."
+      },
+      {
+        num: "Мост № 6", task: "T-ALP-001 (Запросы по Алпеевым #1–4)",
+        title: "П. А. Алпеев (побег/Тройка?) и гипотеза связи К. П. Алпеевой с @I14@",
+        where: "СГА ДП и УКПСиСУ Карагандинской обл., ИЦ МВД Самары, ЦГАСО",
+        why: "Проверяет устную версию о расстреле Петра Алпеева и проверяет, не является ли Капитолина Алпеева (1919) женой В. К. Дьякова."
+      }
+    ];
+
+    const TIMELINE = [
+      { year: "1802–1845", branch: "Дьяковы / Дементьевы / Абросимовы", status: "Исторический контекст", text: "Переселение духоборов из Тамбовской губ. и Области Войска Донского на Молочные Воды (Таврия), затем выселение в 1841–1845 гг. в Закавказье (Ахалкалакский и Борчалинский уезды)." },
+      { year: "1853, 1873", branch: "Духоборческие роды", status: "Локальные индексы", text: "В Камеральных описаниях Закавказья: Дьяковы — Троицкое, Башкичет, Караклис (1853, 1873) и Ормашени (1873); Дементьевы — Башкичет и Славянка; Абросимовы — Горелое, Ефремовка, Орловка/Родионовка/Караклис (1873)." },
+      { year: "1889–1924", branch: "Алпеевы (Самара)", status: "Белая книга (т. 11)", text: "Рождение П. А. Алпеева (1889), А. Г. Алпеевой (1889) и 6 детей (1912–1924) в с. Нижняя Быковка Самарской губ." },
+      { year: "1899, 1904", branch: "Баркаловы (Бузулукский уезд)", status: "Первичные сканы + кандидаты", text: "Годы рождения Сергея Петровича Баркалова (1899, с. Дмитриевка) и Михаила Петровича Баркалова (1904, Бузулук). В research/ отдельно зафиксированы метрики 1899 и 1904 гг." },
+      { year: "1909", branch: "Баркаловы (Санкт-Петербург)", status: "Учётная карточка РК", text: "Рождение Антониды Григорьевны Баркаловой в Санкт-Петербурге (кандидат в матери Потомков № 1 и № 2)." },
+      { year: "1921–1924", branch: "Духоборы → Целинский р-н", status: "Контекст ГАРФ/ГАРО", text: "Массовое переселение духоборов Богдановского и Борчалинского уездов на Дон (Западно-Коннозаводческий / Целинский р-н Сальского округа)." },
+      { year: "1931", branch: "Алпеевы → Казахстан", status: "Белая книга (т. 11, 7)", text: "Раскулачивание и высылка семьи П. А. Алпеева (вкл. Капитолину 12 лет) и И. А. Алпеева в Казахстан. Судьба сыновей, жены и версия побега/казни П. А. Алпеева требуют проверки." },
+      { year: "ок. 1932–1933", branch: "Дьяковы / Абросимовы", status: "Семейная версия", text: "Рождение [Потомка № 3] в Целинском р-не, смерть Николая Абросимова (ок. 1931–1932?), высылка семьи К. Дьякова на ст. Караганда-Сортировочная." },
+      { year: "1936–1939", branch: "Баркаловы", status: "КП Коми + семейная версия", text: "Арест (06.04.1936) и осуждение ОСО (10.09.1936) М. П. Баркалова (Воркутлаг до 06.04.1939). Предполагаемая высылка жены и [Потомка № 1] / [Потомка № 2] в Казахстан." },
+      { year: "1938 (05.07 / 05.10)", branch: "А. Г. Баркалова", status: "ДКНБ РК / OpenList", text: "Арест няни Каркаралинского детдома А. Г. Баркаловой и приговор Тройки УНКВД к ВМН (точная дата исполнения не получена). Возможное направление детей в детдом у ст. Караганда-Сортировочная." },
+      { year: "1942–1944", branch: "Баркаловы (ВОВ)", status: "Первичные сканы ЦАМО", text: "Гибель 15.11.1942 сержанта 1034 сп 293 сд М. П. Баркалова у х. Старо-Клетский (жена — А. П. Баркалова). Смерть майора медслужбы С. П. Баркалова 24.06.1944 в Ново-Белице." },
+      { year: "~1959", branch: "Объединение линий", status: "Семейная версия", text: "Предполагаемый брак [Потомка № 1] и [Потомка № 3] в г. Караганде (проверяется Запросом № 11)." },
+      { year: "1989–1991", branch: "Реабилитация", status: "КП / Белая книга", text: "Реабилитация А. Г. Баркаловой (26.05.1989 Прокуратурой Карагандинской обл.) и семьи Алпеевых по Закону от 18.10.1991." }
+    ];
+
+    const STATUS_COLORS = {
+      primary:   { stroke: "#10b981", pillBg: "rgba(16,185,129,0.16)", pillText: "#34d399" },
+      secondary: { stroke: "#0ea5e9", pillBg: "rgba(14,165,233,0.16)", pillText: "#38bdf8" },
+      hypothesis:{ stroke: "#f59e0b", pillBg: "rgba(245,158,11,0.16)", pillText: "#fbbf24" },
+      redacted:  { stroke: "#8b5cf6", pillBg: "rgba(139,92,246,0.18)", pillText: "#a78bfa" }
+    };
+
+    const PEOPLE_MAP = Object.fromEntries(PEOPLE.map(p => [p.id, p]));
+    const EDGES_MAP = Object.fromEntries(EDGES.map(e => [e.id, e]));
+
+    // State
+    let currentTab = "tree";
+    let activeBranch = "all";
+    let highlightGapsOnly = false;
+    let searchQuery = "";
+    let selectedPersonId = "@I1@";
+    let selectedEdgeId = null;
+
+    // Pan & Zoom State
+    let scale = 0.56;
+    let panX = 16;
+    let panY = 24;
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragStartY = 0;
+
+    const stage = document.getElementById("canvasStage");
+    const viewport = document.getElementById("canvasViewport");
+    const cardsLayer = document.getElementById("cardsLayer");
+    const edgeSvg = document.getElementById("edgeSvg");
+    const zoomLabel = document.getElementById("zoomLabel");
+
+    function applyTransform() {
+      stage.style.transform = `translate(${panX}px, ${panY}px) scale(${scale})`;
+      zoomLabel.textContent = `${Math.round(scale * 100)}%`;
+    }
+
+    function fitToScreen() {
+      const vw = viewport.clientWidth || 1000;
+      const vh = viewport.clientHeight || 700;
+      const sx = (vw - 24) / 2980;
+      const sy = (vh - 24) / 775;
+      scale = Math.max(0.28, Math.min(1, Math.min(sx, sy)));
+      panX = Math.max(12, (vw - 2980 * scale) / 2);
+      panY = Math.max(12, (vh - 775 * scale) / 2);
+      applyTransform();
+    }
+
+    function focusBranchView(branch) {
+      const vw = viewport.clientWidth || 1000;
+      const vh = viewport.clientHeight || 700;
+      if (branch === "all") {
+        fitToScreen();
+        return;
+      }
+      const boxes = {
+        core:     { x: 240, y: 60,  w: 1120, h: 680 },
+        barkalov: { x: 10,  y: 10,  w: 980,  h: 740 },
+        doukhobor:{ x: 990, y: 10,  w: 980,  h: 740 },
+        alpeyev:  { x: 1970,y: 10,  w: 1000, h: 740 }
+      };
+      const b = boxes[branch];
+      const s = Math.min(0.95, Math.min((vw - 24) / b.w, (vh - 24) / b.h));
+      scale = Math.max(0.35, s);
+      panX = (vw - b.w * scale) / 2 - b.x * scale;
+      panY = (vh - b.h * scale) / 2 - b.y * scale;
+      applyTransform();
+    }
+
+    function renderEdges() {
+      edgeSvg.innerHTML = "";
+      for (const e of EDGES) {
+        const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        p.setAttribute("d", e.d);
+        p.setAttribute("data-edge", e.id);
+        const isGap = e.kind === "gap";
+        p.setAttribute("class", `edge-path ${e.isBridgeGap && highlightGapsOnly ? "bridge-pulse" : ""}`);
+        p.setAttribute("stroke", isGap ? "#f59e0b" : "var(--muted-foreground)");
+        p.setAttribute("stroke-width", e.isBridgeGap ? "2.6" : "2");
+        if (isGap) p.setAttribute("stroke-dasharray", "7 5");
+        p.setAttribute("stroke-linecap", "round");
+        p.setAttribute("stroke-linejoin", "round");
+
+        // Transparent wider hit target
+        const hit = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        hit.setAttribute("d", e.d);
+        hit.setAttribute("stroke", "transparent");
+        hit.setAttribute("stroke-width", "14");
+        hit.setAttribute("fill", "none");
+        hit.style.cursor = "pointer";
+
+        const clickHandler = (ev) => {
+          ev.stopPropagation();
+          selectedEdgeId = e.id;
+          selectedPersonId = null;
+          updateVisibilityAndSelection();
+          renderInspectorEdge(e);
+        };
+        p.addEventListener("click", clickHandler);
+        hit.addEventListener("click", clickHandler);
+
+        g.appendChild(p);
+        g.appendChild(hit);
+        edgeSvg.appendChild(g);
+      }
+    }
+
+    function renderCards() {
+      cardsLayer.innerHTML = "";
+      for (const person of PEOPLE) {
+        const sc = STATUS_COLORS[person.status];
+        const card = document.createElement("div");
+        card.id = `card-${person.id}`;
+        card.setAttribute("data-person", person.id);
+        card.className = "node-card pointer-events-auto bg-[var(--card)] border border-[var(--border)] rounded-xl p-2.5 shadow-sm flex flex-col justify-between overflow-hidden";
+        card.style.left = `${person.x}px`;
+        card.style.top = `${person.y}px`;
+        card.style.borderLeftWidth = "4px";
+        card.style.borderLeftColor = sc.stroke;
+
+        const sexIcon = person.sex === "F" ? "♀" : "♂";
+        card.innerHTML = `
+          <div class="flex items-start justify-between gap-1.5">
+            <div class="font-semibold text-xs text-[var(--foreground)] leading-snug line-clamp-2">
+              <span class="text-[var(--muted-foreground)] mr-1">${sexIcon}</span>${escapeHtml(person.shortName)}
+            </div>
+            ${person.gapTag ? `<span class="text-xs px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400 font-medium whitespace-nowrap">${escapeHtml(person.gapTag)}</span>` : ""}
+          </div>
+          <div class="text-xs text-[var(--muted-foreground)] truncate">${escapeHtml(person.years)}</div>
+          <div class="flex items-center justify-between gap-1 pt-1 border-t border-[var(--border)]/60">
+            <span class="text-xs truncate text-[var(--muted-foreground)]">${escapeHtml(person.place)}</span>
+            <span class="text-xs px-1.5 py-0.5 rounded font-medium whitespace-nowrap" style="background:${sc.pillBg};color:${sc.pillText};">
+              ${escapeHtml(person.statusLabel)}
+            </span>
+          </div>
+        `;
+        card.addEventListener("click", (ev) => {
+          ev.stopPropagation();
+          selectedPersonId = person.id;
+          selectedEdgeId = null;
+          updateVisibilityAndSelection();
+          renderInspectorPerson(person);
+        });
+        cardsLayer.appendChild(card);
+      }
+    }
+
+    function matchesSearch(person) {
+      if (!searchQuery.trim()) return true;
+      const q = searchQuery.trim().toLowerCase();
+      return (
+        person.name.toLowerCase().includes(q) ||
+        person.place.toLowerCase().includes(q) ||
+        person.years.toLowerCase().includes(q) ||
+        person.summary.toLowerCase().includes(q) ||
+        person.researchId.toLowerCase().includes(q)
+      );
+    }
+
+    function matchesBranch(person) {
+      if (activeBranch === "all") return true;
+      if (activeBranch === "core") return person.core;
+      return person.branch === activeBranch;
+    }
+
+    function updateVisibilityAndSelection() {
+      const visibleIds = new Set();
+      for (const p of PEOPLE) {
+        const el = document.getElementById(`card-${p.id}`);
+        const okBranch = matchesBranch(p);
+        const okSearch = matchesSearch(p);
+        const okGaps = !highlightGapsOnly || Boolean(p.gapTag) || p.core;
+        const visible = okBranch && okSearch && okGaps;
+        if (visible) visibleIds.add(p.id);
+        el.classList.toggle("dimmed", !visible);
+        el.classList.toggle("selected", selectedPersonId === p.id);
+      }
+      for (const e of EDGES) {
+        const pathEl = edgeSvg.querySelector(`path[data-edge="${e.id}"]`);
+        if (!pathEl) continue;
+        const show = visibleIds.has(e.from) && visibleIds.has(e.to) && (!highlightGapsOnly || e.isBridgeGap);
+        pathEl.classList.toggle("dimmed", !show);
+        pathEl.setAttribute("stroke-width", selectedEdgeId === e.id ? "4" : (e.isBridgeGap ? "2.6" : "2"));
+      }
+      const hub = document.getElementById("marriageHub");
+      hub.style.opacity = (visibleIds.has("@I1@") && visibleIds.has("@I16@")) ? "1" : "0.2";
+      hub.style.boxShadow = selectedEdgeId === "E-F5-L" ? "0 0 0 2px var(--primary)" : "";
+      const cb = document.getElementById("conflictBadge");
+      cb.style.opacity = (visibleIds.has("@I10@") && visibleIds.has("@I11@")) ? "1" : "0.2";
+      cb.style.boxShadow = selectedEdgeId === "E-CONFLICT-A" ? "0 0 0 2px var(--primary)" : "";
+    }
+
+    function renderInspectorPerson(p) {
+      const sc = STATUS_COLORS[p.status];
+      const linksHtml = (p.links || []).map(l => `
+        <button onclick="selectPerson('${l.target}')" class="w-full text-left px-3 py-2 rounded-lg bg-[var(--content)] hover:border-[var(--primary)] border border-[var(--border)] text-xs flex items-center justify-between gap-2 transition-colors">
+          <span class="text-[var(--foreground)] font-medium">${escapeHtml(l.label)}</span>
+          <span class="text-[var(--muted-foreground)]">→</span>
+        </button>
+      `).join("");
+
+      document.getElementById("inspectorContent").innerHTML = `
+        <div class="flex items-start justify-between gap-2">
+          <div>
+            <span class="text-xs px-2 py-0.5 rounded font-medium inline-block mb-1.5" style="background:${sc.pillBg};color:${sc.pillText};">
+              ${escapeHtml(p.statusLabel)}
+            </span>
+            <h2 class="text-base font-semibold text-[var(--foreground)] leading-snug">${escapeHtml(p.name)}</h2>
+            <p class="text-xs text-[var(--muted-foreground)] mt-0.5">GEDCOM: <code>${escapeHtml(p.id)}</code> · Реестр: <code>${escapeHtml(p.researchId)}</code></p>
+          </div>
+        </div>
+
+        <div class="bg-[var(--content)] border border-[var(--border)] rounded-lg p-3 space-y-1.5 text-xs">
+          <div><span class="text-[var(--muted-foreground)]">Даты:</span> <span class="text-[var(--foreground)] font-medium">${escapeHtml(p.years)}</span></div>
+          <div><span class="text-[var(--muted-foreground)]">География:</span> <span class="text-[var(--foreground)] font-medium">${escapeHtml(p.place)}</span></div>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-semibold text-[var(--foreground)]">Факты и содержание источников</div>
+          <p class="text-xs text-[var(--muted-foreground)] leading-relaxed">${escapeHtml(p.summary)}</p>
+        </div>
+
+        <div class="rounded-lg border border-amber-500/40 bg-amber-500/10 p-3 space-y-1">
+          <div class="text-xs font-semibold text-amber-400">Ограничения аудита и что не доказано</div>
+          <p class="text-xs text-[var(--foreground)] leading-relaxed">${escapeHtml(p.caveat)}</p>
+        </div>
+
+        <div class="rounded-lg border border-sky-500/40 bg-sky-500/10 p-3 space-y-1">
+          <div class="text-xs font-semibold text-sky-400">Следующий проверяющий шаг</div>
+          <p class="text-xs text-[var(--foreground)]">${escapeHtml(p.request)}</p>
+        </div>
+
+        ${linksHtml ? `
+          <div class="space-y-1.5 pt-1">
+            <div class="text-xs font-semibold text-[var(--foreground)]">Связанные узлы и кандидаты</div>
+            <div class="space-y-1.5">${linksHtml}</div>
+          </div>
+        ` : ""}
+      `;
+    }
+
+    function renderInspectorEdge(e) {
+      const fromP = PEOPLE_MAP[e.from];
+      const toP = PEOPLE_MAP[e.to];
+      document.getElementById("inspectorContent").innerHTML = `
+        <div>
+          <span class="text-xs px-2 py-0.5 rounded font-medium inline-block mb-1.5 ${e.kind === "gap" ? "bg-amber-500/15 text-amber-400" : "bg-[var(--content)] text-[var(--muted-foreground)] border border-[var(--border)]"}">
+            ${e.kind === "gap" ? "Недоказанный разрыв / гипотеза" : "Связь рабочей модели GEDCOM"}
+          </span>
+          <h2 class="text-base font-semibold text-[var(--foreground)] leading-snug">${escapeHtml(e.title)}</h2>
+        </div>
+
+        <div class="bg-[var(--content)] border border-[var(--border)] rounded-lg p-3 space-y-2 text-xs">
+          <button onclick="selectPerson('${fromP.id}')" class="w-full text-left px-2.5 py-1.5 rounded bg-[var(--card)] border border-[var(--border)] hover:border-[var(--primary)] font-medium">
+            От: ${escapeHtml(fromP.shortName)} →
+          </button>
+          <button onclick="selectPerson('${toP.id}')" class="w-full text-left px-2.5 py-1.5 rounded bg-[var(--card)] border border-[var(--border)] hover:border-[var(--primary)] font-medium">
+            К: ${escapeHtml(toP.shortName)} →
+          </button>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-semibold text-[var(--foreground)]">Суть связи и статус доказанности</div>
+          <p class="text-xs text-[var(--muted-foreground)] leading-relaxed">${escapeHtml(e.detail)}</p>
+        </div>
+
+        <div class="rounded-lg border border-sky-500/40 bg-sky-500/10 p-3 space-y-1">
+          <div class="text-xs font-semibold text-sky-400">Чем подтверждается / закрывается</div>
+          <p class="text-xs text-[var(--foreground)]">${escapeHtml(e.request)}</p>
+        </div>
+      `;
+    }
+
+    window.selectPerson = function(id) {
+      const p = PEOPLE_MAP[id];
+      if (!p) return;
+      if (currentTab !== "tree") switchTab("tree");
+      selectedPersonId = id;
+      selectedEdgeId = null;
+      updateVisibilityAndSelection();
+      renderInspectorPerson(p);
+      // Gently center node if off-screen
+      const vw = viewport.clientWidth || 1000;
+      const vh = viewport.clientHeight || 700;
+      const nx = (p.x + 108) * scale + panX;
+      const ny = (p.y + 51) * scale + panY;
+      if (nx < 80 || nx > vw - 80 || ny < 60 || ny > vh - 60) {
+        panX = vw / 2 - (p.x + 108) * scale;
+        panY = vh / 2 - (p.y + 51) * scale;
+        applyTransform();
+      }
+    };
+
+    function renderSecondaryViews() {
+      document.getElementById("bridgesGrid").innerHTML = BRIDGES.map(b => `
+        <div class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-4 space-y-2">
+          <div class="flex items-center justify-between gap-2">
+            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/15 text-amber-400">${escapeHtml(b.num)}</span>
+            <span class="text-xs text-[var(--muted-foreground)]">${escapeHtml(b.task)}</span>
+          </div>
+          <h3 class="text-sm font-semibold text-[var(--foreground)]">${escapeHtml(b.title)}</h3>
+          <div class="text-xs text-sky-400">${escapeHtml(b.where)}</div>
+          <p class="text-xs text-[var(--muted-foreground)] leading-relaxed">${escapeHtml(b.why)}</p>
+        </div>
+      `).join("");
+
+      document.getElementById("timelineList").innerHTML = TIMELINE.map(t => `
+        <div class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-3.5 flex flex-col sm:flex-row sm:items-start gap-3">
+          <div class="sm:w-32 shrink-0">
+            <div class="text-sm font-semibold text-[var(--primary)]">${escapeHtml(t.year)}</div>
+            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">${escapeHtml(t.status)}</div>
+          </div>
+          <div class="flex-1 space-y-1">
+            <div class="text-xs font-semibold text-[var(--foreground)]">${escapeHtml(t.branch)}</div>
+            <p class="text-xs text-[var(--muted-foreground)] leading-relaxed">${escapeHtml(t.text)}</p>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        const active = btn.dataset.tab === tab;
+        btn.className = `tab-btn px-3 py-1.5 rounded-md text-xs font-medium ${active ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:text-[var(--foreground)]"}`;
+      });
+      document.getElementById("tab-tree").classList.toggle("hidden", tab !== "tree");
+      document.getElementById("treeToolbar").classList.toggle("hidden", tab !== "tree");
+      document.getElementById("legendStrip").classList.toggle("hidden", tab !== "tree");
+      document.getElementById("tab-bridges").classList.toggle("hidden", tab !== "bridges");
+      document.getElementById("tab-timeline").classList.toggle("hidden", tab !== "timeline");
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+    }
+
+    // Event Bindings
+    document.querySelectorAll(".tab-btn").forEach(btn => {
+      btn.addEventListener("click", () => switchTab(btn.dataset.tab));
+    });
+
+    document.querySelectorAll(".branch-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        activeBranch = btn.dataset.branch;
+        document.querySelectorAll(".branch-btn").forEach(b => {
+          const on = b === btn;
+          b.className = `branch-btn px-2.5 py-1 rounded-md text-xs font-medium border border-[var(--border)] ${on ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "bg-[var(--content)] text-[var(--foreground)] hover:border-[var(--primary)]"}`;
+        });
+        updateVisibilityAndSelection();
+        focusBranchView(activeBranch);
+      });
+    });
+
+    document.getElementById("toggleGapsBtn").addEventListener("click", (ev) => {
+      highlightGapsOnly = !highlightGapsOnly;
+      ev.currentTarget.classList.toggle("ring-2", highlightGapsOnly);
+      ev.currentTarget.classList.toggle("ring-amber-400", highlightGapsOnly);
+      updateVisibilityAndSelection();
+    });
+
+    document.getElementById("searchInput").addEventListener("input", (ev) => {
+      searchQuery = ev.target.value;
+      updateVisibilityAndSelection();
+    });
+
+    document.getElementById("marriageHub").addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const e = EDGES_MAP["E-F5-L"];
+      selectedEdgeId = e.id;
+      selectedPersonId = null;
+      updateVisibilityAndSelection();
+      renderInspectorEdge(e);
+    });
+    document.getElementById("conflictBadge").addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const e = EDGES_MAP["E-CONFLICT-A"];
+      selectedEdgeId = e.id;
+      selectedPersonId = null;
+      updateVisibilityAndSelection();
+      renderInspectorEdge(e);
+    });
+
+    document.getElementById("zoomInBtn").addEventListener("click", () => {
+      scale = Math.min(1.5, scale + 0.12);
+      applyTransform();
+    });
+    document.getElementById("zoomOutBtn").addEventListener("click", () => {
+      scale = Math.max(0.25, scale - 0.12);
+      applyTransform();
+    });
+    document.getElementById("fitBtn").addEventListener("click", fitToScreen);
+    document.getElementById("resetZoomBtn").addEventListener("click", () => {
+      scale = 1;
+      panX = 20;
+      panY = 20;
+      applyTransform();
+    });
+
+    // Pan & Wheel Zoom
+    viewport.addEventListener("mousedown", (e) => {
+      if (e.target.closest(".node-card") || e.target.closest("#marriageHub")) return;
+      isDragging = true;
+      dragStartX = e.clientX - panX;
+      dragStartY = e.clientY - panY;
+      viewport.classList.add("dragging");
+    });
+    window.addEventListener("mousemove", (e) => {
+      if (!isDragging) return;
+      panX = e.clientX - dragStartX;
+      panY = e.clientY - dragStartY;
+      applyTransform();
+    });
+    window.addEventListener("mouseup", () => {
+      isDragging = false;
+      viewport.classList.remove("dragging");
+    });
+    viewport.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const rect = viewport.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const oldScale = scale;
+      const delta = e.deltaY < 0 ? 1.08 : 0.92;
+      scale = Math.max(0.25, Math.min(1.6, scale * delta));
+      panX = mx - (mx - panX) * (scale / oldScale);
+      panY = my - (my - panY) * (scale / oldScale);
+      applyTransform();
+    }, { passive: false });
+
+    // Theme preference & toggle
+    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
+      document.documentElement.classList.add("theme-light");
+    }
+    document.getElementById("themeToggleBtn").addEventListener("click", () => {
+      document.documentElement.classList.toggle("theme-light");
+    });
+
+    // Initialize
+    renderEdges();
+    renderCards();
+    renderSecondaryViews();
+    renderInspectorPerson(PEOPLE_MAP["@I1@"]);
+    updateVisibilityAndSelection();
+    window.addEventListener("resize", () => {
+      if (activeBranch === "all") fitToScreen();
+    });
+    requestAnimationFrame(fitToScreen);
+  </script>
+</body>
+</html>

@@ -387,7 +387,7 @@ flowchart TD
 
 ## 6. Навигация по остальным документам расследования
 
-1. **Строгий экспорт проверенных данных (GEDCOM 5.5.1):** [family_tree_verified.ged](family_tree_verified.ged); **рабочее гипотетическое древо:** [family_tree.ged](family_tree.ged).
+1. **Строгий экспорт проверенных данных (GEDCOM 5.5.1):** [family_tree_verified.ged](family_tree_verified.ged); **рабочее гипотетическое древо:** [family_tree.ged](family_tree.ged); **интерактивная схема (HTML/SVG):** [family_tree_visualization.html](family_tree_visualization.html).
 2. **Актуальный аудит и чекпоинт верификации:** [research/checkpoint.md](research/checkpoint.md) (реестры в `research/`).
 3. **Реестр архивных источников и журнал поисковых запросов:** [sources_and_search_log.md](sources_and_search_log.md).
 4. **Реестр противоречий, перекрёстной верификации и непроверенных гипотез:** [contradictions_and_hypotheses.md](contradictions_and_hypotheses.md).
