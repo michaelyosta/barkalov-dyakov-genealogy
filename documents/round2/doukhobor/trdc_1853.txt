@@ -1,1 +1,230 @@
-﻿
+# Выдержка из 1853 Tax Register of Doukhobors in the Caucasus (Дж. Калмаков)
+# Примечание: это одностраничный фрагмент по с. Горелое (11 записей домохозяйств), не полный регистр 1853 г.
+
+GORELOE
+
+Surname
+
+Name
+
+Krasnikov
+
+Relationship
+
+Resettled
+
+Males Females
+
+Alexander Stepanovich 37
+Ivan
+18
+Stepan
+14
+
+head
+son
+son
+
+1841
+
+3
+
+2
+
+Kukhtinov
+
+Stepan Alexeyevich
+Alexei
+Vasily
+
+20
+1
+18
+
+head
+son
+brother
+
+1845
+
+3
+
+6
+
+Smorodin
+
+Ivan Nikitich
+Nikita
+Petr Nikitich
+Mikhailo
+Nikolai
+Vasily Nikolayevich
+Stepan
+
+60
+34
+5
+2
+25
+4
+22
+
+head
+son
+grandson
+grandson
+son
+grandson
+son
+
+1841
+
+7
+
+6
+
+Chuchmaev
+
+Fyodor Mikhailovich
+Kondraty
+Egor
+
+38
+17
+13
+
+head
+son
+son
+
+1845
+
+3
+
+1
+
+Gubanov
+
+Petr Nikiforovich
+Nikita
+Alexei Nikitich
+
+52
+23
+3
+
+head
+son
+grandson
+
+1841
+
+3
+
+3
+
+Khokhlin
+
+Alexander Ivanovich
+Yakov
+Timofey Yakoblevich
+Nikita Yakoblevich
+Petr
+
+60
+28
+10
+1
+50
+
+head
+son
+grandson
+grandson
+brother
+
+1845
+
+5
+
+4
+
+Lityagin
+
+Fyodor Petrovich
+Vasily
+
+40
+17
+
+head
+son
+
+1845
+
+2
+
+1
+
+Markin
+Potapov1
+
+Afanasy Vasilyevich
+Andrei Egorovich
+
+31
+15
+
+head
+adopted son
+
+1842
+
+2
+
+3
+
+Premorukov
+
+Ivan Nikiforovich
+Nikolai
+Ilya
+
+29
+18
+16
+
+head
+brother
+brother
+
+1845
+
+3
+
+7
+
+Shchukin
+
+Pavel Evdokimovich
+Grigory
+
+43
+23
+
+head
+son
+
+1845
+
+5
+
+5
+
+1
+
+Age
+
+Andrei Potapov resettled to Rodionovka village in 1863.
+
+
