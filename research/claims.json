@@ -967,7 +967,8 @@
     "raw_text": null,
     "privacy": "metadata_only",
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "source_locator": "family_tree.ged:200",
     "original_vs_derived": "derived",
@@ -975,9 +976,9 @@
     "corroboration": [],
     "contradictions": [],
     "reviewer": null,
-    "status": "hypothesis",
+    "status": "rejected",
     "proof_argument_path": null,
-    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+    "note": "Отведено 19.11.2026 по разъяснению семьи: «Антонина» — устная оговорка; достоверная семейная версия — Мария Петровна Дементьева (P-DEME-001A)."
   },
   {
     "id": "C-LEGACY-I011-L0203",
@@ -987,7 +988,8 @@
     "raw_text": null,
     "privacy": "metadata_only",
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "source_locator": "family_tree.ged:203",
     "original_vs_derived": "derived",
@@ -995,9 +997,9 @@
     "corroboration": [],
     "contradictions": [],
     "reviewer": null,
-    "status": "hypothesis",
+    "status": "rejected",
     "proof_argument_path": null,
-    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+    "note": "Отведено 19.11.2026 по разъяснению семьи: «Антонина» — устная оговорка; достоверная семейная версия — Мария Петровна Дементьева (P-DEME-001A)."
   },
   {
     "id": "C-LEGACY-I011-L0204",
@@ -1007,7 +1009,8 @@
     "raw_text": null,
     "privacy": "metadata_only",
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "source_locator": "family_tree.ged:204",
     "original_vs_derived": "derived",
@@ -1015,9 +1018,9 @@
     "corroboration": [],
     "contradictions": [],
     "reviewer": null,
-    "status": "hypothesis",
+    "status": "rejected",
     "proof_argument_path": null,
-    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+    "note": "Отведено 19.11.2026 по разъяснению семьи: «Антонина» — устная оговорка; достоверная семейная версия — Мария Петровна Дементьева (P-DEME-001A)."
   },
   {
     "id": "C-LEGACY-I011-L0207",
@@ -1027,7 +1030,8 @@
     "raw_text": null,
     "privacy": "metadata_only",
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "source_locator": "family_tree.ged:207",
     "original_vs_derived": "derived",
@@ -1035,9 +1039,9 @@
     "corroboration": [],
     "contradictions": [],
     "reviewer": null,
-    "status": "hypothesis",
+    "status": "rejected",
     "proof_argument_path": null,
-    "note": "Факт старого GEDCOM; значение ещё не принято в доказательную базу."
+    "note": "Отведено 19.11.2026 по разъяснению семьи: «Антонина» — устная оговорка; достоверная семейная версия — Мария Петровна Дементьева (P-DEME-001A)."
   },
   {
     "id": "C-LEGACY-I012-L0212",
@@ -2311,17 +2315,18 @@
     "object": "P-DEME-001B",
     "raw_text": null,
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "source_locator": "family_tree.ged:411",
     "original_vs_derived": "derived",
     "direct_vs_indirect": "unassessed",
     "corroboration": [],
     "contradictions": [],
-    "status": "hypothesis",
+    "status": "rejected",
     "reviewer": "T-AUD-001",
     "proof_argument_path": "agent_reports/T-AUD-001.md",
-    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+    "note": "Отведено 19.11.2026 по разъяснению семьи: «Антонина» — устная оговорка; достоверная семейная версия — Мария Петровна Дементьева (P-DEME-001A)."
   },
   {
     "id": "C-LEGACY-F5-ABR-01",
@@ -2444,17 +2449,18 @@
     "object": "P-DEME-001B",
     "raw_text": null,
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "source_locator": "family_tree.ged:439",
     "original_vs_derived": "derived",
     "direct_vs_indirect": "unassessed",
     "corroboration": [],
     "contradictions": [],
-    "status": "hypothesis",
+    "status": "rejected",
     "reviewer": "T-AUD-001",
     "proof_argument_path": "agent_reports/T-AUD-001.md",
-    "note": "Снята прежняя безусловная квалификация; связь не опровергнута, но требует доказательств."
+    "note": "Отведено 19.11.2026 по разъяснению семьи: «Антонина» — устная оговорка; достоверная семейная версия — Мария Петровна Дементьева (P-DEME-001A)."
   },
   {
     "id": "C-LEGACY-F9-01",

@@ -156,7 +156,8 @@
     "origin": "legacy_gedcom",
     "status": "hypothesis",
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "legacy_line": 187,
     "kinship_to_client": "not_established"
@@ -170,9 +171,10 @@
     "privacy": "historical_candidate",
     "life_status": "unverified",
     "origin": "legacy_gedcom",
-    "status": "hypothesis",
+    "status": "rejected",
     "source_ids": [
-      "S-LEGACY-GED"
+      "S-LEGACY-GED",
+      "S-20261119-CLIENT-DEME-CLARIF"
     ],
     "legacy_line": 199,
     "kinship_to_client": "not_established"

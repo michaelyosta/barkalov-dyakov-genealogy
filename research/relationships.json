@@ -171,7 +171,7 @@
     "type": "spouse",
     "temporal_scope": null,
     "claim_id": "C-LEGACY-F8-01",
-    "status": "hypothesis",
+    "status": "rejected",
     "export_to_verified": false,
     "reviewer": "T-AUD-001"
   },
@@ -248,7 +248,7 @@
     "type": "parent",
     "temporal_scope": null,
     "claim_id": "C-LEGACY-F7-02",
-    "status": "hypothesis",
+    "status": "rejected",
     "export_to_verified": false,
     "reviewer": "T-AUD-001"
   },

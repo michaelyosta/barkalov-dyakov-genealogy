@@ -1666,5 +1666,24 @@
     "transcription_path": null,
     "notes": "Подтверждает уличную фамилию Abrosin по двору Абросима Петровича Абросимова (1820, с. Горелое, 1873 г.) и линию Никиты Филипповича Дьякова (~1803, Ефремовка Таврической губ. -> Троицкое 1841 -> Ормашени 1847 -> Канада 1899, прозвище Nikitin).",
     "independence_group": "KALMAKOFF-RCIN"
+  },
+  {
+    "id": "S-20261119-CLIENT-DEME-CLARIF",
+    "type": "oral_family_testimony",
+    "archive": "Разъяснение владельца / семейного информанта (2026-11-19)",
+    "collection": "Устная семейная память",
+    "fond": null,
+    "opis": null,
+    "delo": null,
+    "list_or_frame": "Уточнение в ходе аудита визуального древа",
+    "record_id": "CLIENT-DEME-20261119",
+    "canonical_url": null,
+    "access_rights": "User clarification in session",
+    "access_date": "2026-11-19",
+    "content_hash": null,
+    "local_copy_if_allowed": null,
+    "transcription_path": null,
+    "notes": "Подтверждено, что Мария Петровна Дементьева — достоверная информация семейной памяти, а вариант «Антонина» являлся оговоркой.",
+    "independence_group": "FAMILY-MEMORY-CLIENT"
   }
 ]
