@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-19",
   "errors": [],
   "counts": {
     "persons": 75,
-    "claims": 249,
+    "claims": 253,
     "relationships": 69,
     "events": 73,
-    "sources": 72,
+    "sources": 80,
     "tasks": 45,
-    "institutions": 9,
-    "archive_leads": 31
+    "institutions": 10,
+    "archive_leads": 34
   },
   "verified_family_edges": 0,
   "scope": "JSON links, status/export constraints, source hashes, bidirectional GEDCOM structure, relative Markdown links. Not a genealogical software import or proof of historical truth."

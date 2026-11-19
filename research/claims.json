@@ -4908,5 +4908,82 @@
     "proof_argument_path": null,
     "note": "Добавлено при аудите 2026-11-16 для явного отделения устной гипотезы о расстреле от опубликованной записи 1931 г.",
     "export_to_verified": false
+  },
+  {
+    "id": "C-20261119-ALP-AFANASIY-WWII",
+    "subject_id": "P-ALP-006",
+    "predicate": "military_service_candidate",
+    "object": "Алпеев Афанасий Петрович, род. 30.01.1920, Куйбышевская обл., Кошкинский р-н, Быковский с/с, д. Нижн. Быково; призван 1942, мл. лейтенант (252 сд / ВС 53 А), погиб 27.08.1943 (ЦАМО Шкаф 5 Ящик 19; Ф. 1536 Оп. 2 Д. 21) — сильный кандидат, противоречащий устной версии о гибели всех сыновей в 1931–1933 гг.",
+    "raw_text": null,
+    "source_ids": [
+      "S-20261119-ALP-AFANASIY-UPK",
+      "S-20261119-ALP-AFANASIY-252SD"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "hypothesis",
+    "proof_argument_path": null,
+    "note": "Точное совпадение ФИО, года рождения (1920) и д. Нижняя Быковка Кошкинского р-на; для окончательной идентификации и получения адреса семьи в 1942–1943 гг. требуется запрос УПК/личного дела в ЦАМО РФ.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-20261119-SERGEY-ADDR-1934",
+    "subject_id": "P-BARK-005",
+    "predicate": "residence_and_employment_1934_1935",
+    "object": "«Баркалов Серг. Петр. «1 ЛМИ» («ЛМИ»). Рыбацкая, 4, кв. 8, т. 83-80» (Петроградская сторона Ленинграда, 1-й Ленинградский медицинский институт)",
+    "raw_text": "Баркалов Серг. Петр. «1 ЛМИ». Рыбацкая, 4, кв. 8, т. 83-80.",
+    "source_ids": [
+      "S-20261119-VES-LEN-1934-1935"
+    ],
+    "original_vs_derived": "original",
+    "direct_vs_indirect": "direct",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": null,
+    "note": "Прямое визуальное чтение сканов «Весь Ленинград» 1934 (с. 28) и 1935 (с. 28) на viewer.rusneb.ru; соотносится с последующим призывом С. П. Баркалова Приморским РВК г. Ленинграда (1942) и службой майором медслужбы.",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-20261119-KARK-GROUP-1938",
+    "subject_id": "P-BARK-004A",
+    "predicate": "group_case_context_1938",
+    "object": "Карточка e-memory.kz ID 94871 (Баркалова А. Г., арест 05.07.1938, приговор 05.10.1938, реаб. 26.05.1989) сопоставлена с сослуживцами по Каркаралинскому лечебному детдому П. С. Фадиным (ID 99973, осуждён/реаб. в те же даты 05.10.1938 / 26.05.1989, ранее ссыльный по КРТД) и Ф. П. Кочергиным (ID 96940, ранее ссыльный)",
+    "raw_text": null,
+    "source_ids": [
+      "S-20261119-EMEMORY-KARK-1938"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "indirect",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": null,
+    "note": "Подтверждает исторический контекст трудоустройства административно ссыльных в Каркаралинский лечебный детдом; не заменяет следственное дело (Запрос № 1).",
+    "export_to_verified": false
+  },
+  {
+    "id": "C-20261119-ABROSIN-NICK",
+    "subject_id": "P-HIST-1853-ABROSIM",
+    "predicate": "street_surname_documented",
+    "object": "Уличная фамилия «Абросины» (Abrosin) документально связана с двором Абросима Петровича Абросимова (1820 г.р., с. Горелое) в камеральном описании 1873 г.",
+    "raw_text": null,
+    "source_ids": [
+      "S-20261119-RCIN-ABROSIN"
+    ],
+    "original_vs_derived": "derived",
+    "direct_vs_indirect": "direct",
+    "corroboration": [],
+    "contradictions": [],
+    "reviewer": null,
+    "status": "supported",
+    "proof_argument_path": null,
+    "note": "Закрывает примечание по термину Abrosin в ЦЕНЗ-4.",
+    "export_to_verified": false
   }
 ]
